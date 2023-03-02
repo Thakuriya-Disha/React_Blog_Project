@@ -5,7 +5,7 @@ const HeaderCompo = () => {
     return(
         <>
         <BlogLogo />
-        <br/>
+        <br/><br/>
         <NavBar />
         </>
     );
