@@ -1,9 +1,9 @@
-import HeaderCompo from "./Header/HeaderComponent";
+import HomePage from "./Pages/Home/HomeCompo";
 
 function App() {
   return (
     <div className="App">
-      <HeaderCompo />
+      <HomePage />
     </div>
   );
 }
