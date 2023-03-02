@@ -5,27 +5,27 @@ const NavBar = () => {
     return(
         <>
         <div className='navList'>
-            <Link to={"/"}>
+            <Link to={"/"} style={{textDecoration:'none',color:'black'}}>
                 <div>Home</div>
             </Link>
 
-            <Link to={"/Bollywood"}>
+            <Link to={"/bollywood"} style={{textDecoration:'none',color:'black'}}>
                 <div>Bollywood</div>
             </Link>
             
-            <Link to={"/Technology"}>
+            <Link to={"/technology"} style={{textDecoration:'none',color:'black'}}>
                 <div>Technology</div>
             </Link>
 
-            <Link to={"/Hollywood"}>
+            <Link to={"/hollywood"} style={{textDecoration:'none',color:'black'}}>
                 <div>Hollywood</div>
             </Link>
 
-            <Link to={"/Fitness"}>
+            <Link to={"/fitness"} style={{textDecoration:'none',color:'black'}}>
                 <div>Fitness</div>
             </Link>
 
-            <Link to={"/Food"}>
+            <Link to={"/food"} style={{textDecoration:'none',color:'black'}}>
                 <div>Food</div>
             </Link>
         </div>

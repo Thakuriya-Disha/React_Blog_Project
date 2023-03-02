@@ -3,7 +3,9 @@ import './style_logo.css';
 const BlogLogo = () => {
     return(
         <>
-        <h1 id="title">TheSiren</h1>
+        <div id="title">
+            <span className='the' style={{transform:rotateY(90deg)}}> The </span> <span className='siren'> Siren </span>
+        </div>
         </>
     );
 }

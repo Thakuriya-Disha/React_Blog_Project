@@ -18,7 +18,7 @@ const RouterComponent = () => {
                 <Route path="/food" element={<FoodPage />} />
             </Routes>
         </BrowserRouter>
-    )
+    );
 }
 
 export default RouterComponent;
