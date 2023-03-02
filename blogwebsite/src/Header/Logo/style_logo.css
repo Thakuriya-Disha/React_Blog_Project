@@ -1,0 +1,7 @@
+#title{
+    margin-left:50%;
+    background-color:black;
+    background-image:linear-gradient(to right, purple, midnightblue, blue);
+    background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
