@@ -11,11 +11,11 @@ const RouterComponent = () => {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<HomePage />} />
-                <Route path="/Bollywood" element={<BollywoodPage />} />
-                <Route path="/Technology" element={<TechPage />} />
-                <Route path="/Hollywood" element={<HollywoodPage />} />
-                <Route path="/Fitness" element={<FitnessPage />} />
-                <Route path="/Food" element={<FoodPage />} />
+                <Route path="/bollywood" element={<BollywoodPage />} />
+                <Route path="/technology" element={<TechPage />} />
+                <Route path="/hollywood" element={<HollywoodPage />} />
+                <Route path="/fitness" element={<FitnessPage />} />
+                <Route path="/food" element={<FoodPage />} />
             </Routes>
         </BrowserRouter>
     )
