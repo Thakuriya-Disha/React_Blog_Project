@@ -4,7 +4,7 @@ const BlogLogo = () => {
     return(
         <>
         <div id="title">
-            <span className='the'> The </span> <span className='siren'> Siren </span>
+            <h1>La Luna</h1>
         </div>
         </>
     );

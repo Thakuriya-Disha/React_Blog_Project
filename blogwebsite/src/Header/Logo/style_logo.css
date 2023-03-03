@@ -1,13 +1,11 @@
+body{
+    margin:0px;
+}
 #title{
     text-align:center;
-    background-color:black;
-    background-image:linear-gradient(red, purple, blue);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-}
-.the{
-    font-size:32px;
-}
-.siren{
-    font-size:70px;
+    color:violet;
+    background-image:linear-gradient(to bottom,purple,midnightblue);
+    height:111px;
+    font-size:1.5rem;
+    padding-top:2px;
 }

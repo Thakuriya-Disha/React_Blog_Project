@@ -1,0 +1,41 @@
+.posterGrid{
+    display:grid;
+    grid-template-columns:650px 450px;
+    grid-template-rows:250px 250px;
+    gap:10px 10px;
+    margin-left:150px;
+}
+#pic1{
+    grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start:1;
+    grid-row-end:3;
+    background-image:url(https://rare-gallery.com/uploads/posts/500590-aurora-borealis.jpg);
+    border:1px solid white;
+    border-radius:20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#pic2{
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start:1;
+    grid-row-end:2;
+    background-image:url(https://cdn.overstockart.com/blog/wp-content/uploads/2020/05/VG485-1024x853.jpg);
+    border:1px solid white;
+    border-radius:20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#pic3{
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start:2;
+    grid-row-end:3;
+    background-image:url(https://wallpaperaccess.com/full/8667358.jpg);
+    border:1px solid white;
+    border-radius:20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
