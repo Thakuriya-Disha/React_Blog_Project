@@ -1,0 +1,20 @@
+.pageColumns{
+    display:flex;
+    justify-content:space-around;
+    flex-flow:row nowrap;
+}
+.pageColumns h1{
+    text-decoration:underline;
+    text-decoration-color:purple;
+}
+.dataFlex{
+    display:flex;
+    justify-content:space-between;
+    flex-flow:row nowrap;
+    width:700px;
+    height:300px;
+}
+.dataFlex img{
+    width:300px;
+    height:300px;
+}
