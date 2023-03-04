@@ -10,7 +10,7 @@ const Poetry = () => {
     return(
         <>
             <HeaderCompo />
-            <br/><br/>
+            <br/>
             <div className='pageColumns'>
 
                 <div className='col1'>
@@ -23,7 +23,7 @@ const Poetry = () => {
                                     <div>
                                         <img src={poem.url} alt='poem cover art'></img>
                                     </div>
-                                    <div>
+                                    <div className='textCol'>
                                         <p>{poem.title}</p>
                                         <p>{poem.description}</p>
                                         <span>{poem.theme} / {poem.date}</span>
