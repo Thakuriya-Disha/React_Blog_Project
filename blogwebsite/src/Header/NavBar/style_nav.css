@@ -9,4 +9,8 @@
 }
 .navList div{
     margin-top:55px;
+    transition:color 1s;
+}
+.navList div:hover{
+    color:purple;
 }
