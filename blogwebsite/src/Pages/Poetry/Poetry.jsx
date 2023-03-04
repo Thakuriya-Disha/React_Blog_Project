@@ -21,7 +21,7 @@ const Poetry = () => {
                                 <>
                                 <div className='dataFlex'>
                                     <div>
-                                        <img src={poem.url}></img>
+                                        <img src={poem.url} alt='poem cover art'></img>
                                     </div>
                                     <div>
                                         <p>{poem.title}</p>
