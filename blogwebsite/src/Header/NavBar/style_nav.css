@@ -3,4 +3,10 @@
     font-size:24px;
     justify-content:space-evenly;
     font-weight:bold;
+    background-image:linear-gradient(to bottom,midnightblue 10%,white);
+    height:120px;
+    margin-top:1px;
+}
+.navList div{
+    margin-top:55px;
 }
