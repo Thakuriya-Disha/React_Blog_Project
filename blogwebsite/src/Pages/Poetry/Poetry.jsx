@@ -19,7 +19,7 @@ const Poetry = () => {
                         poemsList.filter((item) => item.category === 'poetry').map((poem) => {
                             return(
                                 <>
-                                <div className='dataFlex'>
+                                <div className='dataFlex' id='{poem.id}'>
                                     <div>
                                         <img src={poem.url} alt='poem cover art'></img>
                                     </div>

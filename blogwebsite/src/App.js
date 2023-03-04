@@ -3,8 +3,9 @@ import ContextAPI from "./Utility/ContextAPI";
 function App() {
   return (
     <div className="App">
-      <RouterComponent />
-      <ContextAPI />
+      <ContextAPI>
+        <RouterComponent />
+      </ContextAPI>
     </div>
   );
 }
