@@ -1,6 +1,6 @@
 .posterGrid{
     display:grid;
-    grid-template-columns:650px 450px;
+    grid-template-columns:750px 550px;
     grid-template-rows:250px 250px;
     gap:10px 10px;
     margin-left:150px;
@@ -38,4 +38,22 @@
     border-radius:20px;
     background-size: cover;
     background-repeat: no-repeat;
+}
+#pic1 h2{
+    margin-top:400px;
+}
+#pic1 span{
+    margin-top:450px;
+}
+#pic2 h2{
+    margin-top:150px;
+}
+#pic2 span{
+    margin-top:200px;
+}
+#pic3 h2{
+    margin-top:150px;
+}
+#pic3 span{
+    margin-top:200px;
 }

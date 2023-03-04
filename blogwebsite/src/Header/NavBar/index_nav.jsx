@@ -5,32 +5,32 @@ const NavBar = () => {
     return(
         <>
         <div className='navList'>
-            <Link to={"/"} style={{textDecoration:'none',color:'purple'}}>
-                <div>Home</div>
+            <Link to={"/"} style={{textDecoration:'none',color:'indigo'}}>
+                <div>HOME</div>
             </Link>
 
-            <Link to={"/bollywood"} style={{textDecoration:'none',color:'purple'}}>
-                <div>Bollywood</div>
+            <Link to={"/poetry"} style={{textDecoration:'none',color:'purple'}}>
+                <div>POETRY</div>
             </Link>
             
-            <Link to={"/technology"} style={{textDecoration:'none',color:'purple'}}>
-                <div>Technology</div>
+            <Link to={"/music"} style={{textDecoration:'none',color:'blueviolet'}}>
+                <div>MUSIC</div>
             </Link>
 
-            <Link to={"/hollywood"} style={{textDecoration:'none',color:'purple'}}>
-                <div>Hollywood</div>
+            <Link to={"/paintings"} style={{textDecoration:'none',color:'blueviolet'}}>
+                <div>PAINTINGS</div>
             </Link>
 
-            <Link to={"/fitness"} style={{textDecoration:'none',color:'purple'}}>
-                <div>Fitness</div>
+            <Link to={"/movies"} style={{textDecoration:'none',color:'purple'}}>
+                <div>MOVIES</div>
             </Link>
 
-            <Link to={"/food"} style={{textDecoration:'none',color:'purple'}}>
-                <div>Food</div>
+            <Link to={"/photography"} style={{textDecoration:'none',color:'indigo'}}>
+                <div>PHOTOGRAPHY</div>
             </Link>
         </div>
         <br /><hr/>
         </>
     );
-}
+};
 export default NavBar;
