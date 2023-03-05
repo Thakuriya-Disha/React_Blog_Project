@@ -14,7 +14,8 @@ function ContextAPI(props){
             and gazing at the Moon. Thus the Moon Song was born. Sometimes in life we find people who are like the Moon: beautiful, 
             helpful, guiding us through the nights. This is dedicated to those kind of people.`,
             theme:"Promise",
-            date:"4th Mar 2023"
+            date:"4th Mar 2023",
+            featureID:6
         },
         {
             category:"poetry",
@@ -24,26 +25,59 @@ function ContextAPI(props){
             description:`What's your favourite season? Mine is the Winter. The Sun has such a soft glow in the 
             winters, oozing comfort. Sometimes we meet people who light up our lives and shine just like the Winter Sun.`,
             theme:"Gratitude",
-            date:"27th Feb 2023"
+            date:"27th Feb 2023",
+            featureID:3
         },
         {
             category:"poetry",
             id:3,
             url:"https://images.unsplash.com/photo-1620628193519-822b8eb8e92f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YWVzdGhldGljJTIwYm9va3xlbnwwfHwwfHw%3D&w=1000&q=80",
-            title:"Books Had Warned",
+            title:"Books Warned Us",
             description:`One might often hear "history repeats itself". Ever wonder why does it happen? Or most importantly, 
             what joy do we get from being adamant to keep repeating mistakes?`,
             theme:"Introspective",
-            date:"23rd Feb 2023"
+            date:"23rd Feb 2023",
+            featureID:5
         },
         {
             category:"poetry",
-            id:3,
+            id:4,
             url:"https://img.freepik.com/free-vector/watercolor-poetry-illustration_52683-81538.jpg?w=2000",
-            title:"Poem 3",
+            title:"Poem 4",
             description:"lorem ipsum dolor sit amet",
             theme:"nature",
-            date:"23rd Nov 2023"
+            date:"23rd Nov 2023",
+            featureID:2
+        },
+        {
+            category:"poetry",
+            id:5,
+            url:"https://img.freepik.com/free-vector/watercolor-poetry-illustration_52683-81538.jpg?w=2000",
+            title:"Poem 5",
+            description:"lorem ipsum dolor sit amet",
+            theme:"nature",
+            date:"23rd Nov 2023",
+            featureID:4
+        },
+        {
+            category:"poetry",
+            id:6,
+            url:"https://img.freepik.com/free-vector/watercolor-poetry-illustration_52683-81538.jpg?w=2000",
+            title:"Poem 6",
+            description:"lorem ipsum dolor sit amet",
+            theme:"nature",
+            date:"23rd Nov 2023",
+            featureID:7
+        },
+        {
+            category:"poetry",
+            id:7,
+            url:"https://img.freepik.com/free-vector/watercolor-poetry-illustration_52683-81538.jpg?w=2000",
+            title:"Poem 7",
+            description:"lorem ipsum dolor sit amet",
+            theme:"nature",
+            date:"23rd Nov 2023",
+            featureID:1
         }
     ]);
 

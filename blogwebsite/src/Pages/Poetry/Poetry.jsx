@@ -38,8 +38,100 @@ const Poetry = () => {
                 
                 <div className='col2'>
                     <h1>Top Posts</h1>
-                </div>
+                    {
+                        poemsList.filter((item) => item.category === 'poetry' && item.featureID === 1).map((poem) => {
+                            return(
+                                <>
+                                <div id='{poem.id}' className='firstTP'>
+                                    <img src={poem.url} alt='cover art'></img>
+                                    <div className='tp1'>
+                                        <div>
+                                            <h3>{poem.title}</h3>
+                                            <span>{poem.theme} / {poem.date}</span>
+                                        </div>
+                                        <div>
+                                            <h2> {poem.featureID} </h2>
+                                        </div>
+                                    </div>
+                                    <hr/>
+                                </div>
+                                </>
+                            );
+                        })
+                    }
 
+                    {
+                        poemsList.filter((item) => item.category === 'poetry' && item.featureID === 2).map((poem) => {
+                            return(
+                                <>
+                            
+                                    <div className='tp'>
+                                        <div>
+                                            <img src={poem.url} alt='cover art'></img>
+                                        </div>
+                                        <div>
+                                            <h3>{poem.title}</h3>
+                                            <span>{poem.theme} / {poem.date}</span>
+                                        </div>
+                                        <div>
+                                            <h2> {poem.featureID} </h2>
+                                        </div>
+                                    </div>
+                                    <hr/>   
+                                
+                                </>
+                            );
+                        })
+                    }
+
+                    {
+                        poemsList.filter((item) => item.category === 'poetry' && item.featureID === 3).map((poem) => {
+                            return(
+                                <>
+                            
+                                    <div className='tp'>
+                                        <div>
+                                            <img src={poem.url} alt='cover art'></img>
+                                        </div>
+                                        <div>
+                                            <h3>{poem.title}</h3>
+                                            <span>{poem.theme} / {poem.date}</span>
+                                        </div>
+                                        <div>
+                                            <h2> {poem.featureID} </h2>
+                                        </div>
+                                    </div>
+                                    <hr/>   
+                                
+                                </>
+                            );
+                        })
+                    }
+
+                    {
+                        poemsList.filter((item) => item.category === 'poetry' && item.featureID === 4).map((poem) => {
+                            return(
+                                <>
+                            
+                                    <div className='tp'>
+                                        <div>
+                                            <img src={poem.url} alt='cover art'></img>
+                                        </div>
+                                        <div>
+                                            <h3>{poem.title}</h3>
+                                            <span>{poem.theme} / {poem.date}</span>
+                                        </div>
+                                        <div>
+                                            <h2> {poem.featureID} </h2>
+                                        </div>
+                                    </div>
+                                    <hr/>   
+                                
+                                </>
+                            );
+                        })
+                    }
+                </div>
             </div>
         </>
     );
