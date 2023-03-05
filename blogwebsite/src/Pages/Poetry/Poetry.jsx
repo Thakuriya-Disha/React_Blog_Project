@@ -24,7 +24,7 @@ const Poetry = () => {
                                         <img src={poem.url} alt='poem cover art'></img>
                                     </div>
                                     <div className='textCol'>
-                                        <p>{poem.title}</p>
+                                        <h2>{poem.title}</h2>
                                         <p>{poem.description}</p>
                                         <span>{poem.theme} / {poem.date}</span>
                                     </div>
