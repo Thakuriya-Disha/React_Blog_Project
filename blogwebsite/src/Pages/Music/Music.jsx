@@ -67,7 +67,7 @@ const Music = () => {
                             
                                     <div id='{song.id}' className='tp'>
                                         <div>
-                                            <img src={poem.url} alt='cover art'></img>
+                                            <img src={song.url} alt='cover art'></img>
                                         </div>
                                         <div>
                                             <h3>{song.title}</h3>

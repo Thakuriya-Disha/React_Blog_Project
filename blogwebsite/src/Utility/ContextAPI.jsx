@@ -202,10 +202,10 @@ function ContextAPI(props){
         {
             category:"movie",
             id:1,
-            url:"https://imageio.forbes.com/specials-images/imageserve/5ddc0852ab388d0006314773/-Little-Women-/960x0.jpg?format=jpg&width=960",
+            url:"https://cdn.theatlantic.com/thumbor/JNvwX6hgB9qJmFhE0pSfnMQs050=/101x0:1398x973/1200x900/media/img/mt/2019/12/little/original.jpg",
             title:"Little Women",
             description:`Yet another Masterpiece by Greta Gerwig. An adaptation that brings the novel to life.`,
-            theme:"Romance/Drama",
+            theme:"Drama",
             date:"25th Dec 2019",
             featureID:4
         },
@@ -225,7 +225,7 @@ function ContextAPI(props){
             url:"https://c4.wallpaperflare.com/wallpaper/947/272/849/anime-your-name-kimi-no-na-wa-mitsuha-miyamizu-wallpaper-preview.jpg",
             title:"Your Name",
             description:`A story to tug at your heartstrings with astounding animation that leaves the viewer awestruck.`,
-            theme:"Anime/Fantasy",
+            theme:"Fantasy",
             date:"26th Aug 2016",
             featureID:3
         },
@@ -235,7 +235,7 @@ function ContextAPI(props){
             url:"https://i.pinimg.com/originals/c7/2d/43/c72d43e7dc086597bc9f6caa2a960055.jpg",
             title:"The Box",
             description:`The film is about an aspiring singer and a washed-up music producer and their musical journey.`,
-            theme:"Musical/Drama",
+            theme:"Musical",
             date:"24th Mar 2021",
             featureID:5
         },
@@ -245,7 +245,7 @@ function ContextAPI(props){
             url:"https://static01.nyt.com/images/2020/01/26/arts/26before-sunrise1/26before-sunrise1-superJumbo.jpg",
             title:"Before Sunrise",
             description:`A young man and woman meet on a train in Europe, and wind up spending one evening together in Vienna.`,
-            theme:"Romance/Drama",
+            theme:"Romance",
             date:"27th Jan 1995",
             featureID:2
         }
