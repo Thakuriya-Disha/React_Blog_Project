@@ -159,7 +159,96 @@ function ContextAPI(props){
             date:"26th Sep 2021",
             featureID:3
         },
-        
+        {
+            category:"music",
+            id:1,
+            url:"https://www.pinkvilla.com/imageresize/exo_love_shot_main_0.jpg?width=752&t=pvorg",
+            title:"EXO",
+            description:`Legendary Kpop Group`,
+            theme:"KPop",
+            date:"23rd Feb 2023",
+            featureID:2
+        },
+        {
+            category:"music",
+            id:2,
+            url:"https://www.byrdie.com/thmb/tzOBjUASJRamT3xDIIoVbJKNoK8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/taylorswift-9139bb0a51284de2b3f0ffcb334a8c0e.jpg",
+            title:"Taylor Swift",
+            description:`A closer look at the 'Midnights' record. This is Taylor's world, and we're living in it.`,
+            theme:"Pop",
+            date:"21st Oct 2022",
+            featureID:1
+        },
+        {
+            category:"music",
+            id:3,
+            url:"https://pbs.twimg.com/media/FA6zB4mVQAMs83e.jpg",
+            title:"aespa",
+            description:`Breaking the industry with their unique concepts! Fusing music with AI.`,
+            theme:"KPop",
+            date:"31st Jan 2023",
+            featureID:4
+        },
+        {
+            category:"music",
+            id:4,
+            url:"https://i.scdn.co/image/ab6761610000e5eb724f08bfa57000ac31e466a3",
+            title:"Anuv Jain",
+            description:`Keeping it simple with a ukulele. Bringing to us fresh, new, soulful music.`,
+            theme:"Desi-pop",
+            date:"21st Feb 2023",
+            featureID:3
+        },
+        {
+            category:"movie",
+            id:1,
+            url:"https://imageio.forbes.com/specials-images/imageserve/5ddc0852ab388d0006314773/-Little-Women-/960x0.jpg?format=jpg&width=960",
+            title:"Little Women",
+            description:`Yet another Masterpiece by Greta Gerwig. An adaptation that brings the novel to life.`,
+            theme:"Romance/Drama",
+            date:"25th Dec 2019",
+            featureID:4
+        },
+        {
+            category:"movie",
+            id:2,
+            url:"https://people.com/thmb/03guWi6JNe_J2y4rpvApgDRiK_k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(511x0:513x2)/matthew-mcconaughney-1024-96a54219af2d4b148163dfe3381e7336.jpg",
+            title:"Interstellar",
+            description:`A film that explores the psychological and emotional state of a man whose life revolves around his family.`,
+            theme:"Sci-Fi/Adventure",
+            date:"7th Nov 2014",
+            featureID:1
+        },
+        {
+            category:"movie",
+            id:3,
+            url:"https://c4.wallpaperflare.com/wallpaper/947/272/849/anime-your-name-kimi-no-na-wa-mitsuha-miyamizu-wallpaper-preview.jpg",
+            title:"Your Name",
+            description:`A story to tug at your heartstrings with astounding animation that leaves the viewer awestruck.`,
+            theme:"Anime/Fantasy",
+            date:"26th Aug 2016",
+            featureID:3
+        },
+        {
+            category:"movie",
+            id:4,
+            url:"https://i.pinimg.com/originals/c7/2d/43/c72d43e7dc086597bc9f6caa2a960055.jpg",
+            title:"The Box",
+            description:`The film is about an aspiring singer and a washed-up music producer and their musical journey.`,
+            theme:"Musical/Drama",
+            date:"24th Mar 2021",
+            featureID:5
+        },
+        {
+            category:"movie",
+            id:5,
+            url:"https://static01.nyt.com/images/2020/01/26/arts/26before-sunrise1/26before-sunrise1-superJumbo.jpg",
+            title:"Before Sunrise",
+            description:`A young man and woman meet on a train in Europe, and wind up spending one evening together in Vienna.`,
+            theme:"Romance/Drama",
+            date:"27th Jan 1995",
+            featureID:2
+        }
     ]);
 
     return(
