@@ -65,7 +65,7 @@ const Poetry = () => {
                             return(
                                 <>
                             
-                                    <div className='tp'>
+                                    <div id='{poem.id}' className='tp'>
                                         <div>
                                             <img src={poem.url} alt='cover art'></img>
                                         </div>
@@ -89,7 +89,7 @@ const Poetry = () => {
                             return(
                                 <>
                             
-                                    <div className='tp'>
+                                    <div id='{poem.id}' className='tp'>
                                         <div>
                                             <img src={poem.url} alt='cover art'></img>
                                         </div>
@@ -113,7 +113,7 @@ const Poetry = () => {
                             return(
                                 <>
                             
-                                    <div className='tp'>
+                                    <div id='{poem.id}' className='tp'>
                                         <div>
                                             <img src={poem.url} alt='cover art'></img>
                                         </div>
