@@ -1,11 +1,13 @@
 .latestBox1{
     display:flex;
     width:1310px;
-    justify-content:space-between;
+    justify-content:space-evenly;
+    margin-left:15px;
 }
 .theLatest{
     text-decoration:underline;
     text-decoration-color:purple;
+    margin-left:150px;
 }
 .box1A, .box1B, .box1C{
     background-color: lightgrey;
@@ -13,4 +15,13 @@
     border:1px solid lightgrey;
     border-radius:15px;
     filter:drop-shadow(10px 10px 5px gray);
+}
+.box1A div{
+    
+}
+.box1B div{
+    margin-left:25px;
+}
+.box1C div{
+    margin-left:25px;
 }

@@ -18,12 +18,12 @@ const TheLatest = () => {
                         latestList.filter((item) => item.category === 'poetry' && item.id === 1).map((data) => {
                             return(
                                 <>
-                                <div style={{backgroundImage:'{data.url}', width:'250px', height:'250px', backgroundRepeat:'noRepeat', backgroundSize:'cover'}}></div>
-                                <div style={{fontSize:'18px'}}> {data.title} </div>
-                                <div style={{color:'grey'}}> {data.description} </div>
-                                <div>
-                                    {data.category} / <span style={{color:'grey'}}>{data.date}</span>
-                                </div>
+                                    <img src={data.url} alt='pic' style={{width:'250px',height:'250px',border:'1px solid lightgrey',borderRadius:'15px 15px 0px 0px'}}></img><br/>
+                                    <div style={{fontSize:'18px'}}> {data.title} </div>
+                                    
+                                    <div>
+                                        {data.category} / <span style={{color:'grey'}}>{data.date}</span>
+                                    </div>
                                 </>
                             );
                         })
@@ -36,9 +36,9 @@ const TheLatest = () => {
                         latestList.filter((item) => item.category === 'music' && item.id === 3).map((data) => {
                             return(
                                 <>
-                                <div style={{backgroundImage:'{data.url}', width:'250px', height:'250px', backgroundRepeat:'noRepeat', backgroundSize:'cover'}}></div>
+                                <img src={data.url} alt='pic' style={{width:'250px',height:'250px',border:'1px solid lightgrey',borderRadius:'15px 15px 0px 0px'}}></img><br/>
                                 <div style={{fontSize:'18px'}}> {data.title} </div>
-                                <div style={{color:'grey'}}> {data.description} </div>
+                                
                                 <div>
                                     {data.category} / <span style={{color:'grey'}}>{data.date}</span>
                                 </div>
@@ -55,9 +55,9 @@ const TheLatest = () => {
                         latestList.filter((item) => item.category === 'painting' && item.id === 1).map((data) => {
                             return(
                                 <>
-                                <div style={{backgroundImage:'{data.url}', width:'250px', height:'250px', backgroundRepeat:'noRepeat', backgroundSize:'cover'}}></div>
+                                <img src={data.url} alt='pic' style={{width:'250px',height:'250px',border:'1px solid lightgrey',borderRadius:'15px 15px 0px 0px'}}></img><br/>
                                 <div style={{fontSize:'18px'}}> {data.title} </div>
-                                <div style={{color:'grey'}}> {data.description} </div>
+                                
                                 <div>
                                     {data.category} / <span style={{color:'grey'}}>{data.date}</span>
                                 </div>
