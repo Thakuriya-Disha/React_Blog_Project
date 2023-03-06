@@ -1,0 +1,16 @@
+.latestBox1{
+    display:flex;
+    width:1310px;
+    justify-content:space-between;
+}
+.theLatest{
+    text-decoration:underline;
+    text-decoration-color:purple;
+}
+.box1A, .box1B, .box1C{
+    background-color: lightgrey;
+    width:250px;
+    border:1px solid lightgrey;
+    border-radius:15px;
+    filter:drop-shadow(10px 10px 5px gray);
+}
