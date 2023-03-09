@@ -8,7 +8,7 @@ const HomePage = () => {
             <HeaderCompo />
             <br/><br/>
             <PosterCompo />
-            <br/><br/>
+            <br/><br/><br/>
             <TheLatest />
         </>
     );

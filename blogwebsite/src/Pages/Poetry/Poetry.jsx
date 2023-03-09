@@ -2,6 +2,7 @@ import './style_poem.css';
 import HeaderCompo from '../../Header/HeaderComponent';
 import React, {useContext} from 'react';
 import {blogData} from '../../Utility/ContextAPI';
+import {Link} from 'react-router-dom';
 
 const Poetry = () => {
 
@@ -19,6 +20,7 @@ const Poetry = () => {
                         poemsList.filter((item) => item.category === 'poetry').map((poem) => {
                             return(
                                 <>
+                                <Link to={`/article/${poem.category}/${poem.id}`} style={{textDecoration:'none',color:'black'}}>
                                 <div className='dataFlex' id='{poem.id}'>
                                     <div>
                                         <img src={poem.url} alt='poem cover art'></img>
@@ -29,6 +31,7 @@ const Poetry = () => {
                                         <span>{poem.theme} / {poem.date}</span>
                                     </div>
                                 </div>
+                                </Link>
                                 <hr/>
                                 </>
                             );

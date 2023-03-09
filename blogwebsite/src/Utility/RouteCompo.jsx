@@ -5,6 +5,7 @@ import Movies from "../Pages/Movies/Movies";
 import Paintings from "../Pages/Paintings/Paintings";
 import Music from "../Pages/Music/Music";
 import Photography from "../Pages/Photography/Photography";
+import ArticlePage from '../Pages/Articles/ArticlePage';
 
 const RouterComponent = () => {
     return(
@@ -16,6 +17,7 @@ const RouterComponent = () => {
                 <Route path="/paintings" element={<Paintings />} />
                 <Route path="/music" element={<Music />} />
                 <Route path="/photography" element={<Photography />} />
+                <Route path="/article/:category/:id" element={<ArticlePage />} />
             </Routes>
         </BrowserRouter>
     );
