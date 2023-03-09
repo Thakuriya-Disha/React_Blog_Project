@@ -1,0 +1,12 @@
+.titlebox{
+    border:1px solid grey;
+    margin:0px;
+    box-shadow:10px 0px 5px grey;
+    height:75px;
+    background-image:linear-gradient(to bottom,purple,midnightblue);
+    color:violet;
+    padding-left:45px;
+}
+.contentbox{
+    text-align:center;
+}
