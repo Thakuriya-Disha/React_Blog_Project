@@ -14,13 +14,18 @@ const ArticlePage = () => {
                 <h2>La Luna</h2>
             </div>
             <br/>
-            <div className='contentbox'>
-                {
-                    article.filter((item) => item.category === params.category && item.id === params.id).map((data) => {
-                        <h1>{data.title}</h1>
-                    })
-                }
-            </div>
+            
+            {
+                article.filter((item) => item.category === params.category && item.id === params.id).map((data) => {
+                    return(
+                        <>
+                        <div className='contentbox'>
+                            <h1> {data.title} </h1>
+                        </div>
+                        </>
+                    );
+                })
+            }
         </>
     );
 }
