@@ -21,7 +21,7 @@ const Paintings = () => {
                                 <>
                                 <div className='dataFlex' id='{art.id}'>
                                     <div>
-                                        <img src={art.url} alt='poem cover art'></img>
+                                        <img src={art.url} alt='cover art'></img>
                                     </div>
                                     <div className='textCol'>
                                         <h2>{art.title}</h2>
@@ -109,20 +109,20 @@ const Paintings = () => {
                     }
 
                     {
-                        artList.filter((item) => item.category === 'painting' && item.featureID === 4).map((poem) => {
+                        artList.filter((item) => item.category === 'painting' && item.featureID === 4).map((art) => {
                             return(
                                 <>
                             
-                                    <div className='tp'>
+                                    <div id='{art.id}' className='tp'>
                                         <div>
-                                            <img src={poem.url} alt='cover art'></img>
+                                            <img src={art.url} alt='cover art'></img>
                                         </div>
                                         <div>
-                                            <h3>{poem.title}</h3>
-                                            <span>{poem.theme} / {poem.date}</span>
+                                            <h3>{art.title}</h3>
+                                            <span>{art.theme} / {art.date}</span>
                                         </div>
                                         <div>
-                                            <h2> {poem.featureID} </h2>
+                                            <h2> {art.featureID} </h2>
                                         </div>
                                     </div>
                                     <hr/>   
