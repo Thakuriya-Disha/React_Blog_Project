@@ -1,27 +1,18 @@
 .latestBox1{
     display:flex;
-    width:1310px;
-    justify-content:space-evenly;
-    margin-left:15px;
+    width:1300px;
+    justify-content:space-between;
+    margin-left:20px;
 }
 .theLatest{
-    text-decoration:underline;
-    text-decoration-color:purple;
-    margin-left:150px;
+    text-decoration:underline double;
+    text-decoration-color:blueviolet;
+    margin-left:75px;
 }
-.box1A, .box1B, .box1C{
+.box1{
     background-color: lightgrey;
     width:250px;
     border:1px solid lightgrey;
     border-radius:15px;
     filter:drop-shadow(10px 10px 5px gray);
-}
-.box1A div{
-    margin-left:25px;   
-}
-.box1B div{
-    margin-left:25px;
-}
-.box1C div{
-    margin-left:25px;
 }
