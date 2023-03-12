@@ -51,7 +51,7 @@ const TheLatest = () => {
 
                 <div className='box1'>
 
-                {
+                    {
                         latestList.filter((item) => item.category === 'poetry' && item.id === 3).map((data) => {
                             return(
                                 <>
@@ -70,7 +70,7 @@ const TheLatest = () => {
 
                 <div className='box1'>
 
-                {
+                    {
                         latestList.filter((item) => item.category === 'poetry' && item.id === 4).map((data) => {
                             return(
                                 <>
@@ -87,6 +87,23 @@ const TheLatest = () => {
 
                 </div>
                 
+            </div>
+            <br/><br/>
+
+            <h1 className='theLatest'>Latest Paintings & Photographs</h1>
+
+            <div className='latestBox2'>
+
+                    <div className='box21'>
+
+                        <div></div>
+                        <div></div>
+                        <div></div>
+
+                    </div>
+
+                    <div className='box22'> advertisement </div>
+
             </div>
         </>
     );
