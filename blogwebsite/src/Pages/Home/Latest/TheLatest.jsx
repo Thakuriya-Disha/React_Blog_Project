@@ -174,7 +174,7 @@ const TheLatest = () => {
                     <div className='box22'></div>
 
             </div>
-            <br/><br/>
+            <br/>
 
             <div className='latestBox3'>
 
