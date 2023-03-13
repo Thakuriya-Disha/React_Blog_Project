@@ -171,7 +171,15 @@ const TheLatest = () => {
 
                     </div>
 
-                    <div className='box22'> advertisement </div>
+                    <div className='box22'></div>
+
+            </div>
+            <br/><br/>
+
+            <div className='latestBox3'>
+
+                        <div className='box31'></div>
+                        <div></div>
 
             </div>
         </>
