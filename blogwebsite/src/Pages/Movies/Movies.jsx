@@ -2,10 +2,16 @@ import './style_movie.css';
 import HeaderCompo from '../../Header/HeaderComponent';
 import React, {useContext} from 'react';
 import {blogData} from '../../Utility/ContextAPI';
+import {useNavigate} from 'react-router-dom';
 
 const Movies = () => {
 
     const [moviesList] = useContext(blogData);
+
+    const nav = useNavigate();
+    const toNavigate = (category, id, selectedMovie) => {
+        nav(`/article/${category}/${id}`, { state: { content: selectedMovie } });
+    };
 
     return(
         <>
@@ -19,7 +25,7 @@ const Movies = () => {
                         moviesList.filter((item) => item.category === 'movie').map((film) => {
                             return(
                                 <>
-                                <div className='dataFlex' id='{film.id}'>
+                                <div className='dataFlex' id='{film.id}' onClick = {() => toNavigate(film.category, film.id, film)} >
                                     <div>
                                         <img src={film.url} alt='cover art'></img>
                                     </div>

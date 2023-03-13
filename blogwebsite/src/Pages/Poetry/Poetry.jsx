@@ -2,11 +2,16 @@ import './style_poem.css';
 import HeaderCompo from '../../Header/HeaderComponent';
 import React, {useContext} from 'react';
 import {blogData} from '../../Utility/ContextAPI';
-import {Link} from 'react-router-dom';
+import {useNavigate} from 'react-router-dom';
 
 const Poetry = () => {
 
     const [poemsList] = useContext(blogData);
+
+    const nav = useNavigate();
+    const toNavigate = (category, id, selectedPoem) => {
+        nav(`/article/${category}/${id}`, { state: { content: selectedPoem } });
+    };
 
     return(
         <>
@@ -17,11 +22,10 @@ const Poetry = () => {
                 <div className='col1'>
                     <h1>Poetry</h1>
                     {
-                        poemsList.filter((item) => item.category === 'poetry').map((poem) => {
+                        poemsList?.filter((item) => item.category === 'poetry').map((poem) => {
                             return(
                                 <>
-                                <Link to={`/article/${poem.category}/${poem.id}`} style={{textDecoration:'none',color:'black'}}>
-                                <div className='dataFlex' id='{poem.id}'>
+                                <div className='dataFlex' id='{poem.id}' onClick = {() => toNavigate(poem.category, poem.id, poem)}>
                                     <div>
                                         <img src={poem.url} alt='poem cover art'></img>
                                     </div>
@@ -31,7 +35,6 @@ const Poetry = () => {
                                         <span>{poem.theme} / {poem.date}</span>
                                     </div>
                                 </div>
-                                </Link>
                                 <hr/>
                                 </>
                             );
