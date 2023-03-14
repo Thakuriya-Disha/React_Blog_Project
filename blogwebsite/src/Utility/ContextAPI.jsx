@@ -16,7 +16,21 @@ function ContextAPI(props){
             oneliner: `Sometimes in life we find people who are like the Moon.`,
             theme:"Promise",
             date:"4th Mar 2023",
-            featureID:6
+            featureID:6,
+            poem:
+            `I love you like I love the Moon
+            I want you to know that
+            I'll be here for you.
+            I am here to stay, my dear
+            I am not going away
+            no matter what the phase.
+            
+            Just like when the Moon
+            shines the brightest, glows with happiness
+            or when the Moon disappears in the quietest nights;
+            From you moonless nights to the blue moon skies,
+            I promise I will be there, my love
+            The dark won't scare me away.`
         },
         {
             category:"poetry",

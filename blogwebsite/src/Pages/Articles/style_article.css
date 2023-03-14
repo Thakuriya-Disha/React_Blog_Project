@@ -7,6 +7,10 @@
     color:violet;
     padding-left:45px;
 }
-.contentbox{
+.articleBox{
     text-align:center;
+    width:677px;
+}
+.articleBox h1{
+    color:purple;
 }

@@ -14,10 +14,24 @@ const ArticlePage = () => {
             </div>
             <br/><br/>
             
-            <div style={{textAlign:'center'}}>
+            <div className='articleBox'>
                 <h1> {Location?.state?.content?.title} </h1>
-                <h2> {Location?.state?.content?.category} </h2>
-                <h3> {Location?.state?.content?.description} </h3>
+                <div>
+                    <img src='../../Utility/media/beauty.png' style={{width:'130px',height:'130px'}}></img>
+                    <span><strong>Disha Thakuriya</strong></span><br/>
+                    <span style={{color:'grey'}}> {Location?.state?.content?.date} </span>
+                </div>
+                <div>
+                    <img src= {Location?.state?.content?.url} style={{width:'677px',height:'370px'}}></img>
+                </div>
+                <br/>
+                <div>
+                    <pre> {Location?.state?.content?.poem} </pre>
+                </div>
+                <div>
+                    Theme: <span> {Location?.state?.content?.theme} </span>
+                </div>
+               
             </div>
         </>
     );
