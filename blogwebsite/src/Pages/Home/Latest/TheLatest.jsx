@@ -17,13 +17,13 @@ const TheLatest = () => {
                         latestList.filter((item) => item.category === 'painting' && item.id === 1).map((data) => {
                             return(
                                 <>
-                                <div id={data.id}>
-                                    <img src={data.url} alt='pic' style={{width:'250px',height:'250px',border:'1px solid lightgrey',borderRadius:'15px 15px 0px 0px'}}></img><br/>
-                                    <div style={{fontSize:'18px',fontWeight:'bold'}}> {data.title} </div>
-                                    <div> {data.description} </div><br/>
-                                    <div>
+                                <div id='{data.id}'>
+                                    <img src={data.url} alt='pic' style={{width:'275px',height:'220px',border:'1px solid lightgrey',borderRadius:'15px 15px 0px 0px'}}></img><br/>
+                                    <p style={{fontSize:'18px',fontWeight:'bold'}}> {data.title} </p>
+                                    <p style={{color:'slategray'}}> {data.description} </p>
+                                    <p>
                                         {data.category} / <span style={{color:'grey'}}>{data.date}</span>
-                                    </div>
+                                    </p>
                                 </div>
                                 </>
                             );
@@ -37,13 +37,13 @@ const TheLatest = () => {
                         latestList.filter((item) => item.category === 'photography' && item.id === 1).map((data) => {
                             return(
                                 <>
-                                <div id={data.id}>
-                                    <img src={data.url} alt='pic' style={{width:'250px',height:'250px',border:'1px solid lightgrey',borderRadius:'15px 15px 0px 0px'}}></img><br/>
-                                    <div style={{fontSize:'18px',fontWeight:'bold'}}> {data.title} </div>
-                                    <div> {data.description} </div><br/>
-                                    <div>
+                                <div id='{data.id}'>
+                                    <img src={data.url} alt='pic' style={{width:'275px',height:'220px',border:'1px solid lightgrey',borderRadius:'15px 15px 0px 0px'}}></img><br/>
+                                    <p style={{fontSize:'18px',fontWeight:'bold'}}> {data.title} </p>
+                                    <p style={{color:'slategray'}}> {data.description} </p>
+                                    <p>
                                         {data.category} / <span style={{color:'grey'}}>{data.date}</span>
-                                    </div>
+                                    </p>
                                 </div>
                                 </>
                             );
@@ -58,13 +58,13 @@ const TheLatest = () => {
                         latestList.filter((item) => item.category === 'painting' && item.id === 2).map((data) => {
                             return(
                                 <>
-                                <div id={data.id}>
-                                    <img src={data.url} alt='pic' style={{width:'250px',height:'250px',border:'1px solid lightgrey',borderRadius:'15px 15px 0px 0px'}}></img><br/>
-                                    <div style={{fontSize:'18px',fontWeight:'bold'}}> {data.title} </div>
-                                    <div> {data.description} </div><br/>
-                                    <div>
+                                <div id='{data.id}'>
+                                    <img src={data.url} alt='pic' style={{width:'275px',height:'220px',border:'1px solid lightgrey',borderRadius:'15px 15px 0px 0px'}}></img><br/>
+                                    <p style={{fontSize:'18px',fontWeight:'bold'}}> {data.title} </p>
+                                    <p style={{color:'slategray'}}> {data.description} </p>
+                                    <p>
                                         {data.category} / <span style={{color:'grey'}}>{data.date}</span>
-                                    </div>
+                                    </p>
                                 </div>
                                 </>
                             );
@@ -79,13 +79,13 @@ const TheLatest = () => {
                         latestList.filter((item) => item.category === 'photography' && item.id === 2).map((data) => {
                             return(
                                 <>
-                                <div id={data.id}>
-                                    <img src={data.url} alt='pic' style={{width:'250px',height:'250px',border:'1px solid lightgrey',borderRadius:'15px 15px 0px 0px'}}></img><br/>
-                                    <div style={{fontSize:'18px',fontWeight:'bold'}}> {data.title} </div>
-                                    <div> {data.description} </div><br/>
-                                    <div>
+                                <div id='{data.id}'>
+                                    <img src={data.url} alt='pic' style={{width:'275px',height:'220px',border:'1px solid lightgrey',borderRadius:'15px 15px 0px 0px'}}></img><br/>
+                                    <p style={{fontSize:'18px',fontWeight:'bold'}}> {data.title} </p>
+                                    <p style={{color:'slategray'}}> {data.description} </p>
+                                    <p>
                                         {data.category} / <span style={{color:'grey'}}>{data.date}</span>
-                                    </div>
+                                    </p>
                                 </div>
                                 </>
                             );
@@ -95,7 +95,7 @@ const TheLatest = () => {
                 </div>
                 
             </div>
-            <br/><br/>
+            <br/><br/><br/>
 
             <h1 className='theLatest'>Latest Reviews</h1>
 
@@ -103,20 +103,20 @@ const TheLatest = () => {
 
                     <div className='box21'>
 
-                        <div>
+                    <div>
                         {
                             latestList.filter((item) => item.category === 'movie' && item.id === 1).map((data) => {
                                 return(
                                     <>
-                                    <hr/>
+                                    <hr/>                                    
                                     <div id='{data.id}' className='reviewList'>
                                         <div>
                                             <img src={data.url} alt='cover art'></img>
                                         </div>
-                                        <div>
-                                            <h3>{data.title}</h3>
-                                            <p>{data.description}</p>
-                                            <span>{data.theme} / {data.date}</span>
+                                        <div className='reviewDetails'>
+                                            <h2>{data.title}</h2>
+                                            <p style={{color:'grey',fontSize:'18px'}}>{data.description}</p>
+                                            {data.theme} / <span style={{color:'grey'}}> {data.date}</span>
                                         </div>
                                     </div>
                                     </>
@@ -135,10 +135,10 @@ const TheLatest = () => {
                                         <div>
                                             <img src={data.url} alt='cover art'></img>
                                         </div>
-                                        <div>
-                                            <h3>{data.title}</h3>
-                                            <p>{data.description}</p>
-                                            <span>{data.theme} / {data.date}</span>
+                                        <div className='reviewDetails'>
+                                            <h2>{data.title}</h2>
+                                            <p style={{color:'grey',fontSize:'18px'}}>{data.description}</p>
+                                            {data.theme} / <span style={{color:'grey'}}> {data.date}</span>
                                         </div>
                                     </div>
                                     </>
@@ -157,10 +157,10 @@ const TheLatest = () => {
                                         <div>
                                             <img src={data.url} alt='cover art'></img>
                                         </div>
-                                        <div>
-                                            <h3>{data.title}</h3>
-                                            <p>{data.description}</p>
-                                            <span>{data.theme} / {data.date}</span>
+                                        <div className='reviewDetails'>
+                                            <h2>{data.title}</h2>
+                                            <p style={{color:'grey',fontSize:'18px'}}>{data.description}</p>
+                                            {data.theme} / <span style={{color:'grey'}}> {data.date}</span>
                                         </div>
                                     </div>
                                     </>
@@ -174,11 +174,14 @@ const TheLatest = () => {
                     <div className='box22'></div>
 
             </div>
-            <br/>
+            <br/><br/><br/>
 
             <div className='latestBox3'>
 
-                        <div className='box31'></div>
+                        <div>
+                            <h1>THEME OF THE MONTH</h1>
+                            <div className='box31'></div>
+                        </div>
                         <div></div>
 
             </div>

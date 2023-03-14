@@ -25,7 +25,7 @@ const Poetry = () => {
                         poemsList?.filter((item) => item.category === 'poetry').map((poem) => {
                             return(
                                 <>
-                                <div className='dataFlex' id='{poem.id}' onClick = {() => toNavigate(poem.category, poem.id, poem)}>
+                                <div className='dataFlex' id='{poem.id}' onClick = {() => toNavigate(poem.category, poem.id, poem)} style={{cursor:'pointer'}}>
                                     <div>
                                         <img src={poem.url} alt='poem cover art'></img>
                                     </div>

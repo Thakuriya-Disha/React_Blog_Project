@@ -241,7 +241,8 @@ function ContextAPI(props){
             description:`The film is about an aspiring singer and a washed-up music producer and their musical journey.`,
             theme:"Musical",
             date:"24th Mar 2021",
-            featureID:5
+            featureID:5,
+            rating:4
         },
         {
             category:"movie",

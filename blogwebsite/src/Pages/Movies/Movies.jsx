@@ -25,7 +25,7 @@ const Movies = () => {
                         moviesList.filter((item) => item.category === 'movie').map((film) => {
                             return(
                                 <>
-                                <div className='dataFlex' id='{film.id}' onClick = {() => toNavigate(film.category, film.id, film)} >
+                                <div className='dataFlex' id='{film.id}' onClick = {() => toNavigate(film.category, film.id, film)} style={{cursor:'pointer'}}>
                                     <div>
                                         <img src={film.url} alt='cover art'></img>
                                     </div>
