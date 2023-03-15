@@ -5,26 +5,30 @@
     height:75px;
     background-image:linear-gradient(to bottom,purple,midnightblue);
     color:violet;
-    padding-left:45px;
+    padding-left:10%;
 }
 .articleBox{
-    text-align:center;
-    width:677px;
+    width:400px;
     display:flex;
     flex-direction:column;
+    margin-left:35%;
 }
 .articleBox h1{
     color:purple;
 }
-.articleBox1 img{
-    width:'130px';
-    height:'130px';
-}
 .articleBox2 img{
-    width:'677px';
-    height:'370px';
+    width:400px;
+    height:400px;
 }
-.articleBox5 img{
-    width:'130px';
-    height:'130px';
+pre{
+    width:400px;
+    margin-left:-80px;
+}
+.moreArticles{
+    height:300px;
+    background-image:linear-gradient(to bottom, rgb(244, 230, 250), thistle, rgb(145, 120, 145));
+}
+.moreArticles h3{
+    padding-left:10%;
+    color:purple;
 }

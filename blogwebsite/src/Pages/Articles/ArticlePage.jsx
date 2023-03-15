@@ -5,10 +5,6 @@ import './style_article.css';
 const ArticlePage = () => {
     
     const Location = useLocation();
-    let count=0;
-    const clapCount = () => {
-        count++;
-    }
 
     return(
         <>
@@ -21,31 +17,30 @@ const ArticlePage = () => {
                 
                 <div className='articleBox1'>
                     <h1> {Location?.state?.content?.title} </h1>
-                    <img src='../../Utility/media/beauty.png'></img>
                     <span><strong>Disha Thakuriya</strong></span><br/>
-                    <span style={{color:'grey'}}> {Location?.state?.content?.date} </span> <br/>
-
+                    <span style={{color:'orchid'}}> {Location?.state?.content?.date} </span> <br/><br/>
                 </div>
                 <div className='articleBox2'>
-                    <img src= {Location?.state?.content?.url}></img>
+                    <img src= {Location?.state?.content?.url} alt='cover art'></img><br/>
                 </div>
-                <br/>
                 <div className='articleBox3'>
-                    <pre> {Location?.state?.content?.poem} </pre>
+                    <pre> {Location?.state?.content?.poem} </pre> <br/><br/>
                 </div>
                 <div className='articleBox4'>
-                    Theme: <span style={{color:'slategrey',backgroundColor:'lightgrey'}}> {Location?.state?.content?.theme} </span>
-                    <br/> <img src='../../Utility/media/rythm.svg' onClick={clapCount}></img> <span> {count} </span>
-                </div>
-                <div className='articleBox5'>
                     <hr/>
-                    <img src='../../Utility/media/beauty.png'></img>
-                    <span style={{color:'grey'}}> WRITTEN BY</span> <br/>
-                    <span> Disha Thakuriya </span> <br/>
-                    <span style={{color:'grey'}}> {Location?.state?.content?.date} </span>
-                    <hr/>
+                    <span style={{color:'orchid'}}> WRITTEN BY</span> <br/><br/>
+                    <span style={{color:'purple'}}><strong> Disha Thakuriya </strong></span> <br/><br/>
+                    <span style={{color:'orchid'}}> {Location?.state?.content?.date} </span>
+                    <hr/><br/><br/>
                 </div>
                
+            </div>
+
+            <div className='moreArticles'>
+                <br/>
+                <h3>More from La Luna</h3>
+                <hr/>
+                <div></div>
             </div>
         </>
     );
