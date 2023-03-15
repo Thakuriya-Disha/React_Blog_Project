@@ -10,7 +10,21 @@
 .articleBox{
     text-align:center;
     width:677px;
+    display:flex;
+    flex-direction:column;
 }
 .articleBox h1{
     color:purple;
+}
+.articleBox1 img{
+    width:'130px';
+    height:'130px';
+}
+.articleBox2 img{
+    width:'677px';
+    height:'370px';
+}
+.articleBox5 img{
+    width:'130px';
+    height:'130px';
 }

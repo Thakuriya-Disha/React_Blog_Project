@@ -5,7 +5,10 @@ import './style_article.css';
 const ArticlePage = () => {
     
     const Location = useLocation();
-    console.log("location: ", Location);
+    let count=0;
+    const clapCount = () => {
+        count++;
+    }
 
     return(
         <>
@@ -15,21 +18,32 @@ const ArticlePage = () => {
             <br/><br/>
             
             <div className='articleBox'>
-                <h1> {Location?.state?.content?.title} </h1>
-                <div>
-                    <img src='../../Utility/media/beauty.png' style={{width:'130px',height:'130px'}}></img>
+                
+                <div className='articleBox1'>
+                    <h1> {Location?.state?.content?.title} </h1>
+                    <img src='../../Utility/media/beauty.png'></img>
                     <span><strong>Disha Thakuriya</strong></span><br/>
-                    <span style={{color:'grey'}}> {Location?.state?.content?.date} </span>
+                    <span style={{color:'grey'}}> {Location?.state?.content?.date} </span> <br/>
+
                 </div>
-                <div>
-                    <img src= {Location?.state?.content?.url} style={{width:'677px',height:'370px'}}></img>
+                <div className='articleBox2'>
+                    <img src= {Location?.state?.content?.url}></img>
                 </div>
                 <br/>
-                <div>
+                <div className='articleBox3'>
                     <pre> {Location?.state?.content?.poem} </pre>
                 </div>
-                <div>
-                    Theme: <span> {Location?.state?.content?.theme} </span>
+                <div className='articleBox4'>
+                    Theme: <span style={{color:'slategrey',backgroundColor:'lightgrey'}}> {Location?.state?.content?.theme} </span>
+                    <br/> <img src='../../Utility/media/rythm.svg' onClick={clapCount}></img> <span> {count} </span>
+                </div>
+                <div className='articleBox5'>
+                    <hr/>
+                    <img src='../../Utility/media/beauty.png'></img>
+                    <span style={{color:'grey'}}> WRITTEN BY</span> <br/>
+                    <span> Disha Thakuriya </span> <br/>
+                    <span style={{color:'grey'}}> {Location?.state?.content?.date} </span>
+                    <hr/>
                 </div>
                
             </div>
