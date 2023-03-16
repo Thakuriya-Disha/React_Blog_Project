@@ -60,7 +60,7 @@ const ArticlePage = () => {
 
                 <div className='readMoreBox'>
                 {
-                    readMoreList.filter((item) => item.id === Location?.state?.content?.id-2).map((data) => {
+                    readMoreList.filter((item) => item.id === 7).map((data) => {
                     return(
                     <>
                     <div id={data.id} onClick = {() => toNavigate(data.category, data.id, data)} style={{cursor:'pointer'}}>
@@ -78,7 +78,7 @@ const ArticlePage = () => {
 
                 <div className='readMoreBox'>
                 {
-                    readMoreList.filter((item) => item.id === Location?.state?.content?.id-1).map((data) => {
+                    readMoreList.filter((item) => item.id === 21).map((data) => {
                     return(
                     <>
                      <div id={data.id} onClick = {() => toNavigate(data.category, data.id, data)} style={{cursor:'pointer'}}>
@@ -96,7 +96,7 @@ const ArticlePage = () => {
 
                 <div className='readMoreBox'>
                 {
-                    readMoreList.filter((item) => item.id === Location?.state?.content?.id+1).map((data) => {
+                    readMoreList.filter((item) => item.id === 28).map((data) => {
                     return(
                     <>
                      <div id={data.id} onClick = {() => toNavigate(data.category, data.id, data)} style={{cursor:'pointer'}}>
@@ -114,7 +114,7 @@ const ArticlePage = () => {
 
                 <div className='readMoreBox'>
                 {
-                    readMoreList.filter((item) => item.id === Location?.state?.content?.id+2).map((data) => {
+                    readMoreList.filter((item) => item.id === 35).map((data) => {
                     return(
                     <>
                     <div id={data.id} onClick = {() => toNavigate(data.category, data.id, data)} style={{cursor:'pointer'}}>
