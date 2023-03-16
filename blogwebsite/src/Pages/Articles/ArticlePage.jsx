@@ -29,26 +29,28 @@ const ArticlePage = () => {
             <br/><br/>
             
             <div className='articleBox'>
-                
-                <div className='articleBox1'>
-                    <h1> {Location?.state?.content?.title} </h1>
-                    <span> Disha Thakuriya </span><br/>
-                    <span style={{color:'orchid'}}> {Location?.state?.content?.date} </span> <br/><br/>
+                <div className='articleBoxCol1'>
+                    <div className='articleBox1'>
+                        <h1> {Location?.state?.content?.title} </h1>
+                        <span> Disha Thakuriya </span><br/>
+                        <span style={{color:'orchid'}}> {Location?.state?.content?.date} </span> <br/><br/>
+                    </div>
+                    <div className='articleBox2'>
+                        <img src= {Location?.state?.content?.url} alt='cover art'></img><br/><br/>
+                    </div>
+                    <div className='articleBox4'>
+                        <hr/>
+                        <span style={{color:'orchid'}}> WRITTEN BY</span> <br/><br/>
+                        <span style={{color:'purple'}}><strong> Disha Thakuriya </strong></span> <br/><br/>
+                        <span style={{color:'orchid'}}> {Location?.state?.content?.date} </span>
+                        <hr/><br/><br/>
+                    </div>
                 </div>
-                <div className='articleBox2'>
-                    <img src= {Location?.state?.content?.url} alt='cover art'></img><br/>
+                <div className='articleBoxCol2'>
+                    <div className='articleBox3'>
+                        <pre> {Location?.state?.content?.poem} </pre> <br/><br/>
+                    </div>
                 </div>
-                <div className='articleBox3'>
-                    <pre> {Location?.state?.content?.poem} </pre> <br/><br/>
-                </div>
-                <div className='articleBox4'>
-                    <hr/>
-                    <span style={{color:'orchid'}}> WRITTEN BY</span> <br/><br/>
-                    <span style={{color:'purple'}}><strong> Disha Thakuriya </strong></span> <br/><br/>
-                    <span style={{color:'orchid'}}> {Location?.state?.content?.date} </span>
-                    <hr/><br/><br/>
-                </div>
-               
             </div>
 
             <div className='moreArticles'>

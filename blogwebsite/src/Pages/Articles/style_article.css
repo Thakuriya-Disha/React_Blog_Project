@@ -20,10 +20,18 @@
     margin:10px;
 }
 .articleBox{
-    width:400px;
+    width:900px;
+    display:flex;
+    justify-content:space-between;
+    margin-left:5%;
+}
+.articleBoxCol1{
     display:flex;
     flex-direction:column;
-    margin-left:35%;
+    width:400px;
+}
+.articleBoxCol2{
+    padding-top:10%;
 }
 .articleBox h1{
     color:purple;
@@ -61,4 +69,9 @@ pre{
     margin-bottom:5px;
     margin-top:7px;
     filter:drop-shadow(3px 3px 6px grey) drop-shadow(-3px -3px 6px grey);
+}
+.articleBox3 pre{
+    font-family:'Times New Roman', Times, serif;
+    padding-left:30px;
+    font-size:18px;
 }
