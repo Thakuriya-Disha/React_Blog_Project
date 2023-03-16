@@ -32,3 +32,19 @@ pre{
     padding-left:10%;
     color:purple;
 }
+.readMore{
+    display:flex;
+    width:1300px;
+    justify-content:space-between;
+    margin-left:20px;
+}
+.readMoreBox{
+    background-color: lightgrey;
+    width:275px;
+    border:1px solid lightgrey;
+    border-radius:15px;
+    filter:drop-shadow(10px 10px 5px gray);
+}
+.readMoreBox p{
+    padding-left:10px;
+}

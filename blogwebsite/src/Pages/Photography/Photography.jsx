@@ -2,10 +2,16 @@ import './style_photo.css';
 import HeaderCompo from '../../Header/HeaderComponent';
 import React, {useContext} from 'react';
 import {blogData} from '../../Utility/ContextAPI';
+import {useNavigate} from 'react-router-dom';
 
 const Photography = () => {
 
     const [photosList] = useContext(blogData);
+
+    const nav = useNavigate();
+    const toNavigate = (category, id, selectedPhoto) => {
+        nav(`/article/${category}/${id}`, { state: { content: selectedPhoto } });
+    };
 
     return(
         <>
@@ -19,7 +25,7 @@ const Photography = () => {
                         photosList.filter((item) => item.category === 'photography').map((pic) => {
                             return(
                                 <>
-                                <div className='dataFlex' id='{pic.id}'>
+                                <div className='dataFlex' id='{pic.id}' onClick = {() => toNavigate(pic.category, pic.id, pic)} style={{cursor:'pointer'}}>
                                     <div>
                                         <img src={pic.url} alt='photography'></img>
                                     </div>
@@ -42,7 +48,7 @@ const Photography = () => {
                         photosList.filter((item) => item.category === 'photography' && item.featureID === 1).map((pic) => {
                             return(
                                 <>
-                                <div id='{pic.id}' className='firstTP'>
+                                <div id='{pic.id}' className='firstTP' onClick = {() => toNavigate(pic.category, pic.id, pic)} style={{cursor:'pointer'}}>
                                     <img src={pic.url} alt='picture'></img>
                                     <div className='tp1'>
                                         <div>
@@ -65,7 +71,7 @@ const Photography = () => {
                             return(
                                 <>
                             
-                                    <div id='{pic.id}' className='tp'>
+                                    <div id='{pic.id}' className='tp' onClick = {() => toNavigate(pic.category, pic.id, pic)} style={{cursor:'pointer'}}>
                                         <div>
                                             <img src={pic.url} alt='cover art'></img>
                                         </div>
@@ -89,7 +95,7 @@ const Photography = () => {
                             return(
                                 <>
                             
-                                    <div id='{pic.id}' className='tp'>
+                                    <div id='{pic.id}' className='tp' onClick = {() => toNavigate(pic.category, pic.id, pic)} style={{cursor:'pointer'}}>
                                         <div>
                                             <img src={pic.url} alt='cover art'></img>
                                         </div>
@@ -113,7 +119,7 @@ const Photography = () => {
                             return(
                                 <>
                             
-                                    <div id='{pic.id}' className='tp'>
+                                    <div id='{pic.id}' className='tp' onClick = {() => toNavigate(pic.category, pic.id, pic)} style={{cursor:'pointer'}}>
                                         <div>
                                             <img src={pic.url} alt='cover art'></img>
                                         </div>

@@ -2,10 +2,16 @@ import './style_paint.css';
 import HeaderCompo from '../../Header/HeaderComponent';
 import React, {useContext} from 'react';
 import {blogData} from '../../Utility/ContextAPI';
+import {useNavigate} from 'react-router-dom';
 
 const Paintings = () => {
 
     const [artList] = useContext(blogData);
+
+    const nav = useNavigate();
+    const toNavigate = (category, id, selectedArt) => {
+        nav(`/article/${category}/${id}`, { state: { content: selectedArt } });
+    };
 
     return(
         <>
@@ -19,7 +25,7 @@ const Paintings = () => {
                         artList.filter((item) => item.category === 'painting').map((art) => {
                             return(
                                 <>
-                                <div className='dataFlex' id='{art.id}'>
+                                <div className='dataFlex' id='{art.id}' onClick = {() => toNavigate(art.category, art.id, art)} style={{cursor:'pointer'}}>
                                     <div>
                                         <img src={art.url} alt='cover art'></img>
                                     </div>
@@ -42,7 +48,7 @@ const Paintings = () => {
                         artList.filter((item) => item.category === 'painting' && item.featureID === 1).map((art) => {
                             return(
                                 <>
-                                <div id='{art.id}' className='firstTP'>
+                                <div id='{art.id}' className='firstTP' onClick = {() => toNavigate(art.category, art.id, art)} style={{cursor:'pointer'}}>
                                     <img src={art.url} alt='cover art'></img>
                                     <div className='tp1'>
                                         <div>
@@ -65,7 +71,7 @@ const Paintings = () => {
                             return(
                                 <>
                             
-                                    <div id='{art.id}' className='tp'>
+                                    <div id='{art.id}' className='tp' onClick = {() => toNavigate(art.category, art.id, art)} style={{cursor:'pointer'}}>
                                         <div>
                                             <img src={art.url} alt='cover art'></img>
                                         </div>
@@ -89,7 +95,7 @@ const Paintings = () => {
                             return(
                                 <>
                             
-                                    <div id='{art.id}' className='tp'>
+                                    <div id='{art.id}' className='tp' onClick = {() => toNavigate(art.category, art.id, art)} style={{cursor:'pointer'}}>
                                         <div>
                                             <img src={art.url} alt='cover art'></img>
                                         </div>
@@ -113,7 +119,7 @@ const Paintings = () => {
                             return(
                                 <>
                             
-                                    <div id='{art.id}' className='tp'>
+                                    <div id='{art.id}' className='tp' onClick = {() => toNavigate(art.category, art.id, art)} style={{cursor:'pointer'}}>
                                         <div>
                                             <img src={art.url} alt='cover art'></img>
                                         </div>

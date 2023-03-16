@@ -2,10 +2,16 @@ import './style_music.css';
 import HeaderCompo from '../../Header/HeaderComponent';
 import React, {useContext} from 'react';
 import {blogData} from '../../Utility/ContextAPI';
+import {useNavigate} from 'react-router-dom';
 
 const Music = () => {
 
     const [musicList] = useContext(blogData);
+
+    const nav = useNavigate();
+    const toNavigate = (category, id, selectedAlbum) => {
+        nav(`/article/${category}/${id}`, { state: { content: selectedAlbum } });
+    };
 
     return(
         <>
@@ -19,7 +25,7 @@ const Music = () => {
                         musicList.filter((item) => item.category === 'music').map((song) => {
                             return(
                                 <>
-                                <div className='dataFlex' id='{song.id}'>
+                                <div className='dataFlex' id='{song.id}' onClick = {() => toNavigate(song.category, song.id, song)} style={{cursor:'pointer'}}>
                                     <div>
                                         <img src={song.url} alt='cover art'></img>
                                     </div>
@@ -42,7 +48,7 @@ const Music = () => {
                         musicList.filter((item) => item.category === 'music' && item.featureID === 1).map((song) => {
                             return(
                                 <>
-                                <div id='{song.id}' className='firstTP'>
+                                <div id='{song.id}' className='firstTP' onClick = {() => toNavigate(song.category, song.id, song)} style={{cursor:'pointer'}}>
                                     <img src={song.url} alt='cover art'></img>
                                     <div className='tp1'>
                                         <div>
@@ -65,7 +71,7 @@ const Music = () => {
                             return(
                                 <>
                             
-                                    <div id='{song.id}' className='tp'>
+                                    <div id='{song.id}' className='tp' onClick = {() => toNavigate(song.category, song.id, song)} style={{cursor:'pointer'}}>
                                         <div>
                                             <img src={song.url} alt='cover art'></img>
                                         </div>
@@ -89,7 +95,7 @@ const Music = () => {
                             return(
                                 <>
                             
-                                    <div id='{song.id}' className='tp'>
+                                    <div id='{song.id}' className='tp' onClick = {() => toNavigate(song.category, song.id, song)} style={{cursor:'pointer'}}>
                                         <div>
                                             <img src={song.url} alt='cover art'></img>
                                         </div>
@@ -113,7 +119,7 @@ const Music = () => {
                             return(
                                 <>
                             
-                                    <div id='{song.id}' className='tp'>
+                                    <div id='{song.id}' className='tp' onClick = {() => toNavigate(song.category, song.id, song)} style={{cursor:'pointer'}}>
                                         <div>
                                             <img src={song.url} alt='cover art'></img>
                                         </div>

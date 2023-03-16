@@ -48,7 +48,7 @@ const Poetry = () => {
                         poemsList.filter((item) => item.category === 'poetry' && item.featureID === 1).map((poem) => {
                             return(
                                 <>
-                                <div id='{poem.id}' className='firstTP'>
+                                <div id='{poem.id}' className='firstTP' onClick = {() => toNavigate(poem.category, poem.id, poem)} style={{cursor:'pointer'}}>
                                     <img src={poem.url} alt='cover art'></img>
                                     <div className='tp1'>
                                         <div>
@@ -71,7 +71,7 @@ const Poetry = () => {
                             return(
                                 <>
                             
-                                    <div id='{poem.id}' className='tp'>
+                                    <div id='{poem.id}' className='tp' onClick = {() => toNavigate(poem.category, poem.id, poem)} style={{cursor:'pointer'}}>
                                         <div>
                                             <img src={poem.url} alt='cover art'></img>
                                         </div>
@@ -95,7 +95,7 @@ const Poetry = () => {
                             return(
                                 <>
                             
-                                    <div id='{poem.id}' className='tp'>
+                                    <div id='{poem.id}' className='tp' onClick = {() => toNavigate(poem.category, poem.id, poem)} style={{cursor:'pointer'}}>
                                         <div>
                                             <img src={poem.url} alt='cover art'></img>
                                         </div>
@@ -119,7 +119,7 @@ const Poetry = () => {
                             return(
                                 <>
                             
-                                    <div id='{poem.id}' className='tp'>
+                                    <div id='{poem.id}' className='tp' onClick = {() => toNavigate(poem.category, poem.id, poem)} style={{cursor:'pointer'}}>
                                         <div>
                                             <img src={poem.url} alt='cover art'></img>
                                         </div>

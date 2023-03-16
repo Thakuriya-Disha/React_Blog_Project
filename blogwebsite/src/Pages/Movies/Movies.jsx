@@ -48,7 +48,7 @@ const Movies = () => {
                         moviesList.filter((item) => item.category === 'movie' && item.featureID === 1).map((film) => {
                             return(
                                 <>
-                                <div id='{film.id}' className='firstTP'>
+                                <div id='{film.id}' className='firstTP' onClick = {() => toNavigate(film.category, film.id, film)} style={{cursor:'pointer'}}>
                                     <img src={film.url} alt='cover art'></img>
                                     <div className='tp1'>
                                         <div>
@@ -71,7 +71,7 @@ const Movies = () => {
                             return(
                                 <>
                             
-                                    <div id='{film.id}' className='tp'>
+                                    <div id='{film.id}' className='tp' onClick = {() => toNavigate(film.category, film.id, film)} style={{cursor:'pointer'}}>
                                         <div>
                                             <img src={film.url} alt='cover art'></img>
                                         </div>
@@ -95,7 +95,7 @@ const Movies = () => {
                             return(
                                 <>
                             
-                                    <div id='{film.id}' className='tp'>
+                                    <div id='{film.id}' className='tp' onClick = {() => toNavigate(film.category, film.id, film)} style={{cursor:'pointer'}}>
                                         <div>
                                             <img src={film.url} alt='cover art'></img>
                                         </div>
@@ -119,7 +119,7 @@ const Movies = () => {
                             return(
                                 <>
                             
-                                    <div id='{poem.id}' className='tp'>
+                                    <div id='{poem.id}' className='tp' onClick = {() => toNavigate(film.category, film.id, film)} style={{cursor:'pointer'}}>
                                         <div>
                                             <img src={film.url} alt='cover art'></img>
                                         </div>
