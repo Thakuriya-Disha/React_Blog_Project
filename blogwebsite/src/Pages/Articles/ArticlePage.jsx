@@ -1,5 +1,5 @@
 import React, {useContext} from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 import './style_article.css';
 import {blogData} from '../../Utility/ContextAPI';
 import {useNavigate} from 'react-router-dom';
@@ -17,6 +17,14 @@ const ArticlePage = () => {
         <>
             <div className='titlebox'>
                 <h2>La Luna</h2>
+                <div className='theNav'>
+                    <Link to={"/"} style={{textDecoration:'none',color:'violet'}}> <h3>HOME</h3> </Link>
+                    <Link to={"/poetry"} style={{textDecoration:'none',color:'violet'}}> <h3>POETRY</h3> </Link>
+                    <Link to={"/music"} style={{textDecoration:'none',color:'violet'}}> <h3>MUSIC</h3> </Link>
+                    <Link to={"/paintings"} style={{textDecoration:'none',color:'violet'}}> <h3>PAINTINGS</h3> </Link>
+                    <Link to={"/kdramas"} style={{textDecoration:'none',color:'violet'}}> <h3>K-DRAMAS</h3> </Link>
+                    <Link to={"/photography"} style={{textDecoration:'none',color:'violet'}}> <h3>PHOTOGRAPHY</h3> </Link>
+                </div>
             </div>
             <br/><br/>
             
@@ -54,15 +62,15 @@ const ArticlePage = () => {
                 {
                     readMoreList.filter((item) => item.id === Location?.state?.content?.id-2).map((data) => {
                     return(
-                        <>
-                        <div id={data.id} onClick = {() => toNavigate(data.category, data.id, data)} style={{cursor:'pointer'}}>
-                        <img src={data.url} alt='pic' style={{width:'250px',height:'220px',border:'1px solid lightgrey',borderRadius:'15px 15px 0px 0px'}}></img><br/>
-                        <span style={{color:'grey', textTransform:'uppercase', fontWeight:'bold'}}> {data.category} </span><br/>
-                        <span style={{color:'black',fontSize:'20px',fontWeight:'bold'}}> {data.title} </span><br/>
-                        <span> By Disha Thakuriya </span><br/>
-                        <span style={{color:'grey'}}> {data.date} </span>
-                        </div>
-                        </>
+                    <>
+                    <div id={data.id} onClick = {() => toNavigate(data.category, data.id, data)} style={{cursor:'pointer'}}>
+                        <span style={{color:'darkorchid', textTransform:'uppercase', fontWeight:'bold'}}> {data.category} </span><br/>
+                        <img src={data.url} alt='pic' style={{width:'250px',height:'220px'}}></img><br/>
+                        <span style={{color:'purple',fontSize:'21px',fontWeight:'bold'}}> {data.title} </span><br/>
+                        <span> By Disha Thakuriya </span><br/><br/>
+                        <span style={{color:'purple'}}> {data.date} </span> <br/>
+                    </div>
+                    </>
                     );
                     })
                 }
@@ -72,15 +80,15 @@ const ArticlePage = () => {
                 {
                     readMoreList.filter((item) => item.id === Location?.state?.content?.id-1).map((data) => {
                     return(
-                        <>
-                        <div id={data.id} onClick = {() => toNavigate(data.category, data.id, data)} style={{cursor:'pointer'}}>
-                        <img src={data.url} alt='pic' style={{width:'250px',height:'220px',border:'1px solid lightgrey',borderRadius:'15px 15px 0px 0px'}}></img><br/>
-                        <span style={{color:'grey', textTransform:'uppercase', fontWeight:'bold'}}> {data.category} </span><br/>
-                        <span style={{color:'black',fontSize:'20px',fontWeight:'bold'}}> {data.title} </span><br/>
-                        <span> By Disha Thakuriya </span><br/>
-                        <span style={{color:'grey'}}> {data.date} </span>
-                        </div>
-                        </>
+                    <>
+                     <div id={data.id} onClick = {() => toNavigate(data.category, data.id, data)} style={{cursor:'pointer'}}>
+                        <span style={{color:'darkorchid', textTransform:'uppercase', fontWeight:'bold'}}> {data.category} </span><br/>
+                        <img src={data.url} alt='pic' style={{width:'250px',height:'220px'}}></img><br/>
+                        <span style={{color:'purple',fontSize:'21px',fontWeight:'bold'}}> {data.title} </span><br/>
+                        <span> By Disha Thakuriya </span><br/><br/>
+                        <span style={{color:'purple'}}> {data.date} </span> <br/>
+                    </div>
+                    </>
                     );
                     })
                 }
@@ -90,15 +98,15 @@ const ArticlePage = () => {
                 {
                     readMoreList.filter((item) => item.id === Location?.state?.content?.id+1).map((data) => {
                     return(
-                        <>
-                        <div id={data.id} onClick = {() => toNavigate(data.category, data.id, data)} style={{cursor:'pointer'}}>
-                        <img src={data.url} alt='pic' style={{width:'250px',height:'220px',border:'1px solid lightgrey',borderRadius:'15px 15px 0px 0px'}}></img><br/>
-                        <span style={{color:'grey', textTransform:'uppercase', fontWeight:'bold'}}> {data.category} </span><br/>
-                        <span style={{color:'black',fontSize:'20px',fontWeight:'bold'}}> {data.title} </span><br/>
-                        <span> By Disha Thakuriya </span><br/>
-                        <span style={{color:'grey'}}> {data.date} </span>
-                        </div>
-                        </>
+                    <>
+                     <div id={data.id} onClick = {() => toNavigate(data.category, data.id, data)} style={{cursor:'pointer'}}>
+                        <span style={{color:'darkorchid', textTransform:'uppercase', fontWeight:'bold'}}> {data.category} </span><br/>
+                        <img src={data.url} alt='pic' style={{width:'250px',height:'220px'}}></img><br/>
+                        <span style={{color:'purple',fontSize:'21px',fontWeight:'bold'}}> {data.title} </span><br/>
+                        <span> By Disha Thakuriya </span><br/><br/>
+                        <span style={{color:'purple'}}> {data.date} </span> <br/>
+                    </div>
+                    </>
                     );
                     })
                 }
@@ -108,15 +116,15 @@ const ArticlePage = () => {
                 {
                     readMoreList.filter((item) => item.id === Location?.state?.content?.id+2).map((data) => {
                     return(
-                        <>
-                        <div id={data.id} onClick = {() => toNavigate(data.category, data.id, data)} style={{cursor:'pointer'}}>
-                        <img src={data.url} alt='pic' style={{width:'250px',height:'220px',border:'1px solid lightgrey',borderRadius:'15px 15px 0px 0px'}}></img><br/>
-                        <span style={{color:'grey', textTransform:'uppercase', fontWeight:'bold'}}> {data.category} </span><br/>
-                        <span style={{color:'black',fontSize:'20px',fontWeight:'bold'}}> {data.title} </span><br/>
-                        <span> By Disha Thakuriya </span><br/>
-                        <span style={{color:'grey'}}> {data.date} </span>
-                        </div>
-                        </>
+                    <>
+                    <div id={data.id} onClick = {() => toNavigate(data.category, data.id, data)} style={{cursor:'pointer'}}>
+                        <span style={{color:'darkorchid', textTransform:'uppercase', fontWeight:'bold'}}> {data.category} </span><br/>
+                        <img src={data.url} alt='pic' style={{width:'250px',height:'220px'}}></img><br/>
+                        <span style={{color:'purple',fontSize:'21px',fontWeight:'bold'}}> {data.title} </span><br/>
+                        <span> By Disha Thakuriya </span><br/><br/>
+                        <span style={{color:'purple'}}> {data.date} </span> <br/>
+                    </div>
+                    </>
                     );
                     })
                 }

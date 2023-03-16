@@ -1,11 +1,23 @@
 .titlebox{
     border:1px solid grey;
     margin:0px;
-    box-shadow:10px 0px 5px grey;
-    height:75px;
+    height:70px;
     background-image:linear-gradient(to bottom,purple,midnightblue);
     color:violet;
     padding-left:5%;
+    padding-top:3%;
+    filter:drop-shadow(35px 0px 20px black);
+}
+.titlebox h2{
+    display:inline;
+}
+.theNav{
+    display:inline;
+    margin-left:33%;
+}
+.theNav h3{
+    display:inline;
+    margin:10px;
 }
 .articleBox{
     width:400px;
@@ -39,17 +51,14 @@ pre{
     margin-left:20px;
 }
 .readMoreBox{
-    background-color: lightgrey;
-    width:250px;
-    border:1px solid lightgrey;
-    border-radius:15px;
-    
+    width:252px;
     height:315px;
-}
-.readMoreBox span{
-   
-    padding:7px 0px 5px 10px;
 }
 .moreArticles hr{
     width:1220px;
+}
+.readMoreBox img{
+    margin-bottom:5px;
+    margin-top:7px;
+    filter:drop-shadow(3px 3px 6px grey) drop-shadow(-3px -3px 6px grey);
 }
