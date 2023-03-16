@@ -21,8 +21,8 @@ const NavBar = () => {
                 <div>PAINTINGS</div>
             </Link>
 
-            <Link to={"/movies"} style={{textDecoration:'none',color:'indigo'}}>
-                <div>MOVIES</div>
+            <Link to={"/kdramas"} style={{textDecoration:'none',color:'indigo'}}>
+                <div>K-DRAMAS</div>
             </Link>
 
             <Link to={"/photography"} style={{textDecoration:'none',color:'indigo'}}>

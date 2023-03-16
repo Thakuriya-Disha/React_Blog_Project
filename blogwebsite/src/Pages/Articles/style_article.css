@@ -5,7 +5,7 @@
     height:75px;
     background-image:linear-gradient(to bottom,purple,midnightblue);
     color:violet;
-    padding-left:10%;
+    padding-left:5%;
 }
 .articleBox{
     width:400px;
@@ -25,26 +25,31 @@ pre{
     margin-left:-80px;
 }
 .moreArticles{
-    height:300px;
+    height:500px;
     background-image:linear-gradient(to bottom, rgb(244, 230, 250), thistle, rgb(145, 120, 145));
 }
-.moreArticles h3{
-    padding-left:10%;
+.moreArticles h2{
+    padding-left:5%;
     color:purple;
 }
 .readMore{
     display:flex;
     width:1300px;
-    justify-content:space-between;
+    justify-content:space-around;
     margin-left:20px;
 }
 .readMoreBox{
     background-color: lightgrey;
-    width:275px;
+    width:250px;
     border:1px solid lightgrey;
     border-radius:15px;
-    filter:drop-shadow(10px 10px 5px gray);
+    
+    height:315px;
 }
-.readMoreBox p{
-    padding-left:10px;
+.readMoreBox span{
+   
+    padding:7px 0px 5px 10px;
+}
+.moreArticles hr{
+    width:1220px;
 }

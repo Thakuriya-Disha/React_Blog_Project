@@ -20,9 +20,9 @@ const Movies = () => {
             <div className='pageColumns'>
 
                 <div className='col1'>
-                    <h1>Movies</h1>
+                    <h1>K-DRAMAS</h1>
                     {
-                        moviesList.filter((item) => item.category === 'movie').map((film) => {
+                        moviesList.filter((item) => item.category === 'kdramas').map((film) => {
                             return(
                                 <>
                                 <div className='dataFlex' id='{film.id}' onClick = {() => toNavigate(film.category, film.id, film)} style={{cursor:'pointer'}}>
@@ -45,7 +45,7 @@ const Movies = () => {
                 <div className='col2'>
                     <h1>Top Posts</h1>
                     {
-                        moviesList.filter((item) => item.category === 'movie' && item.featureID === 1).map((film) => {
+                        moviesList.filter((item) => item.category === 'kdramas' && item.featureID === 1).map((film) => {
                             return(
                                 <>
                                 <div id='{film.id}' className='firstTP' onClick = {() => toNavigate(film.category, film.id, film)} style={{cursor:'pointer'}}>
@@ -67,7 +67,7 @@ const Movies = () => {
                     }
 
                     {
-                        moviesList.filter((item) => item.category === 'movie' && item.featureID === 2).map((film) => {
+                        moviesList.filter((item) => item.category === 'kdramas' && item.featureID === 2).map((film) => {
                             return(
                                 <>
                             
@@ -91,7 +91,7 @@ const Movies = () => {
                     }
 
                     {
-                        moviesList.filter((item) => item.category === 'movie' && item.featureID === 3).map((film) => {
+                        moviesList.filter((item) => item.category === 'kdramas' && item.featureID === 3).map((film) => {
                             return(
                                 <>
                             
@@ -115,7 +115,7 @@ const Movies = () => {
                     }
 
                     {
-                        moviesList.filter((item) => item.category === 'movie' && item.featureID === 4).map((film) => {
+                        moviesList.filter((item) => item.category === 'kdramas' && item.featureID === 4).map((film) => {
                             return(
                                 <>
                             
@@ -137,6 +137,8 @@ const Movies = () => {
                             );
                         })
                     }
+                    <br/><br/>
+                    <div className='adCol'></div>
                 </div>
             </div>
         </>

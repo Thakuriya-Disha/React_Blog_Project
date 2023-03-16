@@ -12,7 +12,7 @@ const RouterComponent = () => {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<HomePage />} />
-                <Route path="/movies" element={<Movies />} />
+                <Route path="/kdramas" element={<Movies />} />
                 <Route path="/poetry" element={<Poetry />} />
                 <Route path="/paintings" element={<Paintings />} />
                 <Route path="/music" element={<Music />} />

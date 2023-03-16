@@ -59,3 +59,11 @@
     opacity:0.7;
     margin-left:125px;
 }
+.adCol{
+    border:1px solid grey;
+    width:310px;
+    height:900px;
+    background-image:url(https://newspaperads.ads2publish.com/wp-content/uploads/2019/06/mynta-end-of-reason-sale-shop-now-ad-times-of-india-delhi-22-06-2019-250x718.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+}

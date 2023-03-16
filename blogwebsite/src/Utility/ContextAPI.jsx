@@ -10,10 +10,9 @@ function ContextAPI(props){
             id:1,
             url:"https://st.depositphotos.com/1742359/3712/v/600/depositphotos_37128855-stock-illustration-full-moon-vector.jpg",
             title:"The Moon Song",
-            description:`This poem is by a person who has always been fascinated by the Moon. Her love language is writing Poems and gazing at the Moon.
-            Thus the Moon Song was born. Sometimes in life we find people who are like the Moon- beautiful, 
+            description:`The poet is a moonchild. A hopeless romantic, forever fascinated by the Moon.
+            Sometimes in life we find people who are like the Moon- beautiful, 
             helpful, guiding us through the nights. This is dedicated to those kind of people.`,
-            oneliner: `Sometimes in life we find people who are like the Moon.`,
             theme:"Promise",
             date:"4th Mar 2023",
             featureID:3,
@@ -40,7 +39,6 @@ function ContextAPI(props){
             title:"Winter Sun",
             description:`What's your favourite season? Mine is the Winter. The Sun has such a soft glow in the 
             winters, oozing comfort. Sometimes we meet people who light up our lives and shine just like the Winter Sun.`,
-            oneliner:`The Sun is so soft in winters. Some people are just like that Winter Sun.`,
             theme:"Gratitude",
             date:"27th Feb 2023",
             featureID:6
@@ -52,7 +50,6 @@ function ContextAPI(props){
             title:"Books Had Warned",
             description:`One might often hear "history repeats itself". Ever wonder why does it happen? Or most importantly, 
             what joy do we get from being adamant to keep repeating mistakes?`,
-            oneliner:`The eons-old story of "history repeats itself"`,
             theme:"Introspective",
             date:"23rd Feb 2023",
             featureID:5
@@ -309,7 +306,7 @@ function ContextAPI(props){
             featureID:7
         },
         {
-            category:"movie",
+            category:"kdramas",
             id:29,
             url:"https://cdn.theatlantic.com/thumbor/JNvwX6hgB9qJmFhE0pSfnMQs050=/101x0:1398x973/1200x900/media/img/mt/2019/12/little/original.jpg",
             title:"Little Women",
@@ -319,7 +316,7 @@ function ContextAPI(props){
             featureID:4
         },
         {
-            category:"movie",
+            category:"kdramas",
             id:30,
             url:"https://people.com/thmb/03guWi6JNe_J2y4rpvApgDRiK_k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(511x0:513x2)/matthew-mcconaughney-1024-96a54219af2d4b148163dfe3381e7336.jpg",
             title:"Interstellar",
@@ -329,7 +326,7 @@ function ContextAPI(props){
             featureID:1
         },
         {
-            category:"movie",
+            category:"kdramas",
             id:31,
             url:"https://c4.wallpaperflare.com/wallpaper/947/272/849/anime-your-name-kimi-no-na-wa-mitsuha-miyamizu-wallpaper-preview.jpg",
             title:"Your Name",
@@ -339,7 +336,7 @@ function ContextAPI(props){
             featureID:3
         },
         {
-            category:"movie",
+            category:"kdramas",
             id:32,
             url:"https://i.pinimg.com/originals/c7/2d/43/c72d43e7dc086597bc9f6caa2a960055.jpg",
             title:"The Box",
@@ -350,7 +347,7 @@ function ContextAPI(props){
             rating:4
         },
         {
-            category:"movie",
+            category:"kdramas",
             id:33,
             url:"https://static01.nyt.com/images/2020/01/26/arts/26before-sunrise1/26before-sunrise1-superJumbo.jpg",
             title:"Before Sunrise",
@@ -360,7 +357,7 @@ function ContextAPI(props){
             featureID:2
         },
         {
-            category:"movie",
+            category:"kdramas",
             id:34,
             url:"https://static01.nyt.com/images/2020/01/26/arts/26before-sunrise1/26before-sunrise1-superJumbo.jpg",
             title:"Before Sunrise",
@@ -370,7 +367,7 @@ function ContextAPI(props){
             featureID:6
         },
         {
-            category:"movie",
+            category:"kdramas",
             id:35,
             url:"https://static01.nyt.com/images/2020/01/26/arts/26before-sunrise1/26before-sunrise1-superJumbo.jpg",
             title:"Before Sunrise",

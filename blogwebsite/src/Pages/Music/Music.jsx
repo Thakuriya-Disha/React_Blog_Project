@@ -137,6 +137,8 @@ const Music = () => {
                             );
                         })
                     }
+                    <br/><br/>
+                    <div className='adCol'></div>
                 </div>
             </div>
         </>

@@ -24,7 +24,7 @@ const ArticlePage = () => {
                 
                 <div className='articleBox1'>
                     <h1> {Location?.state?.content?.title} </h1>
-                    <span><strong>Disha Thakuriya</strong></span><br/>
+                    <span> Disha Thakuriya </span><br/>
                     <span style={{color:'orchid'}}> {Location?.state?.content?.date} </span> <br/><br/>
                 </div>
                 <div className='articleBox2'>
@@ -39,27 +39,27 @@ const ArticlePage = () => {
                     <span style={{color:'purple'}}><strong> Disha Thakuriya </strong></span> <br/><br/>
                     <span style={{color:'orchid'}}> {Location?.state?.content?.date} </span>
                     <hr/><br/><br/>
-                    <img src='./media/beauty.png'></img>
                 </div>
                
             </div>
 
             <div className='moreArticles'>
                 <br/>
-                <h3>More from La Luna</h3>
-                <hr/>
+                <h2>More from La Luna</h2>
+                <hr/><br/><br/>
 
                 <div className='readMore'>
 
                 <div className='readMoreBox'>
                 {
-                    readMoreList.filter((item) => item.category === Location?.state?.content?.category && item.id === Location?.state?.content?.id-2).map((data) => {
+                    readMoreList.filter((item) => item.id === Location?.state?.content?.id-2).map((data) => {
                     return(
                         <>
                         <div id={data.id} onClick = {() => toNavigate(data.category, data.id, data)} style={{cursor:'pointer'}}>
-                        <img src={data.url} alt='pic' style={{width:'275px',height:'220px',border:'1px solid lightgrey',borderRadius:'15px 15px 0px 0px'}}></img><br/>
-                        <h3> {data.title} </h3>
-                        <p><strong> Disha Thakuriya </strong></p>
+                        <img src={data.url} alt='pic' style={{width:'250px',height:'220px',border:'1px solid lightgrey',borderRadius:'15px 15px 0px 0px'}}></img><br/>
+                        <span style={{color:'grey', textTransform:'uppercase', fontWeight:'bold'}}> {data.category} </span><br/>
+                        <span style={{color:'black',fontSize:'20px',fontWeight:'bold'}}> {data.title} </span><br/>
+                        <span> By Disha Thakuriya </span><br/>
                         <span style={{color:'grey'}}> {data.date} </span>
                         </div>
                         </>
@@ -70,13 +70,14 @@ const ArticlePage = () => {
 
                 <div className='readMoreBox'>
                 {
-                    readMoreList.filter((item) => item.category === Location?.state?.content?.category && item.id === Location?.state?.content?.id-1).map((data) => {
+                    readMoreList.filter((item) => item.id === Location?.state?.content?.id-1).map((data) => {
                     return(
                         <>
                         <div id={data.id} onClick = {() => toNavigate(data.category, data.id, data)} style={{cursor:'pointer'}}>
-                        <img src={data.url} alt='pic' style={{width:'275px',height:'220px',border:'1px solid lightgrey',borderRadius:'15px 15px 0px 0px'}}></img><br/>
-                        <h3> {data.title} </h3>
-                        <p><strong> Disha Thakuriya </strong></p>
+                        <img src={data.url} alt='pic' style={{width:'250px',height:'220px',border:'1px solid lightgrey',borderRadius:'15px 15px 0px 0px'}}></img><br/>
+                        <span style={{color:'grey', textTransform:'uppercase', fontWeight:'bold'}}> {data.category} </span><br/>
+                        <span style={{color:'black',fontSize:'20px',fontWeight:'bold'}}> {data.title} </span><br/>
+                        <span> By Disha Thakuriya </span><br/>
                         <span style={{color:'grey'}}> {data.date} </span>
                         </div>
                         </>
@@ -87,13 +88,14 @@ const ArticlePage = () => {
 
                 <div className='readMoreBox'>
                 {
-                    readMoreList.filter((item) => item.category === Location?.state?.content?.category && item.id === Location?.state?.content?.id+1).map((data) => {
+                    readMoreList.filter((item) => item.id === Location?.state?.content?.id+1).map((data) => {
                     return(
                         <>
                         <div id={data.id} onClick = {() => toNavigate(data.category, data.id, data)} style={{cursor:'pointer'}}>
-                        <img src={data.url} alt='pic' style={{width:'275px',height:'220px',border:'1px solid lightgrey',borderRadius:'15px 15px 0px 0px'}}></img><br/>
-                        <h3> {data.title} </h3>
-                        <p><strong> Disha Thakuriya </strong></p>
+                        <img src={data.url} alt='pic' style={{width:'250px',height:'220px',border:'1px solid lightgrey',borderRadius:'15px 15px 0px 0px'}}></img><br/>
+                        <span style={{color:'grey', textTransform:'uppercase', fontWeight:'bold'}}> {data.category} </span><br/>
+                        <span style={{color:'black',fontSize:'20px',fontWeight:'bold'}}> {data.title} </span><br/>
+                        <span> By Disha Thakuriya </span><br/>
                         <span style={{color:'grey'}}> {data.date} </span>
                         </div>
                         </>
@@ -104,13 +106,14 @@ const ArticlePage = () => {
 
                 <div className='readMoreBox'>
                 {
-                    readMoreList.filter((item) => item.category === Location?.state?.content?.category && item.id === Location?.state?.content?.id+2).map((data) => {
+                    readMoreList.filter((item) => item.id === Location?.state?.content?.id+2).map((data) => {
                     return(
                         <>
                         <div id={data.id} onClick = {() => toNavigate(data.category, data.id, data)} style={{cursor:'pointer'}}>
-                        <img src={data.url} alt='pic' style={{width:'275px',height:'220px',border:'1px solid lightgrey',borderRadius:'15px 15px 0px 0px'}}></img><br/>
-                        <h3> {data.title} </h3>
-                        <p><strong> Disha Thakuriya </strong></p>
+                        <img src={data.url} alt='pic' style={{width:'250px',height:'220px',border:'1px solid lightgrey',borderRadius:'15px 15px 0px 0px'}}></img><br/>
+                        <span style={{color:'grey', textTransform:'uppercase', fontWeight:'bold'}}> {data.category} </span><br/>
+                        <span style={{color:'black',fontSize:'20px',fontWeight:'bold'}}> {data.title} </span><br/>
+                        <span> By Disha Thakuriya </span><br/>
                         <span style={{color:'grey'}}> {data.date} </span>
                         </div>
                         </>

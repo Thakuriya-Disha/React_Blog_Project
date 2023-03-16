@@ -14,7 +14,7 @@
     width:275px;
     border:1px solid lightgrey;
     border-radius:15px;
-    filter:drop-shadow(10px 10px 5px gray);
+    filter:drop-shadow(10px 10px 10px gray);
 }
 .box1 p{
     padding-left:10px;
@@ -56,13 +56,20 @@
 }
 .latestBox3{
     display:flex;
-    width:1300px;
+    width:1290px;
     margin-left:20px;
     justify-content:space-between;
 }
 .box31{
     width:845px;
     height:450px;
+    background-image:url(https://images.herzindagi.info/image/2023/Mar/international-womens-day-wishes.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.box31Ad{
+    width:845px;
+    height:120px;
     background-image:url(https://images.herzindagi.info/image/2023/Mar/international-womens-day-wishes.jpg);
     background-repeat:no-repeat;
     background-size:cover;
@@ -75,4 +82,18 @@
     color:white;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-bottom:10px;
+}
+.box32{
+    width:350px;
+}
+.latestBox4{
+    display:flex;
+    width:1300px;
+    justify-content:space-between;
+    margin-left:20px;
+}
+.latestBox4 div{
+    width:275px;
+    margin-left:15px;
+    height:300px;
 }

@@ -137,6 +137,10 @@ const Photography = () => {
                             );
                         })
                     }
+
+                    <br/><br/>
+                    <div className='adCol'></div>
+
                 </div>
             </div>
         </>
