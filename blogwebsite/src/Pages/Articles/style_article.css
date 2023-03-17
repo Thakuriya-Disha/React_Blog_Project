@@ -20,7 +20,7 @@
     margin:10px;
 }
 .articleBox{
-    width:900px;
+    width:950px;
     display:flex;
     justify-content:space-between;
     margin-left:5%;
@@ -30,19 +30,12 @@
     flex-direction:column;
     width:400px;
 }
-.articleBoxCol2{
-    padding-top:10%;
-}
 .articleBox h1{
     color:purple;
 }
 .articleBox2 img{
     width:400px;
     height:400px;
-}
-pre{
-    width:400px;
-    margin-left:-80px;
 }
 .moreArticles{
     height:500px;
@@ -59,8 +52,11 @@ pre{
     margin-left:20px;
 }
 .readMoreBox{
-    width:252px;
     height:315px;
+    display:flex;
+    width:1300px;
+    justify-content:space-around;
+    margin-left:20px;
 }
 .moreArticles hr{
     width:1220px;
@@ -72,6 +68,5 @@ pre{
 }
 .articleBox3 pre{
     font-family:'Times New Roman', Times, serif;
-    padding-left:30px;
     font-size:18px;
 }

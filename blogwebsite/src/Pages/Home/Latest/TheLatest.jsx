@@ -213,55 +213,7 @@ const TheLatest = () => {
                     }
 
                     {
-                        latestList.filter((item) => item.id === 17).map((data) => {
-                            return(
-                                <>
-                            
-                                    <div id='{data.id}' className='tp' onClick = {() => toNavigate(data.category, data.id, data)} style={{cursor:'pointer'}}>
-                                        <div>
-                                            <img src={data.url} alt='cover art'></img>
-                                        </div>
-                                        <div>
-                                            <h3>{data.title}</h3>
-                                            <span>{data.theme} / {data.date}</span>
-                                        </div>
-                                        <div>
-                                            <h2> {data.featureID} </h2>
-                                        </div>
-                                    </div>
-                                    <hr/>   
-                                
-                                </>
-                            );
-                        })
-                    }
-
-                    {
-                        latestList.filter((item) => item.id === 25).map((data) => {
-                            return(
-                                <>
-                            
-                                    <div id='{data.id}' className='tp' onClick = {() => toNavigate(data.category, data.id, data)} style={{cursor:'pointer'}}>
-                                        <div>
-                                            <img src={data.url} alt='cover art'></img>
-                                        </div>
-                                        <div>
-                                            <h3>{data.title}</h3>
-                                            <span>{data.theme} / {data.date}</span>
-                                        </div>
-                                        <div>
-                                            <h2> {data.featureID} </h2>
-                                        </div>
-                                    </div>
-                                    <hr/>   
-                                
-                                </>
-                            );
-                        })
-                    }
-
-                    {
-                        latestList.filter((item) => item.id === 29).map((data) => {
+                        latestList.filter((item) => item.id === 17 || item.id === 25 || item.id === 29).map((data) => {
                             return(
                                 <>
                             
@@ -292,7 +244,7 @@ const TheLatest = () => {
             <div className='latestBox4'>
                 
                 {
-                    latestList.filter((item) => item.category === 'poetry' && item.id === 1).map((data) => {
+                    latestList.filter((item) => (item.category === 'poetry') && ((item.id === 1) || (item.id === 2) || (item.id === 3) || (item.id === 4))).map((data) => {
                     return(
                         <>
                         <div id='{data.id}' onClick = {() => toNavigate(data.category, data.id, data)} style={{cursor:'pointer'}}>
@@ -303,63 +255,13 @@ const TheLatest = () => {
                              / <span style={{color:'grey',textTransform:'uppercase'}}> {data.date} </span>
                         </div>
                         <hr/>
-                        </>
-                    );
-                    })
-                }
-
-                {
-                    latestList.filter((item) => item.category === 'poetry' && item.id === 2).map((data) => {
-                    return(
-                        <>
-                        <div id='{data.id}' onClick = {() => toNavigate(data.category, data.id, data)} style={{cursor:'pointer'}}>
-                            <h2 style={{color:'purple'}}> {data.title} </h2>
-                            <p style={{fontSize:'18px'}}> {data.description} </p>
-                            <br/>
-                            <span style={{textTransform:'uppercase'}}> {data.theme} </span>
-                             / <span style={{color:'grey',textTransform:'uppercase'}}> {data.date} </span>
-                        </div>
-                        <hr/>
-                        </>
-                    );
-                    })
-                }
-
-                {
-                    latestList.filter((item) => item.category === 'poetry' && item.id === 3).map((data) => {
-                    return(
-                        <>
-                        <div id='{data.id}' onClick = {() => toNavigate(data.category, data.id, data)} style={{cursor:'pointer'}}>
-                            <h2 style={{color:'purple'}}> {data.title} </h2>
-                            <p style={{fontSize:'18px'}}> {data.description} </p>
-                            <br/>
-                            <span style={{textTransform:'uppercase'}}> {data.theme} </span>
-                             / <span style={{color:'grey',textTransform:'uppercase'}}> {data.date} </span>
-                        </div>
-                        <hr/>
-                        </>
-                    );
-                    })
-                }
-
-                {
-                    latestList.filter((item) => item.category === 'poetry' && item.id === 4).map((data) => {
-                    return(
-                        <>
-                        <div id='{data.id}' onClick = {() => toNavigate(data.category, data.id, data)} style={{cursor:'pointer'}}>
-                            <h2 style={{color:'purple'}}> {data.title} </h2>
-                            <p style={{fontSize:'18px'}}> {data.description} </p>
-                            <br/>
-                            <span style={{textTransform:'uppercase'}}> {data.theme} </span>
-                             / <span style={{color:'grey',textTransform:'uppercase'}}> {data.date} </span>
-                        </div>
                         </>
                     );
                     })
                 }
 
             </div>
-            <hr style={{width:'1270px'}}></hr> <br/><br/><br/><br/>
+            <br/><hr style={{width:'1270px'}}></hr> <br/><br/><br/><br/>
         </>
     );
 };

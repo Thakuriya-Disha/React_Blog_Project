@@ -35,8 +35,8 @@ function ContextAPI(props){
             I won't love you only on the best days
             I promise that to you, my love
             I will make your darkest nights mine
-            I give you my word, my dear.
-            So, here I am tonight reading this to you:
+            My word I give to you, my dear.
+            So, here I am tonight writing this to you:
             I don't say "I heart you" because I Moon You.
 
             I love you like I love the Moon
@@ -52,9 +52,9 @@ function ContextAPI(props){
             title:"Winter Sun",
             description:`What's your favourite season? Mine is the Winter. The Sun has such a soft glow in the 
             winters, oozing comfort. Sometimes we meet people who light up our lives and shine just like the Winter Sun.`,
-            theme:"Gratitude",
+            theme:"Equality",
             date:"27th Feb 2023",
-            featureID:6
+            featureID:1
         },
         {
             category:"poetry",
