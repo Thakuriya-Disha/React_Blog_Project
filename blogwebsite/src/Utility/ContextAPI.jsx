@@ -804,7 +804,9 @@ function ContextAPI(props){
             silent movie star Theda Bara in the title role in the 1917 film Cleopatra. The album's first single "Ophelia" was released February 5, 2016. Ophelia ended 2016 as Billboard's #1 Alternative song and #1 Rock Radio song. 
             The second single, also the album's title track, "Cleopatra", sprang from an encounter with a taxi driver Wes met in the Republic of Georgia, who told a story of personal tragedy without a trace of self-pity. The 3rd single, 
             "Angela", quickly rose to No. 2 on Triple A radio making "Cleopatra" the first independent album to have three top five singles at Alternative radio. In April 2017, the band released the short film "The Ballad of Cleopatra", 
-            which brings together videos for the songs "Cleopatra", "Angela", "Ophelia", "Sleep on the Floor" and "My Eyes". The film depicts Cleopatra's life story in one continuous narrative.`
+            which brings together videos for the songs "Cleopatra", "Angela", "Ophelia", "Sleep on the Floor" and "My Eyes". The film depicts Cleopatra's life story in one continuous narrative. My personal favourite is "Sleep on the Floor" 
+            because of its addictive pre-chorus and lyrics. Each song in the album tells a story of its own and is connected to one another. The short film is beautifully, cleverly made. This album tells the story of a fictional woman named 
+            "Cleopatra" and hence the title of the album. Hope you enjoy this album as much as I did.`
         },
         {
             category:"kdramas",
@@ -816,7 +818,8 @@ function ContextAPI(props){
             date:"10th Mar 2023",
             featureID:3,
             article:
-            `lorem ipsum dolor sit amet lorem ipsum dolor sit amet
+            `
+            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
             lorem ipsum dolor sit amet lorem ipsum dolor sit amet
             lorem ipsum dolor sit amet lorem ipsum dolor sit amet
             lorem ipsum dolor sit amet lorem ipsum dolor sit amet
@@ -832,7 +835,8 @@ function ContextAPI(props){
             date:"9th Mar 2023",
             featureID:1,
             article:
-            `lorem ipsum dolor sit amet lorem ipsum dolor sit amet
+            `
+            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
             lorem ipsum dolor sit amet lorem ipsum dolor sit amet
             lorem ipsum dolor sit amet lorem ipsum dolor sit amet
             lorem ipsum dolor sit amet lorem ipsum dolor sit amet
@@ -841,53 +845,87 @@ function ContextAPI(props){
         {
             category:"kdramas",
             id:31,
-            url:"https://c4.wallpaperflare.com/wallpaper/947/272/849/anime-your-name-kimi-no-na-wa-mitsuha-miyamizu-wallpaper-preview.jpg",
-            title:"Your Name",
-            description:`A story to tug at your heartstrings with astounding animation that leaves the viewer awestruck.`,
-            theme:"Fantasy",
-            date:"26th Aug 2016",
-            featureID:3
+            url:"https://i.scdn.co/image/ab67616d0000b273025e89b52a4bcb14cf87f1b5",
+            title:"Start Up  |  17 Oct 2020",
+            description:`lorem ipsum dolor sit amet`,
+            theme:"Romantic Comedy / Slice of Life",
+            date:"7th Mar 2023",
+            featureID:5,
+            article:
+            `
+            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
+            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
+            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
+            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
+            lorem ipsum dolor sit amet lorem ipsum dolor sit amet`
         },
         {
             category:"kdramas",
             id:32,
-            url:"https://i.pinimg.com/originals/c7/2d/43/c72d43e7dc086597bc9f6caa2a960055.jpg",
-            title:"The Box",
-            description:`The film is about an aspiring singer and a washed-up music producer and their musical journey.`,
-            theme:"Musical",
-            date:"24th Mar 2021",
-            featureID:5,
-            rating:4
+            url:"https://i.scdn.co/image/ab67616d0000b273606ac026c59ac4f6d5822a5c",
+            title:"It's Okay to Not Be Okay  |  20th June 2020",
+            description:`lorem ipsum dolor sit amet`,
+            theme:"Mental Health / Romantic Comedy",
+            date:"4th Mar 2023",
+            featureID:7,
+            article:
+            `
+            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
+            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
+            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
+            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
+            lorem ipsum dolor sit amet lorem ipsum dolor sit amet`
         },
         {
             category:"kdramas",
             id:33,
-            url:"https://static01.nyt.com/images/2020/01/26/arts/26before-sunrise1/26before-sunrise1-superJumbo.jpg",
-            title:"Before Sunrise",
-            description:`A young man and woman meet on a train in Europe, and wind up spending one evening together in Vienna.`,
-            theme:"Romance",
-            date:"27th Jan 1995",
-            featureID:2
+            url:"https://m.media-amazon.com/images/M/MV5BZWQyZTkwMTMtYTJiZS00MGNlLThhN2EtYzEzOGQzYjFiZGQxXkEyXkFqcGdeQXVyMTEzMjQ4NzEw._V1_.jpg",
+            title:"Crash Landing On You  |  14th Dec 2019",
+            description:`lorem ipsum dolor sit amet`,
+            theme:"Romantic Comedy",
+            date:"2nd Mar 2023",
+            featureID:4,
+            article:
+            `
+            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
+            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
+            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
+            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
+            lorem ipsum dolor sit amet lorem ipsum dolor sit amet`
         },
         {
             category:"kdramas",
             id:34,
-            url:"https://static01.nyt.com/images/2020/01/26/arts/26before-sunrise1/26before-sunrise1-superJumbo.jpg",
-            title:"Before Sunrise",
-            description:`A young man and woman meet on a train in Europe, and wind up spending one evening together in Vienna.`,
-            theme:"Romance",
-            date:"27th Jan 1995",
-            featureID:6
+            url:"https://i.scdn.co/image/ab67616d0000b27330e7ffa60613da62eba9dd7d",
+            title:"Strong Woman Do Bong-Soon  |  24th Feb 2017",
+            description:`lorem ipsum dolor sit amet`,
+            theme:"Thriller / Action / Fantasy / Romantic Comedy",
+            date:"1st Mar 2023",
+            featureID:6,
+            article:
+            `
+            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
+            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
+            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
+            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
+            lorem ipsum dolor sit amet lorem ipsum dolor sit amet`
         },
         {
             category:"kdramas",
             id:35,
-            url:"https://static01.nyt.com/images/2020/01/26/arts/26before-sunrise1/26before-sunrise1-superJumbo.jpg",
-            title:"Before Sunrise",
-            description:`A young man and woman meet on a train in Europe, and wind up spending one evening together in Vienna.`,
-            theme:"Romance",
-            date:"27th Jan 1995",
-            featureID:7
+            url:"https://i.scdn.co/image/ab67616d0000b2738b36a8c16b48db1bdab65545",
+            title:"Reply 1988  |  6th Nov 2015",
+            description:`lorem ipsum dolor sit amet`,
+            theme:"Comedy / Coming-of-age / Family",
+            date:"27th Feb 2023",
+            featureID:2,
+            article:
+            `
+            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
+            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
+            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
+            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
+            lorem ipsum dolor sit amet lorem ipsum dolor sit amet`
         }
     ]);
 
