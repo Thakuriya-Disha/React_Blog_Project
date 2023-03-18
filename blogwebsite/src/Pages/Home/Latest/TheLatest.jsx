@@ -13,13 +13,13 @@ const TheLatest = () => {
 
     return(
         <>
-        <h1 className='theLatest'> From The Palette </h1>
+        <h1 className='theLatest'> From The Record </h1>
             <div className='latestBox1'>
 
                 <div className='box1'>
 
                     {
-                        latestList.filter((item) => item.category === 'painting' && item.id === 15).map((data) => {
+                        latestList.filter((item) => item.category === 'music' && item.id === 22).map((data) => {
                             return(
                                 <>
                                 <div id='{data.id}' onClick = {() => toNavigate(data.category, data.id, data)} style={{cursor:'pointer'}}>
@@ -39,28 +39,7 @@ const TheLatest = () => {
                 <div className='box1'>
 
                     {
-                        latestList.filter((item) => item.category === 'photography' && item.id === 8).map((data) => {
-                            return(
-                                <>
-                                <div id='{data.id}' onClick = {() => toNavigate(data.category, data.id, data)} style={{cursor:'pointer'}}>
-                                    <img src={data.url} alt='pic' style={{width:'275px',height:'220px',border:'1px solid lightgrey',borderRadius:'15px 15px 0px 0px'}}></img><br/>
-                                    <p style={{fontSize:'18px',fontWeight:'bold'}}> {data.title} </p>
-                                    <p style={{color:'slategray'}}> {data.description} </p>
-                                    <p>
-                                        {data.category} / <span style={{color:'grey'}}>{data.date}</span>
-                                    </p>
-                                </div>
-                                </>
-                            );
-                        })
-                    }
-
-                </div>
-
-                <div className='box1'>
-
-                    {
-                        latestList.filter((item) => item.category === 'painting' && item.id === 16).map((data) => {
+                        latestList.filter((item) => item.category === 'music' && item.id === 23).map((data) => {
                             return(
                                 <>
                                 <div id='{data.id}' onClick = {() => toNavigate(data.category, data.id, data)} style={{cursor:'pointer'}}>
@@ -81,7 +60,28 @@ const TheLatest = () => {
                 <div className='box1'>
 
                     {
-                        latestList.filter((item) => item.category === 'photography' && item.id === 9).map((data) => {
+                        latestList.filter((item) => item.category === 'music' && item.id === 24).map((data) => {
+                            return(
+                                <>
+                                <div id='{data.id}' onClick = {() => toNavigate(data.category, data.id, data)} style={{cursor:'pointer'}}>
+                                    <img src={data.url} alt='pic' style={{width:'275px',height:'220px',border:'1px solid lightgrey',borderRadius:'15px 15px 0px 0px'}}></img><br/>
+                                    <p style={{fontSize:'18px',fontWeight:'bold'}}> {data.title} </p>
+                                    <p style={{color:'slategray'}}> {data.description} </p>
+                                    <p>
+                                        {data.category} / <span style={{color:'grey'}}>{data.date}</span>
+                                    </p>
+                                </div>
+                                </>
+                            );
+                        })
+                    }
+
+                </div>
+
+                <div className='box1'>
+
+                    {
+                        latestList.filter((item) => item.category === 'music' && item.id === 25).map((data) => {
                             return(
                                 <>
                                 <div id='{data.id}' onClick = {() => toNavigate(data.category, data.id, data)} style={{cursor:'pointer'}}>
@@ -110,7 +110,7 @@ const TheLatest = () => {
 
                     <div>
                         {
-                            latestList.filter((item) => item.category === 'kdramas' && item.id === 29).map((data) => {
+                            latestList.filter((item) => item.id === 29).map((data) => {
                                 return(
                                     <>
                                     <hr/>                                    
@@ -132,7 +132,7 @@ const TheLatest = () => {
 
                         <div>
                         {
-                            latestList.filter((item) => item.category === 'kdramas' && item.id === 30).map((data) => {
+                            latestList.filter((item) => item.category === 'kdramas' && item.id === 8).map((data) => {
                                 return(
                                     <>
                                     <hr/>                                    
@@ -154,7 +154,7 @@ const TheLatest = () => {
 
                         <div>
                         {
-                            latestList.filter((item) => item.category === 'kdramas' && item.id === 31).map((data) => {
+                            latestList.filter((item) => item.category === 'kdramas' && item.id === 15).map((data) => {
                                 return(
                                     <>
                                     <hr/>
@@ -191,7 +191,7 @@ const TheLatest = () => {
                 <div className='box32'>
                     <h2 style={{textDecoration:'underline',textDecorationColor:'blueviolet',fontSize:'1.8rem'}}>Top Posts</h2>
                     {
-                        latestList.filter((item) => item.id === 7).map((data) => {
+                        latestList.filter((item) => item.id === 2).map((data) => {
                             return(
                                 <>
                                 <div id='{data.id}' className='firstTP' onClick = {() => toNavigate(data.category, data.id, data)} style={{cursor:'pointer'}}>
@@ -213,7 +213,7 @@ const TheLatest = () => {
                     }
 
                     {
-                        latestList.filter((item) => item.id === 17 || item.id === 25 || item.id === 29).map((data) => {
+                        latestList.filter((item) => item.id === 27 || item.id === 25 || item.id === 29).map((data) => {
                             return(
                                 <>
                             

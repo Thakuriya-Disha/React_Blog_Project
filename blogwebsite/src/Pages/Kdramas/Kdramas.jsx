@@ -1,16 +1,16 @@
-import './style_movie.css';
+import './style_kdrama.css';
 import HeaderCompo from '../../Header/HeaderComponent';
 import React, {useContext} from 'react';
 import {blogData} from '../../Utility/ContextAPI';
 import {useNavigate} from 'react-router-dom';
 
-const Movies = () => {
+const Kdramas = () => {
 
     const [moviesList] = useContext(blogData);
 
     const nav = useNavigate();
-    const toNavigate = (category, id, selectedMovie) => {
-        nav(`/article/${category}/${id}`, { state: { content: selectedMovie } });
+    const toNavigate = (category, id, selectedDrama) => {
+        nav(`/article/${category}/${id}`, { state: { content: selectedDrama } });
     };
 
     return(
@@ -145,4 +145,4 @@ const Movies = () => {
     );
 }
 
-export default Movies;
+export default Kdramas;

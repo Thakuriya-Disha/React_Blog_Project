@@ -62,7 +62,7 @@ const ArticlePage = () => {
                 </div>
                 <div className='articleBoxCol2'>
                     <div className='articleBox3'>
-                        <pre> {Location?.state?.content?.poem} </pre> <br/><br/>
+                        <pre> {Location?.state?.content?.article} </pre> <br/><br/>
                     </div>
                 </div>
             </div>
