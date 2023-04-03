@@ -1,4 +1,4 @@
-import './style_paint.css';
+import './style_anime.css';
 import HeaderCompo from '../../Header/HeaderComponent';
 import React, {useContext,useEffect} from 'react';
 import {blogData} from '../../Utility/ContextAPI';

@@ -1,4 +1,4 @@
-import './style_photo.css';
+import './style_movie.css';
 import HeaderCompo from '../../Header/HeaderComponent';
 import React, {useContext,useEffect} from 'react';
 import {blogData} from '../../Utility/ContextAPI';
