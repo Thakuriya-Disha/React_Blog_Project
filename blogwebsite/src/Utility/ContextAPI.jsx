@@ -576,21 +576,22 @@ function ContextAPI(props){
             category:"music",
             id:22,
             url:"https://www.pinkvilla.com/imageresize/aespa_girls_main_2_0.jpg?width=752&t=pvorg",
-            title:"Girls by aespa",
+            title:"Girls - aespa",
             description:`aespa is a South Korean girl group formed by SM Entertainment. 
             The group consists of four members: Karina, Giselle, Winter, and Ningning. 
-            They debuted on November 17, 2020, with the single "Black Mamba".`,
+            They debuted on November 17, 2020, with the single "Black Mamba".
+            They released their 2nd EP "Girls" on 8th July 2022.`,
             theme:"KPop / Dance-Pop",
             date:"11th Mar 2023",
             featureID:5,
             article:
             `
             The group's name, Aespa, combines the English initials of "avatar" and "experience" (Avatar X Experience) with 
-            the English word "aspect", meaning "two sides", to symbolize the idea of "meeting another self and experiencing 
-            the new world". Girls is the second extended play by South Korean girl group Aespa. The EP was released through
-            SM Entertainment and Warner Records on July 8, 2022. It consists of six tracks and was preceded by the promotion-
-            -al single "Illusion" & two official singles: "Life's Too Short" (English version) and "Girls". Girls was a 
-            commercial success and debuted at number one on South Korea's Circle Album Chart. Aespa's second number-one 
+            the English word "aspect", meaning "two sides", to symbolize the idea of "meeting another self & experiencing 
+            the new world". Girls is the second extended play by South Korean girl group Aespa. The EP was released
+            through SM Entertainment and Warner Records on July 8, 2022. It consists of six tracks and was preceded by the
+            promotional single "Illusion" & two official singles: "Life's Too Short" (English version) and "Girls". Girls 
+            was a commercial success and debuted at number one on South Korea's Circle Album Chart. Aespa's 2nd No. 1 
             album on the chart and their highest-selling album to date. In September, the EP was certified Million by the  
             Korea Music Content Association (KMCA). It also debuted at number three on the Billboard 200 becoming the
             second and highest entry on the chart. Girls features various genres such as dance-pop and pop. Lyrically, the 
@@ -599,15 +600,15 @@ function ContextAPI(props){
             is "more light-hearted side of the girls with themes of not taking life too seriously". 
             
             The lead single "Girls" was described as a "dark", "brooding" dance, pop and electropop song with "heavy bass 
-            synth" & lyrics about "Aespa and ae-Aespa having a full-fledged battle with Black Mamba [the antagonist]". It's 
-            "glitchy, electronic-heavy production" softens during the bridge, before "sliding into a nutty techno breakdown" 
-            at the end. The second track "Illusion" was described as an electronic "high-energy" hip hop, synth-pop, dance 
+            synth" & lyrics about "Aespa & ae-Aespa having a full-fledged battle with Black Mamba [the antagonist]". It's 
+            "glitchy, electronic-heavy production" softens during the bridge, before "sliding into a nutty techno break-
+            -down" at the end. The second track "Illusion" was described as an electronic hip hop, synth-pop, dance
             and EDM-trap song with "punchy 808 bass and kicking sound that catches the ears". It consists of elements 
             indicative of hyperpop, including an "eccentric percussion to hi-hats and electric, woodblock-like clicks".
             Lyrically, the song was described as having "Aespa's own color expressed" such as "comparing the desire to
             seduce and devour one's opponent to goblin fire". 
             
-            The third track "Lingo" was described as a country dance and dance-pop song with a "reverse charm that combines 
+            The third track "Lingo" was described as a country and dance-pop song with a "reverse charm that combines 
             bass and energetic drums", "Wild West-worthy" harmonica. The track celebrates "the special and unique bonds 
             between close friends", expressed through the metaphor of a shared lingo. The fourth track "Life's Too Short" 
             is a medium-tempo pop, soft pop and bubblegum pop song with a "catchy, electric guitar riff" and "bright, 
@@ -621,7 +622,7 @@ function ContextAPI(props){
             category:"music",
             id:23,
             url:"https://www.udiscovermusic.com/wp-content/uploads/2022/10/SIGRID_HTLG_SPECIAL-EDITION_tif.jpg",
-            title:"How To Let Go by Sigrid",
+            title:"How To Let Go - Sigrid",
             description:`Sigrid is a Norwegian singer-songwriter. She has released two studio albums, 
             Sucker Punch (2019) and How to Let Go (2022), both of which charted in Norway and the United Kingdom. 
             She has also released two EPs.`,
@@ -630,192 +631,238 @@ function ContextAPI(props){
             featureID:6,
             article:
             `
-            Sigrid Solbakk Raabe was born in Ålesund on 5 September 1996. In her first year of high school, she realized that music was more than just a hobby. 
-            After finishing high school in Ålesund, Sigrid moved to Bergen for its indie music scene. In 2016, in partnership with Martin Sjølie,  
-            she wrote "Don't Kill My Vibe", inspired by an incident where a producer belittled and patronized her in a songwriting session.  After executives at Island Records heard the song, 
-            they immediately signed her to a recording contract. On 5 May 2017 she released her debut EP which was named after the song, which charted in Norway, Australia, and the United Kingdom. 
-            In January 2018, Sigrid was announced as the winner of BBC Music Sound of 2018. On 8 March 2019, Sigrid's debut album, Sucker Punch, was released. 
-            She was listed in Forbes "30 under 30" for European Entertainment in 2019.
+            Sigrid Solbakk Raabe was born in Ålesund on 5 September 1996. In her first year of high school, she realized 
+            that music was more than just a hobby. After finishing high school in Ålesund, Sigrid moved to Bergen for its 
+            indie music scene. In 2016, in partnership with Martin Sjølie, she wrote "Don't Kill My Vibe", inspired by an 
+            incident where a producer belittled and patronized her in a songwriting session.  After executives at Island 
+            Records heard the song, they immediately signed her to a recording contract. On 5 May 2017 she released her 
+            debut EP which was named after the song, which charted in Norway, Australia, and the United Kingdom. In 2018
+            January, Sigrid was announced as the winner of BBC Music Sound of 2018. On 8 March 2019, Sigrid's debut album, 
+            Sucker Punch, was released. She was listed in Forbes "30 under 30" for European Entertainment in 2019.
 
-            Sigrid's songs are underpinned by anger, melancholia, and disappointment; she says that it is easier to write about frustration than about having a nice time. 
-            For her love songs Sigrid cites Bonnie Raitt, Coldplay, Adele, Lykke Li, and Robyn as influences. How to Let Go is the second studio album by Norwegian singer-songwriter Sigrid, 
-            released on 6 May 2022 through Island Records. The album was promoted by the singles "Mirror", "Burning Bridges", "It Gets Dark", and "Bad Life" with British rock band Bring Me the Horizon. 
-            "Mirror" described as a "self-acceptance anthem", was released as the lead single from the album. The meaning of the song "Burning Bridges" is "that moment when you know you have to let go [...] 
-            and when you are listening to the song, I'm cool with it being anything you want it to be". "Bad Life", a collaboration with British rock band Bring Me the Horizon was released as the fourth single. 
-            It marks the first collaboration with another artist in Sigrid's projects.`
+            Sigrid's songs are underpinned by anger, melancholia, and disappointment; she says that it is easier to write 
+            about frustration than about having a nice time. For her love songs Sigrid cites Coldplay, Adele as influences. 
+            How to Let Go is the second studio album by Norwegian singer-songwriter Sigrid, released on 6 May 2022 through
+            Island Records. The album was promoted by the singles "Mirror", "Burning Bridges", "It Gets Dark", "Bad Life". 
+            "Mirror" described as a "self-acceptance anthem", was released as the lead single from the album. The meaning
+            of the song "Burning Bridges" is "that moment when you know you have to let go [...] when you are listening to
+            the song, I'm cool with it being anything you want it to be". "Bad Life", with British rock band Bring Me The
+            Horizon, marks the first collaboration with another artist in Sigrid's projects.`
         },
         {
             category:"music",
             id:24,
             url:"https://linkstorage.linkfire.com/medialinks/images/734fca10-e3a7-4b87-90ef-f0b122214f81/artwork-440x440.jpg",
-            title:"Forever Daze by RADWIMPS",
+            title:"Forever Daze - RADWIMPS",
             description:`Radwimps is a Japanese rock band who debuted independently in 2003 and signed with Toshiba EMI in 2005. 
             According to the band, the coined word had several meanings, including "excellent weakling" and "superlative coward". 
-            They gained international recognition for providing the soundtrack to Your Name, one of the highest-grossing Japanese animated films.`,
+            They gained international recognition for providing the soundtrack to the anime movie "Your Name".
+            The Radwimps released their latest album on 23rd November 2021.`,
             theme:"J-Rock / Pop Rock",
             date:"6th Mar 2023",
             featureID:7,
             article:
             `
-            Radwimps formed in 2001 in Kanagawa, Japan during their first year of high school. The five original members had been friends since middle school. 
-            Lead vocalist Yojiro Noda first became interested in music after hearing Oasis in middle school. They gained widespread recognition for providing 
-            the soundtracks to famous Japanese anime movies: 2016's Your Name, 2019's Weathering with You and 2022's Suzume. Radimps was awarded the "Japanese 
-            Academy Award fro Best Original Score" for their work Makoto Shinkai's animes "Your Name" and "Weathering with You". Lead vocalist Yojiro Noda writes 
-            all of the band's music and lyrics (the only exception currently is the bonus track "Yonaki" from Radwimps 4). Almost all of Noda's lyrics are based 
-            on events he has experienced, or nonfictional events. The current members are: Yojiro Noda, Akira Kuwahara, Yusuke Takeda, Satoshi Yamaguchi. 
+            Radwimps formed in 2001 in Kanagawa, Japan during their first year of high school. The five original members 
+            had been friends since middle school. Lead vocalist Yojiro Noda first became interested in music after hearing
+            Oasis in middle school. They gained widespread recognition for providing the soundtracks to famous Japanese 
+            anime movies: 2016's Your Name, 2019's Weathering with You and 2022's Suzume. Radimps was awarded the 
+            "Japanese Academy Award fro Best Original Score" for their work Makoto Shinkai's animes "Your Name" and 
+            "Weathering with You". Lead vocalist Yojiro Noda writes all of the band's music and lyrics (the only exception
+            currently is the bonus track "Yonaki" from Radwimps 4). Almost all of Noda's lyrics are based on events he has
+            experienced. The current members are: Yojiro Noda, Akira Kuwahara, Yusuke Takeda, Satoshi Yamaguchi. 
 
-            On November 23, 2021 the band released their irst studio album in 3 years titled "FOREVER DAZE" and went on the road to support the album with 
-            the "Forever in the Daze Tour" from December 2021 through January 2022, visiting 6 cities for 12 shows. This record was written throughout the 
-            pandemic and speaks to the musical challenges the band faced, their hopes moving forward. It is composed of 14 songs. My personal favourites are 
-            "Iron Feather" and "Inujarashi". "Iron Feather" is a song that will touch your heart with its melody, lyrics and the artistic approach in its music video. 
-            In the song, it's discussed what pushes people to move forward in their ever-changing daily lives. The orchestra in "Inujarashi" will take your breath away.`
+            On November 23, 2021 the band released their irst studio album in 3 years titled "FOREVER DAZE" and went on 
+            the road to support the album with the "Forever in the Daze Tour" from December 2021 through January 2022, 
+            visiting 6 cities for 12 shows. This record was written throughout the pandemic and speaks to the musical 
+            challenges the band faced, their hopes moving forward. It is composed of 14 songs. My personal favourites are
+            "Iron Feather" and "Inujarashi". "Iron Feather" is a song that will touch your heart with its melody, lyrics
+            and the artistic approach in its music video. In the song, it's discussed what pushes people to move forward
+            in their ever-changing daily lives. The orchestra in "Inujarashi" will take your breath away.`
         },
         {
             category:"music",
             id:25,
             url:"https://i1.sndcdn.com/artworks-jf24hYaJPkMQ-0-t500x500.jpg",
             title:"Red (Taylor's Version)",
-            description:`Taylor Alison Swift (born December 13, 1989) is an American singer-songwriter. Her genre-spanning discography, songwriting and artistic reinventions 
+            description:`Taylor Alison Swift (born December 13, 1989) is an American singer-songwriter. Her genre-spanning discography, songwriting & artistic reinventions 
             have received critical praise and wide media coverage. Born in West Reading, Pennsylvania, Swift moved to Nashville at age 14 to become a country artist. 
-            She signed a songwriting deal with Sony/ATV Music Publishing in 2004 and a recording contract with Big Machine Records in 2005. Her 2006 self-titled debut album 
-            made her the first female country singer to write a U.S. platinum-certified album.`,
+            This is her 2nd re-recorded album, after Fearless(TV), released on 12th November 2021.`,
             theme:"Country / Pop",
             date:"2nd Mar 2023",
             featureID:1,
             article:
             `
-            Swift is known for venturing into various music genres and undergoing artistic reinventions, having been described as a "music chameleon".  
-            She self-identified as a country musician until 2012, when she released her fourth studio album, Red. She abandoned her country-music
-            identity in 2014 with the release of her synth-pop fifth studio album, 1989. Swift described this as her first "documented, official pop album". 
-            Swift eschewed mainstream pop in favor of alternative styles like indie rock with her 2020 studio albums, Folklore and Evermore. 
-            Clash said her career "has always been one of transcendence and covert boundary-pushing", reaching a point at which "Taylor Swift is just Taylor Swift", not defined by any genre.
-            One of Swift's earliest memories of music is listening to her grandmother, Marjorie Finlay. Swift said she owes her confidence and her "fascination with writing and storytelling" to her mother. 
-            Swift has been referred to as one of the greatest songwriters of all time and the best of her generation. She told The New Yorker in 2011 that
-            she identifies as a songwriter first: "I write songs, and my voice is just a way to get those lyrics across."
+            Swift is known for venturing into various music genres and undergoing artistic reinventions, having been
+            described as a "music chameleon". She self-identified as a country musician until 2012, when she released her
+            4th studio album, Red. She abandoned her country-music identity in 2014 with the release of her synth-pop 5th
+            studio album, 1989. Swift described this as her first "documented, official pop album". Her career has always
+            been one of transcendence & covert boundary-pushing, reaching a point at which Taylor Swift is just Taylor
+            Swift, and not defined by any genre. One of Swift's earliest memories of music is listening to her grandmother,
+            Marjorie Finlay. Swift said she owes her confidence and her "fascination with writing and storytelling" to her
+            mother. Swift is referred to as one of the greatest songwriters of all time & the best of our generation.
+            She told The New Yorker in 2011 that she identifies as a songwriter first: "I write songs, and my voice is
+            just a way to get those lyrics across."
 
-            Red (Taylor's Version) is the second re-recorded album by American singer-songwriter Taylor Swift. Released via Republic Records on November 12, 2021, as a part of Swift's 
-            countermeasure against the purchase of the masters of her back catalog, the album is the re-recording of Swift's fourth studio album, Red (2012), and follows the first re-recording, 
-            Fearless (Taylor's Version) (2021). The 30-track Red (Taylor's Version) includes re-recorded versions of 20 songs from the deluxe edition of Red; the 2012 charity single "Ronan"; 
-            the 10-minute-long, unabridged version of "All Too Well"; Swift's own recordings of "Better Man" (2016) and "Babe" (2018); and six previously unreleased "From the Vault" tracks. 
-            Swift and Christopher Rowe produced the album with a majority of the original producers, with new inputs from Aaron Dessner and Jack Antonoff amongst others. Gary Lightbody and 
-            Ed Sheeran returned to provide guest vocals, with Phoebe Bridgers and Chris Stapleton as new additions. Met with widespread acclaim, reviews commended Red (Taylor's Version) for Swift's vocals, 
-            enhanced production quality, and the new tracks. Contemporaneous critics described it as a classic pop record with a country core, infusing rock and electronic flairs, whilst examining various 
-            dynamics of love, life, loss and heartache. The album broke a string of commercial records, including the biggest vinyl sales week in MRC Data history and the Spotify record for the most 
-            single-day streams for an album by a female artist. 
+            Red (Taylor's Version) is the 2nd re-recorded album by American singer-songwriter Taylor Swift. Released via
+            Republic Records on November 12, 2021, as part of her countermeasure against the purchase of the masters of
+            her back catalog, the album is the re-recording of Swift's 4th studio album, Red (2012). The 30-track Red
+            (Taylor's Version) includes re-recorded versions of 20 songs from the deluxe edition of Red; the 2012 charity
+            single "Ronan"; the 10-minute, unabridged version of "All Too Well"; Swift's own recordings of "Better Man"
+            (2016) and "Babe" (2018); and 6 previously unreleased "From the Vault" tracks. 
+            Met with widespread acclaim, reviews commended Red (Taylor's Version) for Swift's vocals, enhanced production
+            quality, and the new tracks. Critics have described it as a classic pop record with a country core, infusing
+            rock and electronic flairs, whilst examining various dynamics of love, life, loss and heartache. The album
+            broke a string of commercial records, including the biggest vinyl sales week in MRC Data history and the
+            Spotify record for the most single-day streams for an album by a female artist. 
             
-            The star of this album is undoubtedly the lead single 10-minute version "All Too Well", that Taylor Swift made a short film for. 
-            "All Too Well (10 Minute Version)" topped charts worldwide and became the longest song to reach number one on the Billboard Hot 100. 
-            Critics received the 10-minute version with rave reviews: they praised the song structure and richer context to an existing acclaimed song, 
-            featured it in many year-end lists, and dubbed it a career highlight. It received a Grammy nomination for Song of the Year. 
-            Its accompanying short film, directed by Swift, won an MTV Video Music Award for Video of the Year and a Grammy Award for Best Music Video.`
+            The star of this album is undoubtedly the lead single 10-minute version "All Too Well", that Taylor Swift made
+            a short film for. "All Too Well (10 Minute Version)" topped charts worldwide and became the longest song to
+            reach No.1 on the Billboard Hot 100. Critics received the 10-minute version with rave reviews: they praised
+            the song structure and richer context to an existing acclaimed song, featured it in many year-end lists, and
+            dubbed it a career highlight. It received a Grammy nomination for Song of the Year. And the ATW short film,
+            directed by Swift, won an MTV Video Music Award for Video of the Year and a Grammy Award for Best Music Video.`
         },
         {
             category:"music",
             id:26,
             url:"https://imageio.forbes.com/specials-images/imageserve/5e15da17888ec0000690782e/EXO-courtesy-of-SM-Entertainment/0x0.jpg?format=jpg&crop=560,420,x0,y132,safe&width=960",
-            title:"Obsession by EXO",
-            description:`The biggest boy band in the world: EXO is a South Korean-Chinese boy band based in Seoul formed by SM Entertainment in 2011 and debuted in 2012. 
-            The group consists of nine members: Xiumin, Suho, Lay, Baekhyun, Chen, Chanyeol, D.O., Kai and Sehun. 
-            They are noted for releasing music and performing extensively in Korean, Mandarin and Japanese.`,
+            title:"Obsession - EXO",
+            description:`The biggest boy band in the world: EXO is a South Korean-Chinese boy band based in Seoul formed by SM Entertainment which debuted in 2012. 
+            The group consists of nine members: Xiumin, Suho, Lay, Baekhyun, Chen, Chanyeol, D.O., Kai and Sehun. They are noted for releasing music and performing 
+            extensively in Korean, Mandarin and Japanese. EXO released their 6th album on 27th November 2019.`,
             theme:"KPop",
             date:"28th Feb 2023",
             featureID:3,
             article:
             `
-            In 2011, SM Entertainment CEO Lee Soo-man revealed plans to debut a new boy band that would be divided into two sub-groups, 
-            promoting the same music simultaneously in South Korea and China by performing songs in both Korean and Mandarin. The group 
-            finalized its name as Exo, taken from the word "exoplanet". Exo are considered by many to be a vocal powerhouse group in the K-pop industry. 
-            In particular, the group's three main vocalists D.O., Chen, and Baekhyun have received praise from industry figures and the media. 
-            The special winter-themed EPs that Exo have released nearly every December since 2013 feature classic, emotional ballads that diverge from 
-            the upbeat singles usually featured on the band's studio albums. Most of Exo's songs blend pop, hip-hop, and R&B with electronic dance music 
-            genres such as house and trap and are produced with onstage performance in mind. Exo have been praised for their synchronized choreography 
-            and elaborate stage designs. With the release of their debut studio album in 2013, Exo became the first South Korean artist in 12 years to 
-            sell over one million copies of an album. In 2021, Exo became "sextuple million sellers", meaning the band has sold over one million copies 
-            apiece for six different albums. Exo have been described as "the biggest boy band in the world".
+            In 2011, SM Entertainment CEO Lee Soo-man revealed plans to debut a new boy band that would be divided into 2
+            sub-groups, promoting the same music simultaneously in South Korea and China by performing songs in both 
+            Korean and Mandarin. The group finalized its name as Exo, taken from the word "exoplanet". Exo are considered
+            by many to be a vocal powerhouse group in the K-pop industry. In particular, the group's three main vocalists
+            D.O., Chen, and Baekhyun have received praise from industry figures and the media. The special winter-themed
+            EPs that Exo have released nearly every December since 2013 feature classic, emotional ballads that diverge
+            from the upbeat singles usually featured on the band's studio albums. Most of Exo's songs blend pop, hip-hop
+            and R&B with electronic dance music genres such as house and trap and are produced with onstage performance in
+            mind. Exo have been praised for their synchronized choreography and elaborate stage designs. With the release
+            of their debut studio album in 2013, Exo became the first South Korean artist in 12 years to sell over one
+            million copies of an album. In 2021, Exo became "sextuple million sellers"- they sold over 1 million copies
+            apiece for six different albums. No wonder Exo is known as "the biggest boy band in the world".
 
-            "Obsession" is the sixth studio album by EXO. Obsession was Exo's first album to be promoted as a six-member group, as members Xiumin and D.O. 
-            were undergoing mandatory military service, and member Lay was promoting his solo activities in China. The album features 10 songs including 
-            the lead single, "Obsession". The title track "Obsession" is described as a hip hop dance song featuring repeating spell-like vocal samples 
-            and a prominent heavy beat. The album features 10 tracks in a variety of genres. The most interesting track from this album is "Jekyll". 
-            It is a dance pop song with heavy drums, bass along with dynamic vocal composition and transformation. The song's lyrics express an internal 
-            conflict with one's alter ego in an impactful way. "Jekyll" is based on a duality concept: Fighting with demons inside you. The screaming 
-            voice is you calling for help in desperation. The whispering voice is your demons telling you they are never leaving you. Hence the title 
-            from the theme of "Dr. Jekyll & Mr. Hyde".`
+            "Obsession" is the 6th studio album by EXO. Obsession was Exo's first album to be promoted as a six-member
+            group, as members Xiumin and D.O. were undergoing mandatory military service, and member Lay was promoting his
+            solo activities in China. The album features 10 songs including the lead single, "Obsession". The title track
+            "Obsession" is described as a hip hop dance song featuring repeating spell-like vocal samples and a prominent
+            heavy beat. The album features 10 tracks in a variety of genres. The most interesting track from this album is
+            "Jekyll". It is a dance pop song with heavy drums, bass along with dynamic vocal composition & transformation.
+            The song's lyrics express an internal conflict with one's alter ego in an impactful way. "Jekyll" is based on
+            a duality concept: Fighting with demons inside you. The screaming voice is you calling for help in desperation.
+            The whispering voice is your demons telling you they are never leaving you.
+            Hence the title from the theme of "Dr. Jekyll & Mr. Hyde".`
         },
         {
             category:"music",
             id:27,
             url:"https://images.genius.com/34823245b69965cc970d7a4153340208.1000x1000x1.png",
-            title:"Lover by Taylor Swift",
-            description:`Taylor Alison Swift (born December 13, 1989 (age 33)) is an American singer-songwriter, record producer, actress, director, philanthropist, 
-            and businesswoman. Her discography spans multiple genres and her narrative songwriting, which is often inspired by her personal life, has received 
-            widespread media coverage and critical praise. She is also known for using the pseudonym 'Nils Sjoberg' - a Swedish officer and poet. 
-            She has gone from a Country Princess to a Pop Star to the Queen of Indie music. Now, it's not an understatement that: Taylor Swift is the Music Industry.`,
+            title:"Lover - Taylor Swift",
+            description:`Taylor Swift is an American singer-songwriter, record producer, actress, director, philanthropist, 
+            and businesswoman. Lover (23rd Aug 2019) is Taylor's 7th overall studio album, 3rd Pop album and the 1st album to be owned by her. 
+            She is also known for using the pseudonym 'Nils Sjoberg' - a Swedish officer and poet. 
+            She has gone from a Country Princess to a Pop Star to the Queen of Indie music. 
+            It's not an understatement that: Taylor Swift is the Music Industry!`,
             theme:"Pop",
             date:"27th Feb 2023",
             featureID:4,
             article:
             `
-            As one of the leading music artists of the 21st century, Swift has influenced the music industry in many aspects. In being personal and vulnerable in her lyrics, 
-            Swift helped make space for later pop stars like Billie Eilish, Ariana Grande, and Halsey to do the same. Swift is also a subject of academic study. The New York 
-            University & Stanford University offer courses on Swift in literary, cultural and sociopolitical contexts. The Nashville Songwriters Association International 
-            named her Songwriter-Artist of the Decade in 2022. Swift's bridges are often underscored as one of the best aspects of her songs, earning her the title "Queen of Bridges".
+            As one of the leading music artists of the 21st century, Swift has influenced the music industry in many
+            aspects. In being personal and vulnerable in her lyrics, Swift helped make space for later pop stars like 
+            Billie Eilish, Ariana Grande, and Halsey to do the same. Swift is also a subject of academic study. The New 
+            York University & Stanford University offer courses on Swift in literary, cultural & sociopolitical contexts.
+            The Nashville Songwriters Association International named her Songwriter-Artist of the Decade in 2022. Swift's
+            bridges are often underscored as the best aspects of her songs, earning her the title "Queen of Bridges".
+            Lover is the 7th studio album by American singer-songwriter Taylor Swift. It was released on August 23, 2019, 
+            through Republic Records, and is her first album release after her departure from Big Machine Records. Swift 
+            recorded Lover from November 2018 to February 2019 following her 2018 Reputation Stadium Tour, where she felt 
+            motivated by the fans, helping her recover her mental health after the controversies leading up to Reputation
+            (2017). Swift conceived Lover as a "love letter to love", taking inspiration from her recalibrated personal 
+            life and newfound artistic freedom. The songs incorporate eclectic styles ranging from country to folk to pop.
+            They explore emotions such as infatuation, commitment, lust, heartache. A few discuss contemporary American
+            political issues like LGBT rights and feminism. Lover was Swift's 6th-consecutive album to debut at number 
+            one on the US Billboard 200. And it became the year's best-selling studio album. The album won Favorite
+            Pop/Rock Album at the American Music Awards of 2019, and its singles won 4 MTV Video Music Awards.
 
-            Lover is the seventh studio album by American singer-songwriter Taylor Swift. It was released on August 23, 2019, through Republic Records, and is her first album release after 
-            her departure from Big Machine Records. Swift recorded Lover from November 2018 to February 2019 following her 2018 Reputation Stadium Tour, where she felt motivated by the fans, 
-            helping her recover her mental health after the controversies leading up to Reputation (2017). Swift conceived Lover as a "love letter to love", taking inspiration from her 
-            recalibrated personal life and newfound artistic freedom. The songs incorporate eclectic styles ranging from country and folk to pop; they explore emotions such as infatuation, 
-            commitment, lust, and heartache; a few discuss contemporary American political issues like LGBT rights and feminism. Lover was Swift's 6th-consecutive album to debut at number 
-            one on the US Billboard 200. And it became the year's best-selling studio album. The album won Favorite Pop/Rock Album at the American Music Awards of 2019, and its singles won 
-            four MTV Video Music Awards.
+            In the Lover era, butterflies were often used symbolically. With the release and success of this album, for
+            her it was like coming out of a cocoon; the Lover album was like a butterfly itself, that soared beautifully.
+            After years of backlash, rumours and toxic lies, the world trying to cancel her. She came back stronger than
+            ever, and cemented her place at the top as a versatile, talented female artist. Lover was the 1st album owned
+            by Taylor Swift; and not just the album, she owned the world.
+            The title track "Lover" is one of the most beautiful love songs with its heartfelt metaphors. The music video
+            featured the iconic "Lover House" with each room representing her past albums. Then there is "Cruel Summer"
+            that has the best bridge in this whole album. Listening to this song, it makes you want to confess your love
+            to somebody. That's how raw, powerful and honest it is.
+            I loved every song on this album and had a hard time picking favourites, but my underrated favourites are
+            "Cornelia Street" and "Death by a Thousand Cuts". The first one is about the feeling that you never want to 
+            lose the special one. With love comes the fear of what if the person leaves. This is what "Cornelia Street" 
+            explores. While the latter is the first breakup song Taylor wrote while being in a happy relationship. It 
+            might sound weird to you but for the fandom and Taylor Swift herself this was a huge deal! You will fall in 
+            love with the metaphors in "Death by a Thousand Cuts" and its killer bridge.
 
-            In the Lover era, butterflies were often used symbolically. With the release and success of this album, for Taylor it was like coming out of a cocoon; the Lover album was like a butterfly 
-            itself, that soared beautifully. After years of backlash and rumours and toxic lies, the world trying to cancel her. She came back stronger than ever, and cemented her place at the top as 
-            a versatile, talented female artist. Lover was the first album owned by Taylor Swift; and not just the album, she owned the world.
-            The title track "Lover" is one of the most beautiful love songs. The music video is iconic showing the dollhouse with each room representing her past works. Then there is "Cruel Summer" that 
-            has the best bridge in this whole album. Listening to this song, it makes you want to confess your love to somebody. That's how raw, powerful & honest it is. I loved all the songs and had a 
-            hard time picking favourites, but my underrated favourites are "Cornelia Street" and "Death by a Thousand Cuts". The first one is about the feeling that you never want to lose this special 
-            person. With love comes the fear of what if the person leaves. This is what "Cornelia Street" explores. While the latter is the first breakup song Taylor wrote while being in a happy 
-            relationship. It might sound weird to you but for the fandom and Taylor Swift herself this was a BIG deal! You will fall in love with metaphors of "Death by a Thousand Cuts"! Do give it a listen. 
-            And lastly, in line with our theme of this month, how can I NOT mention the masterpiece "The Man". Taylor Swift called out the double-standards that women face their entire lives and that the world 
-            tries to normalize. With this powerful feminist anthem, she speaks up and sends the message that we, collectively, as a society must accept our wrongs and try to do better instead of brushing it off. 
-            She brings our focus on the fact that how double-faced the society can be- if men do something, it's accepted easily; but when women do the exact same thing, then the world questions us. "The Man" 
-            music video marked Taylor Swift's solo directional debut, for which she won in the 2020 MTV Video Music Awards for "Best Direction". In this album she not only talks about feminism. Through the song 
-            "You Need To Calm Down", she also supported the LGBTQ+ community.
-
-            This record didn't portray "love" one-dimensionally, it explored all the shades of love. From the initial attraction and playful flirting to the hard part of confessing; from the conflicts that are 
-            natural to happen in any relationship to apologizing. The album gave us a glimpse of an entire relationship, and in the last song she sang that she once believed 'love' would be black & white, 
-            that it would be burning red. But she realizes 'love' can also be golden, like "Daylight". Listening to this album felt like an exploration of "Love" in all of its forms - hence the title "Lover".`
+            Lastly, in line with our theme of this month, how can I not mention the masterpiece "The Man". Taylor Swift 
+            called out the double-standards that women face their entire lives and that the world tries to normalize. With
+            this powerful feminist anthem, she speaks up and sends the message that we, collectively, as a society must 
+            accept our wrongs and try to do better instead of brushing it under a rug. She brings our focus on the fact 
+            that how double-faced the society can be- if men do something, it's accepted easily; but when women do the 
+            exact same thing, then the world questions us. "The Man" music video marked Taylor Swift's solo directional 
+            debut, for which she won in the 2020 MTV Video Music Awards for "Best Direction". In this album she not only 
+            talks about feminism. Through the song "You Need To Calm Down", she also supported the LGBTQ+ community.
+            This record didn't portray "love" one-dimensionally, it explored all the shades of love. From the initial 
+            attraction and playful flirting to the hard part of confessing; from the conflicts that are bound to happen in
+            any relationship to apologizing. The album gave us a glimpse of an entire relationship, and in the last song
+            she sang that she once believed 'love' would be black and white, that it would be burning red. But she 
+            realizes 'love' can also be golden, like "Daylight". Listening to this album felt like an exploration of 
+            "Love" in all of its forms - hence the title "Lover".`
         },
         {
             category:"music",
             id:28,
             url:"https://i.discogs.com/AaYlat-W68uA41Z_Sd80UrZakUm3D35k70XtWUNCqe4/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgzNjYz/NjctMTYyOTE0Nzk5/OS05MTk3LmpwZWc.jpeg",
-            title:"Cleopatra by The Lumineers",
-            description:`The Lumineers are an American alternative folk band based in Denver, Colorado. The founding members are Wesley Schultz and Jeremiah Fraites. Schultz and Fraites began writing and performing 
-            together in Ramsey, New Jersey, in 2005. Cellist and vocalist Neyla Pekarek joined the band in 2010, and was a member until 2018. The Lumineers emerged as one of the most popular folk-rock/Americana artists 
-            during the revival of those genres. They are known for their energetic live shows and several international hit singles. They have become one of the top touring bands.`,
+            title:"Cleopatra - Lumineers",
+            description:`The Lumineers are an American alternative folk band based in Denver, Colorado. The founding members are Wesley Schultz and Jeremiah Fraites. 
+            Schultz and Fraites began writing and performing together in Ramsey, New Jersey, in 2005. 
+            The Lumineers emerged as one of the most popular folk-rock/Americana artists during the revival of those genres. 
+            They are known for their energetic live shows and several international hit singles.
+            Their album "Cleopatra" was released on 8th April 2016.`,
             theme:"Folk Rock / Indie",
             date:"25th Feb 2023",
             featureID:2,
             article:
             `
-            Schultz has stated, "I write the lyrics, and I co-write the songs with Jer," adding "It's never the same thing with each song. Generally speaking it involves a piano, a guitar, and maybe singing, and we usually 
-            start out with the chord structure, a set of chords, a melody especially, and then the lyrics usually follow. Or it's one phrase that you really find great and then you build the song around that." 
-            Schultz later claimed, "Your melodies make people want to hear what you're saying," adding, "They've got to be open to hearing it, almost hum it. And if they want to go deeper there is something there." 
-            The band cites a diverse range of influences, including Bob Dylan, Beethoven, Guns N' Roses, Bruce Springsteen. The Lumineers have released four albums on American independent label Dualtone Records. 
-            Their self-titled first album was released in 2012 and peaked at No. 2 on the U.S. Billboard 200. In their early years 2002 - 2009, the band became The Lumineers after a band called Lumineers (a made up word) 
-            was supposed to play at a club in Jersey City the week after Schultz and Fraites played there. The emcee mistakenly introduced Schultz and Fraites as The Lumineers, and the name stuck. At first, The Lumineers 
-            struggled to find success in New York. In 2009, after considering relocating to London, Philadelphia and Boston, Fraites and Schultz, moved to Denver, Colorado, and joined the open mic scene.
+            Schultz has stated, "I write the lyrics, and I co-write the songs with Jer," adding "It's never the same thing
+            with each song. Generally speaking it involves a piano, a guitar, and maybe singing, and we usually start out
+            with the chord structure, a set of chords, a melody especially, and then the lyrics usually follow. Or it's 
+            one phrase that you really find great and then you build the song around that". Schultz later claimed, "Your 
+            melodies make people want to hear what you're saying". The band cites a diverse range of influences, including
+            Bob Dylan, Beethoven, Guns N' Roses, Bruce Springsteen. The Lumineers have released 4 albums on American 
+            independent label Dualtone Records. Their self-titled first album was released in 2012 and peaked at No. 2 on 
+            the U.S. Billboard 200. In their early years 2002 - 2009, the band became The Lumineers after a band called 
+            Lumineers (a made up word) was supposed to play at a club in Jersey City the week after Schultz and Fraites 
+            played there. The emcee mistakenly introduced Schultz and Fraites as The Lumineers, and the name stuck. At 
+            first, The Lumineers struggled to find success in New York. In 2009, after considering relocating to London, 
+            Philadelphia and Boston, Fraites and Schultz, moved to Denver, Colorado, and joined the open mic scene.
             
-            
-            In September 2014, it was announced that The Lumineers began working on their second album. The band released their second studio album Cleopatra on April 8, 2016. The black and white photo on the cover depicts 
-            silent movie star Theda Bara in the title role in the 1917 film Cleopatra. The album's first single "Ophelia" was released February 5, 2016. Ophelia ended 2016 as Billboard's #1 Alternative song and #1 Rock Radio song. 
-            The second single, also the album's title track, "Cleopatra", sprang from an encounter with a taxi driver Wes met in the Republic of Georgia, who told a story of personal tragedy without a trace of self-pity. The 3rd single, 
-            "Angela", quickly rose to No. 2 on Triple A radio making "Cleopatra" the first independent album to have three top five singles at Alternative radio. In April 2017, the band released the short film "The Ballad of Cleopatra", 
-            which brings together videos for the songs "Cleopatra", "Angela", "Ophelia", "Sleep on the Floor" and "My Eyes". The film depicts Cleopatra's life story in one continuous narrative. My personal favourite is "Sleep on the Floor" 
-            because of its addictive pre-chorus and lyrics. Each song in the album tells a story of its own and is connected to one another. The short film is beautifully, cleverly made. This album tells the story of a fictional woman named 
-            "Cleopatra" and hence the title of the album. Hope you enjoy this album as much as I did.`
+            In September 2014, it was announced that The Lumineers began working on their second album. The band released
+            their 2nd studio album Cleopatra on April 8, 2016. The black and white photo on the cover depicts silent movie
+            star Theda Bara in the title role in the 1917 film Cleopatra. The album's first single "Ophelia" was released 
+            on February 5, 2016. Ophelia ended up being 2016's Billboard's #1 Alternative song and #1 Rock Radio song. 
+            The second single, also the album's title track, "Cleopatra", sprang from an encounter with a taxi driver Wes
+            met in the Republic of Georgia, who told a story of personal tragedy without a trace of self-pity. The 3rd 
+            single, "Angela", quickly rose to No. 2 on Triple A radio making "Cleopatra" the first independent album to 
+            have three Top-5 singles at Alternative radio. In April 2017, the band released the short film "The Ballad of 
+            Cleopatra", which brought together videos for the songs "Cleopatra", "Angela", "Ophelia", "Sleep on the Floor"
+            and "My Eyes". The film depicts Cleopatra's life story in one continuous narrative. My personal favourite is 
+            "Sleep on the Floor" because of its addictive pre-chorus and lyrics. Each song in this album has a story of 
+            its own and is connected to one another, thus making it unique. Hope you enjoy this album as much as I did.`
         },
         {
             category:"kdramas",
