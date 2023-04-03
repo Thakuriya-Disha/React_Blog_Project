@@ -17,16 +17,16 @@ const NavBar = () => {
                 <div>MUSIC</div>
             </Link>
 
-            <Link to={"/paintings"} style={{textDecoration:'none',color:'indigo'}}>
-                <div>PAINTINGS</div>
+            <Link to={"/animes"} style={{textDecoration:'none',color:'indigo'}}>
+                <div>ANIMES</div>
             </Link>
 
             <Link to={"/kdramas"} style={{textDecoration:'none',color:'indigo'}}>
                 <div>K-DRAMAS</div>
             </Link>
 
-            <Link to={"/photography"} style={{textDecoration:'none',color:'indigo'}}>
-                <div>PHOTOGRAPHY</div>
+            <Link to={"/movies"} style={{textDecoration:'none',color:'indigo'}}>
+                <div>MOVIES</div>
             </Link>
         </div><br/>
         </>

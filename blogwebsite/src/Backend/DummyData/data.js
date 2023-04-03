@@ -1,10 +1,5 @@
-import { createContext, useState} from "react";
-import React from 'react';
-
-export const blogData = createContext();
-
-function ContextAPI(props){
-    const [data,setData] = useState([
+const poetry = (req,res) => {
+    res.send([
         {
             category:"poetry",
             id:1,
@@ -431,147 +426,12 @@ function ContextAPI(props){
             that our orbits had once intersected, 
             and that our worlds had aligned. 
             Even though it was once upon a time ago.`
-        },
-        {
-            category:"movies",
-            id:8,
-            url:"https://images.unsplash.com/photo-1505051508008-923feaf90180?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHN1bnNldCUyMHNreXxlbnwwfHwwfHw%3D&w=1000&q=80",
-            title:"Photo 1",
-            description:"lorem ipsum dolor sit amet",
-            theme:"nature",
-            date:"23rd Nov 2022",
-            featureID:3
-        },
-        {
-            category:"movies",
-            id:9,
-            url:"https://www.greenthumbdiaries.com/wp-content/uploads/2022/05/Blank-600-x-900-copy-17-15.jpg",
-            title:"Photo 2",
-            description:"lorem ipsum dolor sit amet",
-            theme:"nature",
-            date:"26th Sep 2021",
-            featureID:1
-        },
-        {
-            category:"movies",
-            id:10,
-            url:"https://images.unsplash.com/photo-1505051508008-923feaf90180?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHN1bnNldCUyMHNreXxlbnwwfHwwfHw%3D&w=1000&q=80",
-            title:"Photo 3",
-            description:"lorem ipsum dolor sit amet",
-            theme:"nature",
-            date:"23rd Nov 2022",
-            featureID:4
-        },
-        {
-            category:"movies",
-            id:11,
-            url:"https://www.greenthumbdiaries.com/wp-content/uploads/2022/05/Blank-600-x-900-copy-17-15.jpg",
-            title:"Photo 4",
-            description:"lorem ipsum dolor sit amet",
-            theme:"nature",
-            date:"26th Sep 2021",
-            featureID:2
-        },
-        {
-            category:"movies",
-            id:12,
-            url:"https://www.greenthumbdiaries.com/wp-content/uploads/2022/05/Blank-600-x-900-copy-17-15.jpg",
-            title:"Photo 4",
-            description:"lorem ipsum dolor sit amet",
-            theme:"nature",
-            date:"26th Sep 2021",
-            featureID:5
-        },
-        {
-            category:"movies",
-            id:13,
-            url:"https://www.greenthumbdiaries.com/wp-content/uploads/2022/05/Blank-600-x-900-copy-17-15.jpg",
-            title:"Photo 4",
-            description:"lorem ipsum dolor sit amet",
-            theme:"nature",
-            date:"26th Sep 2021",
-            featureID:6
-        },
-        {
-            category:"movies",
-            id:14,
-            url:"https://www.greenthumbdiaries.com/wp-content/uploads/2022/05/Blank-600-x-900-copy-17-15.jpg",
-            title:"Photo 4",
-            description:"lorem ipsum dolor sit amet",
-            theme:"nature",
-            date:"26th Sep 2021",
-            featureID:7
-        },
-        {
-            category:"animes",
-            id:15,
-            url:"https://www.topalski.com/wp-content/uploads/2019/12/Through-the-Country-Fields-Fine-Art-Original-Landscape-Oil-Painting-on-Canvas-by-artist-Darko-Topalski.jpg",
-            title:"Painting 1",
-            description:"lorem ipsum dolor sit amet",
-            theme:"nature",
-            date:"23rd Nov 2022",
-            featureID:4
-        },
-        {
-            category:"animes",
-            id:16,
-            url:"https://cdn3.volusion.com/oljgs.pljhv/v/vspfiles/photos/CAB333-2.jpg?v-cache=1615978659",
-            title:"Painting 2",
-            description:"lorem ipsum dolor sit amet",
-            theme:"nature",
-            date:"26th Sep 2021",
-            featureID:1
-        },
-        {
-            category:"animes",
-            id:17,
-            url:"https://www.topalski.com/wp-content/uploads/2019/12/Through-the-Country-Fields-Fine-Art-Original-Landscape-Oil-Painting-on-Canvas-by-artist-Darko-Topalski.jpg",
-            title:"Painting 3",
-            description:"lorem ipsum dolor sit amet",
-            theme:"nature",
-            date:"23rd Nov 2022",
-            featureID:2
-        },
-        {
-            category:"animes",
-            id:18,
-            url:"https://cdn3.volusion.com/oljgs.pljhv/v/vspfiles/photos/CAB333-2.jpg?v-cache=1615978659",
-            title:"Painting 4",
-            description:"lorem ipsum dolor sit amet",
-            theme:"nature",
-            date:"26th Sep 2021",
-            featureID:3
-        },
-        {
-            category:"animes",
-            id:19,
-            url:"https://cdn3.volusion.com/oljgs.pljhv/v/vspfiles/photos/CAB333-2.jpg?v-cache=1615978659",
-            title:"Painting 4",
-            description:"lorem ipsum dolor sit amet",
-            theme:"nature",
-            date:"26th Sep 2021",
-            featureID:5
-        },
-        {
-            category:"animes",
-            id:20,
-            url:"https://cdn3.volusion.com/oljgs.pljhv/v/vspfiles/photos/CAB333-2.jpg?v-cache=1615978659",
-            title:"Painting 4",
-            description:"lorem ipsum dolor sit amet",
-            theme:"nature",
-            date:"26th Sep 2021",
-            featureID:6
-        },
-        {
-            category:"animes",
-            id:21,
-            url:"https://cdn3.volusion.com/oljgs.pljhv/v/vspfiles/photos/CAB333-2.jpg?v-cache=1615978659",
-            title:"Painting 4",
-            description:"lorem ipsum dolor sit amet",
-            theme:"nature",
-            date:"26th Sep 2021",
-            featureID:7
-        },
+        }
+    ])
+}
+
+const music = (req,res) => {
+    res.send([
         {
             category:"music",
             id:22,
@@ -808,7 +668,6 @@ function ContextAPI(props){
             was supposed to play at a club in Jersey City the week after Schultz and Fraites played there. The emcee mistakenly introduced Schultz and Fraites as The Lumineers, and the name stuck. At first, The Lumineers 
             struggled to find success in New York. In 2009, after considering relocating to London, Philadelphia and Boston, Fraites and Schultz, moved to Denver, Colorado, and joined the open mic scene.
             
-            
             In September 2014, it was announced that The Lumineers began working on their second album. The band released their second studio album Cleopatra on April 8, 2016. The black and white photo on the cover depicts 
             silent movie star Theda Bara in the title role in the 1917 film Cleopatra. The album's first single "Ophelia" was released February 5, 2016. Ophelia ended 2016 as Billboard's #1 Alternative song and #1 Rock Radio song. 
             The second single, also the album's title track, "Cleopatra", sprang from an encounter with a taxi driver Wes met in the Republic of Georgia, who told a story of personal tragedy without a trace of self-pity. The 3rd single, 
@@ -816,133 +675,29 @@ function ContextAPI(props){
             which brings together videos for the songs "Cleopatra", "Angela", "Ophelia", "Sleep on the Floor" and "My Eyes". The film depicts Cleopatra's life story in one continuous narrative. My personal favourite is "Sleep on the Floor" 
             because of its addictive pre-chorus and lyrics. Each song in the album tells a story of its own and is connected to one another. The short film is beautifully, cleverly made. This album tells the story of a fictional woman named 
             "Cleopatra" and hence the title of the album. Hope you enjoy this album as much as I did.`
-        },
-        {
-            category:"kdramas",
-            id:29,
-            url:"https://images.news18.com/ibnlive/uploads/2022/03/kim-tae-ri-nam-joo-hyuk.jpg",
-            title:"Twenty-five Twenty-one  |  12th Feb 2022",
-            description:`lorem ipsum dolor sit amet`,
-            theme:"Coming-of-age / Romance",
-            date:"10th Mar 2023",
-            featureID:3,
-            article:
-            `
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet`
-        },
-        {
-            category:"kdramas",
-            id:30,
-            url:"https://photos.hancinema.net/photos/photo1302807.jpg",
-            title:"Mr. Queen  |  12th Dec 2020",
-            description:`lorem ipsum dolor sit amet`,
-            theme:"Comedy / Historical / Fantasy",
-            date:"9th Mar 2023",
-            featureID:1,
-            article:
-            `
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet`
-        },
-        {
-            category:"kdramas",
-            id:31,
-            url:"https://i.scdn.co/image/ab67616d0000b273025e89b52a4bcb14cf87f1b5",
-            title:"Start Up  |  17 Oct 2020",
-            description:`lorem ipsum dolor sit amet`,
-            theme:"Romantic Comedy / Slice of Life",
-            date:"7th Mar 2023",
-            featureID:5,
-            article:
-            `
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet`
-        },
-        {
-            category:"kdramas",
-            id:32,
-            url:"https://i.scdn.co/image/ab67616d0000b273606ac026c59ac4f6d5822a5c",
-            title:"It's Okay to Not Be Okay  |  20th June 2020",
-            description:`lorem ipsum dolor sit amet`,
-            theme:"Mental Health / Romantic Comedy",
-            date:"4th Mar 2023",
-            featureID:7,
-            article:
-            `
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet`
-        },
-        {
-            category:"kdramas",
-            id:33,
-            url:"https://m.media-amazon.com/images/M/MV5BZWQyZTkwMTMtYTJiZS00MGNlLThhN2EtYzEzOGQzYjFiZGQxXkEyXkFqcGdeQXVyMTEzMjQ4NzEw._V1_.jpg",
-            title:"Crash Landing On You  |  14th Dec 2019",
-            description:`lorem ipsum dolor sit amet`,
-            theme:"Romantic Comedy",
-            date:"2nd Mar 2023",
-            featureID:4,
-            article:
-            `
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet`
-        },
-        {
-            category:"kdramas",
-            id:34,
-            url:"https://i.scdn.co/image/ab67616d0000b27330e7ffa60613da62eba9dd7d",
-            title:"Strong Woman Do Bong-Soon  |  24th Feb 2017",
-            description:`lorem ipsum dolor sit amet`,
-            theme:"Thriller / Action / Fantasy / Romantic Comedy",
-            date:"1st Mar 2023",
-            featureID:6,
-            article:
-            `
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet`
-        },
-        {
-            category:"kdramas",
-            id:35,
-            url:"https://i.scdn.co/image/ab67616d0000b2738b36a8c16b48db1bdab65545",
-            title:"Reply 1988  |  6th Nov 2015",
-            description:`lorem ipsum dolor sit amet`,
-            theme:"Comedy / Coming-of-age / Family",
-            date:"27th Feb 2023",
-            featureID:2,
-            article:
-            `
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet`
         }
-    ]);
-
-    return(
-        <blogData.Provider value={[data,setData]}>
-            {props.children}
-        </blogData.Provider>
-    );
+    ])
 }
 
-export default ContextAPI;
+const kdramas = (req,res) => {
+    res.send([
+        {},
+        {}
+    ])
+}
+
+const animes = (req,res) => {
+    res.send([
+        {},
+        {}
+    ])
+}
+
+const movies = (req,res) => {
+    res.send([
+        {},
+        {}
+    ])
+}
+
+module.exports = {poetry, music, kdramas, animes, movies}

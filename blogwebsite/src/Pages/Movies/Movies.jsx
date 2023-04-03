@@ -1,16 +1,22 @@
-import './style_paint.css';
+import './style_photo.css';
 import HeaderCompo from '../../Header/HeaderComponent';
-import React, {useContext} from 'react';
+import React, {useContext,useEffect} from 'react';
 import {blogData} from '../../Utility/ContextAPI';
 import {useNavigate} from 'react-router-dom';
 
-const Paintings = () => {
+const Movies = () => {
 
-    const [artList] = useContext(blogData);
+    useEffect(() => {
+        fetch("http://localhost:5000/movies")
+        .then( res => res.json())
+        .then( data => console.log(data))
+    })
+
+    const [moviesList] = useContext(blogData);
 
     const nav = useNavigate();
-    const toNavigate = (category, id, selectedArt) => {
-        nav(`/article/${category}/${id}`, { state: { content: selectedArt } });
+    const toNavigate = (category, id, selectedMovie) => {
+        nav(`/article/${category}/${id}`, { state: { content: selectedMovie } });
     };
 
     return(
@@ -20,19 +26,19 @@ const Paintings = () => {
             <div className='pageColumns'>
 
                 <div className='col1'>
-                    <h1>Paintings</h1>
+                    <h1>Movies</h1>
                     {
-                        artList.filter((item) => item.category === 'painting').map((art) => {
+                        moviesList.filter((item) => item.category === 'movies').map((pic) => {
                             return(
                                 <>
-                                <div className='dataFlex' id='{art.id}' onClick = {() => toNavigate(art.category, art.id, art)} style={{cursor:'pointer'}}>
+                                <div className='dataFlex' id='{pic.id}' onClick = {() => toNavigate(pic.category, pic.id, pic)} style={{cursor:'pointer'}}>
                                     <div>
-                                        <img src={art.url} alt='cover art'></img>
+                                        <img src={pic.url} alt='movie'></img>
                                     </div>
                                     <div className='textCol'>
-                                        <h2>{art.title}</h2>
-                                        <p>{art.description}</p>
-                                        <span>{art.theme} / {art.date}</span>
+                                        <h2>{pic.title}</h2>
+                                        <p>{pic.description}</p>
+                                        <span>{pic.theme} / {pic.date}</span>
                                     </div>
                                 </div>
                                 <hr/>
@@ -45,18 +51,18 @@ const Paintings = () => {
                 <div className='col2'>
                     <h1>Top Posts</h1>
                     {
-                        artList.filter((item) => item.category === 'painting' && item.featureID === 1).map((art) => {
+                        moviesList.filter((item) => item.category === 'movies' && item.featureID === 1).map((pic) => {
                             return(
                                 <>
-                                <div id='{art.id}' className='firstTP' onClick = {() => toNavigate(art.category, art.id, art)} style={{cursor:'pointer'}}>
-                                    <img src={art.url} alt='cover art'></img>
+                                <div id='{pic.id}' className='firstTP' onClick = {() => toNavigate(pic.category, pic.id, pic)} style={{cursor:'pointer'}}>
+                                    <img src={pic.url} alt='picture'></img>
                                     <div className='tp1'>
                                         <div>
-                                            <h3>{art.title}</h3>
-                                            <span>{art.theme} / {art.date}</span>
+                                            <h3>{pic.title}</h3>
+                                            <span>{pic.theme} / {pic.date}</span>
                                         </div>
                                         <div>
-                                            <h2> {art.featureID} </h2>
+                                            <h2> {pic.featureID} </h2>
                                         </div>
                                     </div>
                                     <hr/>
@@ -67,20 +73,20 @@ const Paintings = () => {
                     }
 
                     {
-                        artList.filter((item) => item.category === 'painting' && item.featureID === 2).map((art) => {
+                        moviesList.filter((item) => item.category === 'movies' && item.featureID === 2).map((pic) => {
                             return(
                                 <>
                             
-                                    <div id='{art.id}' className='tp' onClick = {() => toNavigate(art.category, art.id, art)} style={{cursor:'pointer'}}>
+                                    <div id='{pic.id}' className='tp' onClick = {() => toNavigate(pic.category, pic.id, pic)} style={{cursor:'pointer'}}>
                                         <div>
-                                            <img src={art.url} alt='cover art'></img>
+                                            <img src={pic.url} alt='cover art'></img>
                                         </div>
                                         <div>
-                                            <h3>{art.title}</h3>
-                                            <span>{art.theme} / {art.date}</span>
+                                            <h3>{pic.title}</h3>
+                                            <span>{pic.theme} / {pic.date}</span>
                                         </div>
                                         <div>
-                                            <h2> {art.featureID} </h2>
+                                            <h2> {pic.featureID} </h2>
                                         </div>
                                     </div>
                                     <hr/>   
@@ -91,20 +97,20 @@ const Paintings = () => {
                     }
 
                     {
-                        artList.filter((item) => item.category === 'painting' && item.featureID === 3).map((art) => {
+                        moviesList.filter((item) => item.category === 'movies' && item.featureID === 3).map((pic) => {
                             return(
                                 <>
                             
-                                    <div id='{art.id}' className='tp' onClick = {() => toNavigate(art.category, art.id, art)} style={{cursor:'pointer'}}>
+                                    <div id='{pic.id}' className='tp' onClick = {() => toNavigate(pic.category, pic.id, pic)} style={{cursor:'pointer'}}>
                                         <div>
-                                            <img src={art.url} alt='cover art'></img>
+                                            <img src={pic.url} alt='cover art'></img>
                                         </div>
                                         <div>
-                                            <h3>{art.title}</h3>
-                                            <span>{art.theme} / {art.date}</span>
+                                            <h3>{pic.title}</h3>
+                                            <span>{pic.theme} / {pic.date}</span>
                                         </div>
                                         <div>
-                                            <h2> {art.featureID} </h2>
+                                            <h2> {pic.featureID} </h2>
                                         </div>
                                     </div>
                                     <hr/>   
@@ -115,20 +121,20 @@ const Paintings = () => {
                     }
 
                     {
-                        artList.filter((item) => item.category === 'painting' && item.featureID === 4).map((art) => {
+                        moviesList.filter((item) => item.category === 'movies' && item.featureID === 4).map((pic) => {
                             return(
                                 <>
                             
-                                    <div id='{art.id}' className='tp' onClick = {() => toNavigate(art.category, art.id, art)} style={{cursor:'pointer'}}>
+                                    <div id='{pic.id}' className='tp' onClick = {() => toNavigate(pic.category, pic.id, pic)} style={{cursor:'pointer'}}>
                                         <div>
-                                            <img src={art.url} alt='cover art'></img>
+                                            <img src={pic.url} alt='cover art'></img>
                                         </div>
                                         <div>
-                                            <h3>{art.title}</h3>
-                                            <span>{art.theme} / {art.date}</span>
+                                            <h3>{pic.title}</h3>
+                                            <span>{pic.theme} / {pic.date}</span>
                                         </div>
                                         <div>
-                                            <h2> {art.featureID} </h2>
+                                            <h2> {pic.featureID} </h2>
                                         </div>
                                     </div>
                                     <hr/>   
@@ -147,4 +153,4 @@ const Paintings = () => {
     );
 };
 
-export default Paintings;
+export default Movies;

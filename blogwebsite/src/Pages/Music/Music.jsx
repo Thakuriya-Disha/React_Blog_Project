@@ -1,10 +1,16 @@
 import './style_music.css';
 import HeaderCompo from '../../Header/HeaderComponent';
-import React, {useContext} from 'react';
+import React, {useContext,useEffect} from 'react';
 import {blogData} from '../../Utility/ContextAPI';
 import {useNavigate} from 'react-router-dom';
 
 const Music = () => {
+
+    useEffect( ()=>{
+        fetch("http://localhost:5000/music")
+        .then( res => res.json())
+        .then( data => console.log(data))
+    })
 
     const [musicList] = useContext(blogData);
 
