@@ -59,7 +59,7 @@ const Poetry = () => {
                                     <div className='tp1'>
                                         <div>
                                             <h3>{poem.title}</h3>
-                                            <span>{poem.theme} / {poem.date}</span>
+                                            <span>{poem.date}</span>
                                         </div>
                                         <div>
                                             <h2> {poem.featureID} </h2>
@@ -83,7 +83,7 @@ const Poetry = () => {
                                         </div>
                                         <div>
                                             <h3>{poem.title}</h3>
-                                            <span>{poem.theme} / {poem.date}</span>
+                                            <span>{poem.date}</span>
                                         </div>
                                         <div>
                                             <h2> {poem.featureID} </h2>
@@ -107,7 +107,7 @@ const Poetry = () => {
                                         </div>
                                         <div>
                                             <h3>{poem.title}</h3>
-                                            <span>{poem.theme} / {poem.date}</span>
+                                            <span>{poem.date}</span>
                                         </div>
                                         <div>
                                             <h2> {poem.featureID} </h2>
@@ -131,7 +131,7 @@ const Poetry = () => {
                                         </div>
                                         <div>
                                             <h3>{poem.title}</h3>
-                                            <span>{poem.theme} / {poem.date}</span>
+                                            <span>{poem.date}</span>
                                         </div>
                                         <div>
                                             <h2> {poem.featureID} </h2>

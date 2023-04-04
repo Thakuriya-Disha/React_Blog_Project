@@ -117,7 +117,7 @@ const TheLatest = () => {
                                         <div className='reviewDetails'>
                                             <h2>{data.title}</h2>
                                             <p style={{color:'grey',fontSize:'18px'}}>{data.description}</p>
-                                            {data.theme} / <span style={{color:'grey'}}> {data.date}</span>
+                                            {data.theme} <br/><span style={{color:'grey'}}> {data.date}</span>
                                         </div>
                                     </div>
                                     </>

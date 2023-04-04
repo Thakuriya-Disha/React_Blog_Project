@@ -60,7 +60,7 @@ function ContextAPI(props){
             featureID:1,
             article:
             `
-            why is it "the youngest prime minister"
+            Why is it "the youngest prime minister"
             but not "the youngest male prime minister"? 
             why is it written as "the female president"
             but not as "the president" in an article
@@ -69,7 +69,7 @@ function ContextAPI(props){
             when the person holding the highest position
             is in fact not a male homo sapien? 
 
-            "the youngest prime minister"
+            "The youngest prime minister"
             is treated with such awe
             but "the youngest female prime minister"
             is looked upon with doubt. 
@@ -120,7 +120,7 @@ function ContextAPI(props){
             category:"poetry",
             id:3,
             url:"https://i.pinimg.com/originals/76/b4/70/76b4701d3f6b176a424b37974dca5a97.jpg",
-            title:"The Child From Once Upon A Time Ago",
+            title:"The Younger One",
             description:`This poem is about one's world view changing over time. Unlearning and learning new life lessons
             along the way. This is nod to my past self doing the best with the limited knowledge she had, irrespective of 
             how right or wrong her decisions might have been. In life, we always win - either it's a medal or a lesson. But we never lose in life, we only learn.`,
@@ -225,7 +225,7 @@ function ContextAPI(props){
             category:"poetry",
             id:5,
             url:"https://i.redd.it/7pom4pz33q651.jpg",
-            title:"It's Life; not Bread.",
+            title:"It's Life; not Bread",
             description:`Teenagers often play the game of "what's your deepest fear?" or "what scares you the most?"
             And the answers used to range from failing a test to being robbed to drowning. As we grow up, our fears change too. 
             The brand new fear is: Life turning into a boring, meaningless routine with no escape from. Not truly living, just existing 
@@ -273,7 +273,7 @@ function ContextAPI(props){
             category:"poetry",
             id:6,
             url:"http://www.nyu.edu/content/nyu/en/about/news-publications/news/2017/november/what-gives-poetry-its-aesthetic-appeal--new-research-has-well-ve/jcr:content/page/image.img.480.high.jpg",
-            title:"Saviour",
+            title:"The Saviour",
             description:`Poetry had always been more than just a hobby for me. It became my dearest friend.
             Poetry turned into the language I speak in. Poetry did more than just help me; it saved me. 
             I am so grateful to this world of literature that "Poetry" opened up for me.`,
@@ -358,7 +358,7 @@ function ContextAPI(props){
             category:"poetry",
             id:7,
             url:"https://cdn.shopify.com/s/files/1/0295/7505/3372/products/colourfuljigsawpuzzlesforadultsmaimo_0d12a196-13c2-4d1f-bea6-d1043d7cb61b_1024x1024.jpg?v=1674132675",
-            title:"Life: a Patchwork, a Collage, a Puzzle.",
+            title:"Life like a Mozaic",
             description:`People come and people go. Some stay for a while and few stay for life. This poem is for 
             those who went by. They may not be here today. But their stories, their memory, their legacy forever lives on. 
             Life is a patchwork of the old and new. Life is a collage, a melange of stories. 
@@ -637,17 +637,17 @@ function ContextAPI(props){
             incident where a producer belittled and patronized her in a songwriting session.  After executives at Island 
             Records heard the song, they immediately signed her to a recording contract. On 5 May 2017 she released her 
             debut EP which was named after the song, which charted in Norway, Australia, and the United Kingdom. In 2018
-            January, Sigrid was announced as the winner of BBC Music Sound of 2018. On 8 March 2019, Sigrid's debut album, 
-            Sucker Punch, was released. She was listed in Forbes "30 under 30" for European Entertainment in 2019.
+            January, Sigrid was announced as the winner of BBC Music Sound of 2018. On 8 March 2019, Sigrid's debut
+            album, Sucker Punch, was released. She was listed in Forbes "30 under 30" for European Entertainment in 2019.
 
             Sigrid's songs are underpinned by anger, melancholia, and disappointment; she says that it is easier to write 
             about frustration than about having a nice time. For her love songs Sigrid cites Coldplay, Adele as influences. 
-            How to Let Go is the second studio album by Norwegian singer-songwriter Sigrid, released on 6 May 2022 through
-            Island Records. The album was promoted by the singles "Mirror", "Burning Bridges", "It Gets Dark", "Bad Life". 
-            "Mirror" described as a "self-acceptance anthem", was released as the lead single from the album. The meaning
-            of the song "Burning Bridges" is "that moment when you know you have to let go [...] when you are listening to
-            the song, I'm cool with it being anything you want it to be". "Bad Life", with British rock band Bring Me The
-            Horizon, marks the first collaboration with another artist in Sigrid's projects.`
+            How to Let Go is the second studio album by Norwegian singer-songwriter Sigrid, released on 6 May 2022 
+            through Island Records. The album was promoted by the singles "Mirror", "Burning Bridges", "It Gets Dark", 
+            "Bad Life". "Mirror" described as a "self-acceptance anthem", was released as the lead single from the album. 
+            The meaning of the song "Burning Bridges" is "that moment when you know you have to let go [...] when you are 
+            listening to the song, I'm cool with it being anything you want it to be". "Bad Life", with British rock band 
+            Bring Me The Horizon, marks the first collaboration with another artist in Sigrid's projects.`
         },
         {
             category:"music",
@@ -710,18 +710,19 @@ function ContextAPI(props){
             (Taylor's Version) includes re-recorded versions of 20 songs from the deluxe edition of Red; the 2012 charity
             single "Ronan"; the 10-minute, unabridged version of "All Too Well"; Swift's own recordings of "Better Man"
             (2016) and "Babe" (2018); and 6 previously unreleased "From the Vault" tracks. 
-            Met with widespread acclaim, reviews commended Red (Taylor's Version) for Swift's vocals, enhanced production
-            quality, and the new tracks. Critics have described it as a classic pop record with a country core, infusing
-            rock and electronic flairs, whilst examining various dynamics of love, life, loss and heartache. The album
-            broke a string of commercial records, including the biggest vinyl sales week in MRC Data history and the
-            Spotify record for the most single-day streams for an album by a female artist. 
+            Met with widespread acclaim, reviews commended Red (Taylor's Version) for Swift's vocals, enhanced 
+            production quality, and the new tracks. Critics have described it as a classic pop record with a country 
+            core, infusing rock and electronic flairs, whilst examining various dynamics of love, life, loss and 
+            heartache. The album broke a string of commercial records, including the biggest vinyl sales week in MRC 
+            Data history and the Spotify record for the most single-day streams for an album by a female artist. 
             
-            The star of this album is undoubtedly the lead single 10-minute version "All Too Well", that Taylor Swift made
-            a short film for. "All Too Well (10 Minute Version)" topped charts worldwide and became the longest song to
-            reach No.1 on the Billboard Hot 100. Critics received the 10-minute version with rave reviews: they praised
-            the song structure and richer context to an existing acclaimed song, featured it in many year-end lists, and
-            dubbed it a career highlight. It received a Grammy nomination for Song of the Year. And the ATW short film,
-            directed by Swift, won an MTV Video Music Award for Video of the Year and a Grammy Award for Best Music Video.`
+            The star of this album is undoubtedly the lead single 10-minute version "All Too Well", that Taylor Swift 
+            made a short film for. "All Too Well (10 Minute Version)" topped charts worldwide and became the longest 
+            song to reach No.1 on the Billboard Hot 100. Critics received the 10-minute version with rave reviews: they 
+            praised the song structure and richer context to an existing acclaimed song, featured it in many year-end 
+            lists, and dubbed it a career highlight. It received a Grammy nomination for Song of the Year. And the ATW 
+            short film, directed by Swift, won an MTV Video Music Award for Video of the Year and a Grammy Award for the
+            Best Music Video.`
         },
         {
             category:"music",
@@ -736,28 +737,28 @@ function ContextAPI(props){
             featureID:3,
             article:
             `
-            In 2011, SM Entertainment CEO Lee Soo-man revealed plans to debut a new boy band that would be divided into 2
-            sub-groups, promoting the same music simultaneously in South Korea and China by performing songs in both 
+            In 2011, SM Entertainment CEO Lee Soo-man revealed plans to debut a new boy band that would be divided into
+            2 sub-groups, promoting the same music simultaneously in South Korea and China by performing songs in both 
             Korean and Mandarin. The group finalized its name as Exo, taken from the word "exoplanet". Exo are considered
             by many to be a vocal powerhouse group in the K-pop industry. In particular, the group's three main vocalists
             D.O., Chen, and Baekhyun have received praise from industry figures and the media. The special winter-themed
             EPs that Exo have released nearly every December since 2013 feature classic, emotional ballads that diverge
             from the upbeat singles usually featured on the band's studio albums. Most of Exo's songs blend pop, hip-hop
-            and R&B with electronic dance music genres such as house and trap and are produced with onstage performance in
-            mind. Exo have been praised for their synchronized choreography and elaborate stage designs. With the release
-            of their debut studio album in 2013, Exo became the first South Korean artist in 12 years to sell over one
-            million copies of an album. In 2021, Exo became "sextuple million sellers"- they sold over 1 million copies
-            apiece for six different albums. No wonder Exo is known as "the biggest boy band in the world".
+            and R&B with electronic dance music genres such as house and trap and are produced with onstage performance 
+            in mind. Exo have been praised for their synchronized choreography and elaborate stage designs. With the 
+            release of their debut studio album in 2013, Exo became the first South Korean artist in 12 years to sell 
+            over one million copies of an album. In 2021, Exo became "sextuple million sellers"- they sold over 1 million 
+            copies apiece for six different albums. No wonder Exo is known as "the biggest boy band in the world".
 
             "Obsession" is the 6th studio album by EXO. Obsession was Exo's first album to be promoted as a six-member
-            group, as members Xiumin and D.O. were undergoing mandatory military service, and member Lay was promoting his
-            solo activities in China. The album features 10 songs including the lead single, "Obsession". The title track
-            "Obsession" is described as a hip hop dance song featuring repeating spell-like vocal samples and a prominent
-            heavy beat. The album features 10 tracks in a variety of genres. The most interesting track from this album is
-            "Jekyll". It is a dance pop song with heavy drums, bass along with dynamic vocal composition & transformation.
-            The song's lyrics express an internal conflict with one's alter ego in an impactful way. "Jekyll" is based on
-            a duality concept: Fighting with demons inside you. The screaming voice is you calling for help in desperation.
-            The whispering voice is your demons telling you they are never leaving you.
+            group, as members Xiumin and D.O. were undergoing mandatory military service, and member Lay was promoting 
+            his solo activities in China. The album features 10 songs including the lead single, "Obsession". The title
+            track "Obsession" is described as a hip hop dance song featuring repeating spell-like vocal samples and a 
+            prominent heavy beat. The album features 10 tracks in a variety of genres. The most interesting track from 
+            this album is "Jekyll". It is a dance pop song with heavy drums, bass along with dynamic vocal composition 
+            & transformation. The song's lyrics express an internal conflict with one's alter ego in an impactful way. 
+            "Jekyll" is based on a duality concept: Fighting with demons inside you. The screaming voice is you calling 
+            for help in desperation. The whispering voice is your demons telling you they are never leaving you.
             Hence the title from the theme of "Dr. Jekyll & Mr. Hyde".`
         },
         {
@@ -783,8 +784,8 @@ function ContextAPI(props){
             bridges are often underscored as the best aspects of her songs, earning her the title "Queen of Bridges".
             Lover is the 7th studio album by American singer-songwriter Taylor Swift. It was released on August 23, 2019, 
             through Republic Records, and is her first album release after her departure from Big Machine Records. Swift 
-            recorded Lover from November 2018 to February 2019 following her 2018 Reputation Stadium Tour, where she felt 
-            motivated by the fans, helping her recover her mental health after the controversies leading up to Reputation
+            recorded Lover from November 2018 to February 2019 following her 2018 Reputation Stadium Tour, where she 
+            felt motivated by the fans, helping her recover her mental health after the controversies leading up to Reputation
             (2017). Swift conceived Lover as a "love letter to love", taking inspiration from her recalibrated personal 
             life and newfound artistic freedom. The songs incorporate eclectic styles ranging from country to folk to pop.
             They explore emotions such as infatuation, commitment, lust, heartache. A few discuss contemporary American
@@ -828,7 +829,7 @@ function ContextAPI(props){
             id:28,
             url:"https://i.discogs.com/AaYlat-W68uA41Z_Sd80UrZakUm3D35k70XtWUNCqe4/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgzNjYz/NjctMTYyOTE0Nzk5/OS05MTk3LmpwZWc.jpeg",
             title:"Cleopatra - Lumineers",
-            description:`The Lumineers are an American alternative folk band based in Denver, Colorado. The founding members are Wesley Schultz and Jeremiah Fraites. 
+            description:`The Lumineers are an American alternative folk band based in Denver. The founding members are Wesley Schultz and Jeremiah Fraites. 
             Schultz and Fraites began writing and performing together in Ramsey, New Jersey, in 2005. 
             The Lumineers emerged as one of the most popular folk-rock/Americana artists during the revival of those genres. 
             They are known for their energetic live shows and several international hit singles.
@@ -869,9 +870,7 @@ function ContextAPI(props){
             id:29,
             url:"https://images.news18.com/ibnlive/uploads/2022/03/kim-tae-ri-nam-joo-hyuk.jpg",
             title:"Twenty-five Twenty-one",
-            description:`In a time when dreams seem out of reach, a teenage fencer pursues big ambitions and meets a 
-            hardworking young man who seeks to rebuild his life. This 2022 South Korean television series is directed 
-            by Jung Ji-hyun. It was released on 12th February 2022.`,
+            description:`In a time when dreams seem out of reach, a teenage fencer pursues big ambitions and meets a hardworking young man who seeks to rebuild his life.`,
             theme:"Coming-of-age / Romance",
             date:"10th Mar 2023",
             featureID:3,
@@ -896,9 +895,9 @@ function ContextAPI(props){
         {
             category:"kdramas",
             id:30,
-            url:"https://photos.hancinema.net/photos/photo1302807.jpg",
-            title:"Mr. Queen  |  12th Dec 2020",
-            description:`lorem ipsum dolor sit amet`,
+            url:"https://i.scdn.co/image/ab67706c0000bebbb368a163dd39a2b6e5043dfc",
+            title:"Mr. Queen",
+            description:`A modern chef suddenly becomes trapped inside the body of a queen from the Joseon era, which causes chaos for everyone involved.`,
             theme:"Comedy / Historical / Fantasy",
             date:"9th Mar 2023",
             featureID:1,
@@ -914,8 +913,8 @@ function ContextAPI(props){
             category:"kdramas",
             id:31,
             url:"https://i.scdn.co/image/ab67616d0000b273025e89b52a4bcb14cf87f1b5",
-            title:"Start Up  |  17 Oct 2020",
-            description:`lorem ipsum dolor sit amet`,
+            title:"Start Up",
+            description:`Seo Dal Mi has dreams of becoming Korea's own Steve Jobs, and with her genius first love, an investor, and a business insider by her side, her dream may be closer than she thinks.`,
             theme:"Romantic Comedy / Slice of Life",
             date:"7th Mar 2023",
             featureID:5,
