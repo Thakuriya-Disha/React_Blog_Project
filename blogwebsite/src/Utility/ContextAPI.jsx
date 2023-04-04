@@ -868,18 +868,30 @@ function ContextAPI(props){
             category:"kdramas",
             id:29,
             url:"https://images.news18.com/ibnlive/uploads/2022/03/kim-tae-ri-nam-joo-hyuk.jpg",
-            title:"Twenty-five Twenty-one  |  12th Feb 2022",
-            description:`lorem ipsum dolor sit amet`,
+            title:"Twenty-five Twenty-one",
+            description:`In a time when dreams seem out of reach, a teenage fencer pursues big ambitions and meets a 
+            hardworking young man who seeks to rebuild his life. This 2022 South Korean television series is directed 
+            by Jung Ji-hyun. It was released on 12th February 2022.`,
             theme:"Coming-of-age / Romance",
             date:"10th Mar 2023",
             featureID:3,
             article:
             `
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet`
+            It is a 2022 South Korean television series directed by Jung Ji-hyun and starring Kim Tae-ri, Nam Joo-Hyuk
+            Bona, Choi Hyun-wook and Lee Joo-myung. The series depicts the romantic lives of five characters spanning
+            from the year of 1998 to 2022. It premiered on tvN on February 12, 2022, and aired for 16 episodes. It is
+            available for streaming on Netflix. The series was a commercial hit and became one of the highest-rated 
+            dramas in Korean cable television history.
+
+            In a time when dreams seem out of reach, a teen fencer pursues big ambitions and meets a hardworking young 
+            man who seeks to rebuild his life. Na Hee Do is a member of her high school fencing team. Due to the South 
+            Korean financial crisis, the high school fencing team gets disbanded. Getting through all the difficulties, 
+            she becomes a member of the national fencing team. The IMF crisis also causes Baek Yi Jin's father's
+            business to go bankrupt. This leads to a life change for Baek Yi Jin, from living the life of a wealthy
+            person to a poor person. While studying, he works part-time jobs like delivering newspapers. Later, he
+            becomes a sports reporter for a broadcasting network. The story is set in two timelines, 1998 and 2022, 
+            capturing parallels between the International Monetary Fund (IMF) Crisis and the COVID-19 situation.
+            `
         },
         {
             category:"kdramas",
