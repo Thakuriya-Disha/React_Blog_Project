@@ -59,7 +59,7 @@ const Kdramas = () => {
                                     <div className='tp1'>
                                         <div>
                                             <h3>{film.title}</h3>
-                                            <span>{film.theme} / {film.date}</span>
+                                            <span>{film.date}</span>
                                         </div>
                                         <div>
                                             <h2> {film.featureID} </h2>
@@ -83,7 +83,7 @@ const Kdramas = () => {
                                         </div>
                                         <div>
                                             <h3>{film.title}</h3>
-                                            <span>{film.theme} / {film.date}</span>
+                                            <span>{film.date}</span>
                                         </div>
                                         <div>
                                             <h2> {film.featureID} </h2>
@@ -107,7 +107,7 @@ const Kdramas = () => {
                                         </div>
                                         <div>
                                             <h3>{film.title}</h3>
-                                            <span>{film.theme} / {film.date}</span>
+                                            <span>{film.date}</span>
                                         </div>
                                         <div>
                                             <h2> {film.featureID} </h2>
@@ -125,13 +125,13 @@ const Kdramas = () => {
                             return(
                                 <>
                             
-                                    <div id='{poem.id}' className='tp' onClick = {() => toNavigate(film.category, film.id, film)} style={{cursor:'pointer'}}>
+                                    <div id='{film.id}' className='tp' onClick = {() => toNavigate(film.category, film.id, film)} style={{cursor:'pointer'}}>
                                         <div>
                                             <img src={film.url} alt='cover art'></img>
                                         </div>
                                         <div>
                                             <h3>{film.title}</h3>
-                                            <span>{film.theme} / {film.date}</span>
+                                            <span>{film.date}</span>
                                         </div>
                                         <div>
                                             <h2> {film.featureID} </h2>
@@ -143,6 +143,7 @@ const Kdramas = () => {
                             );
                         })
                     }
+
                     <br/><br/>
                     <div className='adCol'></div>
                 </div>

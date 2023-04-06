@@ -25,9 +25,9 @@ const ArticlePage = () => {
                     <Link to={"/"} style={{textDecoration:'none',color:'violet'}}> <h3>HOME</h3> </Link>
                     <Link to={"/poetry"} style={{textDecoration:'none',color:'violet'}}> <h3>POETRY</h3> </Link>
                     <Link to={"/music"} style={{textDecoration:'none',color:'violet'}}> <h3>MUSIC</h3> </Link>
-                    <Link to={"/paintings"} style={{textDecoration:'none',color:'violet'}}> <h3>PAINTINGS</h3> </Link>
+                    <Link to={"/animes"} style={{textDecoration:'none',color:'violet'}}> <h3>ANIMES</h3> </Link>
                     <Link to={"/kdramas"} style={{textDecoration:'none',color:'violet'}}> <h3>K-DRAMAS</h3> </Link>
-                    <Link to={"/photography"} style={{textDecoration:'none',color:'violet'}}> <h3>PHOTOGRAPHY</h3> </Link>
+                    <Link to={"/movies"} style={{textDecoration:'none',color:'violet'}}> <h3>MOVIES</h3> </Link>
                 </div>
             </div>
             <br/><br/>

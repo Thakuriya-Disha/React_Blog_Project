@@ -59,7 +59,7 @@ const Music = () => {
                                     <div className='tp1'>
                                         <div>
                                             <h3>{song.title}</h3>
-                                            <span>{song.theme} / {song.date}</span>
+                                            <span>{song.date}</span>
                                         </div>
                                         <div>
                                             <h2> {song.featureID} </h2>
@@ -83,7 +83,7 @@ const Music = () => {
                                         </div>
                                         <div>
                                             <h3>{song.title}</h3>
-                                            <span>{song.theme} / {song.date}</span>
+                                            <span>{song.date}</span>
                                         </div>
                                         <div>
                                             <h2> {song.featureID} </h2>
@@ -107,7 +107,7 @@ const Music = () => {
                                         </div>
                                         <div>
                                             <h3>{song.title}</h3>
-                                            <span>{song.theme} / {song.date}</span>
+                                            <span>{song.date}</span>
                                         </div>
                                         <div>
                                             <h2> {song.featureID} </h2>
@@ -131,7 +131,7 @@ const Music = () => {
                                         </div>
                                         <div>
                                             <h3>{song.title}</h3>
-                                            <span>{song.theme} / {song.date}</span>
+                                            <span>{song.date}</span>
                                         </div>
                                         <div>
                                             <h2> {song.featureID} </h2>
