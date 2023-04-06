@@ -436,7 +436,7 @@ function ContextAPI(props){
             category:"movies",
             id:8,
             url:"https://images.unsplash.com/photo-1505051508008-923feaf90180?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHN1bnNldCUyMHNreXxlbnwwfHwwfHw%3D&w=1000&q=80",
-            title:"Photo 1",
+            title:"Little Women",
             description:"lorem ipsum dolor sit amet",
             theme:"nature",
             date:"23rd Nov 2022",
@@ -721,8 +721,8 @@ function ContextAPI(props){
             song to reach No.1 on the Billboard Hot 100. Critics received the 10-minute version with rave reviews: they 
             praised the song structure and richer context to an existing acclaimed song, featured it in many year-end 
             lists, and dubbed it a career highlight. It received a Grammy nomination for Song of the Year. And the ATW 
-            short film, directed by Swift, won an MTV Video Music Award for Video of the Year and a Grammy Award for the
-            Best Music Video.`
+            short film, directed by Swift, won an MTV Video Music Award for Video of the Year and a Grammy Award for
+            the Best Music Video.`
         },
         {
             category:"music",
@@ -751,9 +751,9 @@ function ContextAPI(props){
             copies apiece for six different albums. No wonder Exo is known as "the biggest boy band in the world".
 
             "Obsession" is the 6th studio album by EXO. Obsession was Exo's first album to be promoted as a six-member
-            group, as members Xiumin and D.O. were undergoing mandatory military service, and member Lay was promoting 
-            his solo activities in China. The album features 10 songs including the lead single, "Obsession". The title
-            track "Obsession" is described as a hip hop dance song featuring repeating spell-like vocal samples and a 
+            group, as members Xiumin and D.O. were undergoing mandatory military service, and member Lay was  
+            promoting his solo activities in China. The album features 10 songs including the lead single, "Obsession". The
+            title track "Obsession" is described as a hip hop dance song featuring repeating spell-like vocal samples and a 
             prominent heavy beat. The album features 10 tracks in a variety of genres. The most interesting track from 
             this album is "Jekyll". It is a dance pop song with heavy drums, bass along with dynamic vocal composition 
             & transformation. The song's lyrics express an internal conflict with one's alter ego in an impactful way. 
@@ -829,7 +829,7 @@ function ContextAPI(props){
             id:28,
             url:"https://i.discogs.com/AaYlat-W68uA41Z_Sd80UrZakUm3D35k70XtWUNCqe4/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgzNjYz/NjctMTYyOTE0Nzk5/OS05MTk3LmpwZWc.jpeg",
             title:"Cleopatra - Lumineers",
-            description:`The Lumineers are an American alternative folk band based in Denver. The founding members are Wesley Schultz and Jeremiah Fraites. 
+            description:`They are an American alternative folk band. The founding members are Wesley Schultz and Jeremiah Fraites. 
             Schultz and Fraites began writing and performing together in Ramsey, New Jersey, in 2005. 
             The Lumineers emerged as one of the most popular folk-rock/Americana artists during the revival of those genres. 
             They are known for their energetic live shows and several international hit singles.
@@ -865,31 +865,58 @@ function ContextAPI(props){
             "Sleep on the Floor" because of its addictive pre-chorus and lyrics. Each song in this album has a story of 
             its own and is connected to one another, thus making it unique. Hope you enjoy this album as much as I did.`
         },
+
         {
             category:"kdramas",
             id:29,
             url:"https://images.news18.com/ibnlive/uploads/2022/03/kim-tae-ri-nam-joo-hyuk.jpg",
             title:"Twenty-five Twenty-one",
             description:`In a time when dreams seem out of reach, a teenage fencer pursues big ambitions and meets a hardworking young man who seeks to rebuild his life.`,
-            theme:"Coming-of-age / Romance",
+            theme:"Coming-of-age / Sports",
             date:"10th Mar 2023",
             featureID:3,
             article:
             `
-            It is a 2022 South Korean television series directed by Jung Ji-hyun and starring Kim Tae-ri, Nam Joo-Hyuk
-            Bona, Choi Hyun-wook and Lee Joo-myung. The series depicts the romantic lives of five characters spanning
-            from the year of 1998 to 2022. It premiered on tvN on February 12, 2022, and aired for 16 episodes. It is
-            available for streaming on Netflix. The series was a commercial hit and became one of the highest-rated 
-            dramas in Korean cable television history.
+            Directed by:    Jung Ji-hyun
+            Starring:   Kim Tae-ri, Nam Joo-hyuk
+            Genre:  Romance, Coming-of-age
+            Developed by:   tvN, Studio Dragon
+            No. of episodes:    16
+            Original release:   February 12 - April 3, 2022
 
-            In a time when dreams seem out of reach, a teen fencer pursues big ambitions and meets a hardworking young 
-            man who seeks to rebuild his life. Na Hee Do is a member of her high school fencing team. Due to the South 
-            Korean financial crisis, the high school fencing team gets disbanded. Getting through all the difficulties, 
-            she becomes a member of the national fencing team. The IMF crisis also causes Baek Yi Jin's father's
-            business to go bankrupt. This leads to a life change for Baek Yi Jin, from living the life of a wealthy
-            person to a poor person. While studying, he works part-time jobs like delivering newspapers. Later, he
-            becomes a sports reporter for a broadcasting network. The story is set in two timelines, 1998 and 2022, 
-            capturing parallels between the International Monetary Fund (IMF) Crisis and the COVID-19 situation.
+            1) It is more than just a romantic story between our two leads. This series shows the journey of 5 friends
+            from 1998 to 2002. My favourite part is how beautifully they portrayed different types of bonds: from friendsips
+            to romantic relationships, from family to the student-teacher bond. Each character had their own time to shine, 
+            irrespective of whether they are the main lead or 2nd lead or a side character. The show didn't glorify "love",
+            and had different underlying themes. For example: Na Heedo's mother loved her but wasn't good in expressing,
+            Na Heedo and Baek Yijin were in love but also hurt each other unintentionally, the confidence and strength
+            Na Heedo received from her coach.
+
+            2) Kudos to them for getting the details right. While watching this series, you will definitely be transported
+            back in time. Back in 1998, the good-old-days, the age that had a little bit of everything, not an overdose
+            of technology. The nostalgia of late 90s and early 2000s hits different! And an interesting part was how they
+            showed the major social issues of back then: from the South Korean financial crisis, their government's gold-
+            collection campaign to repay its debt to the International Monetary Fund (IMF), to 2001's 9/11 attacks.
+
+            3) Another interesting factor is the parallels drawn between 1998 and 2022. The economic instability, lack of
+            clarity about the future, traversing young adulthood with the help of our loved ones, figuring out ourselves
+            as well as the bigger, scary world, finding refuge in friendships, conflicts with families, meeting special
+            people along the way, discovering love for the first time, the courage to fall for someone, as well as getting
+            hurt by love. When I ended this drama I realized how so many things are similar despite being decades apart.
+            
+            4) The ending left many in tears. But they were successful in sending one message clearly: there is no
+            winning and losing in life. Sometimes the best relationships may not work out, we may lose the person
+            we loved the most - that's how unpredictable life is. And that's how this drama was: unpredictable, fun,
+            full of surprises, a rollercoaster of emotions; just like Life. Na Hee-do & Baek Yi-jin's breakup might
+            feel like a loss. But the real win in this show was: Na Hee-do & Ko Yu-rim's friendship. From admiration,
+            to jealousy, competing against one another, to forming a real friendship. The real bond, untouched by time.
+            The story of Heedo & Yurim going from enemies to best friends is an integral part of the show.
+            
+            5) The core of this show is: Fencing. Our protagonist, Na Heedo, is a fencing champion! So how can I not 
+            mention this point. Yes, 25-21 is a coming-of-age drama, and has romance elements. But primarily, it is a
+            sports-based show. The creators have done a commendable job in bringing a lesser-known sport in the mainstream
+            discourse. Their attention to detail will leave you in awe! So yes this drama has everything you're looking for:
+            the adrenaline rush, the heart fluttering moments, the pure nostalgia.
             `
         },
         {
@@ -903,11 +930,45 @@ function ContextAPI(props){
             featureID:1,
             article:
             `
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet`
+            Directed by:    Yoon Sung-sik
+            Starring:   Shin Hye-sun, Kim Jung-hyun, Seol In-ah, Na In-woo
+            Genre:  Historical, Romantic Comedy, Fantasy
+            Developed by:   Studio Dragon, tvN
+            Based on:	Go Princess Go (novel) by Xian Chen
+            No. of episodes:    20
+            Original release:   December 12, 2020 - February 14, 2021
+            
+            1) Netflix's "Mr. Queen" is the gender-bending time travel K-Drama that you would get addicted to. Meet Jang
+            Bong-hwan: a 21st-century cooking prodigy with an ego as boundless as the ocean and a womanizing reputation 
+            to match. he had almost drowned in his apartment swimming pool. When he wakes up from the accident, he is in
+            a woman's body during the 1800s Joseon dynasty. To make matters worse, the body he inhabits belongs to the 
+            controversial queen of Joseon, Kim So-yong. In this show we see how the Queen survives the cutthroat world of
+            palace politics and solve the supernatural mystery behind this body swap.
+
+            2) Mr. Queen remains a comedy at heart, thanks to actress Shin Hye-sun playing Bong-hwan in So-yong's body.
+            Her reproduction of alpha male body language, smug little smirks, impossibly expressive eyebrows, and general
+            demeanor is just uncanny. Because he's such a privileged modern man, Bong-hwan refusing to appease the sexist
+            expectations of the Joseon court is hysterical and satisfying all in one. It's fiercely enjoyable to watch a woman's
+            persona soar through Korea's most powerful patriarchal hierarchy without a care in the world. Cheoljung
+            is the country's most powerful man in title, but in truth a puppet king who's battling against his own socio-
+            -political and ideological confines. He has frequent nightmares; he falls in unexpected love with the Queen
+            he despised. This complicated character of Cheoljung was flawlessly executed by actor Kim Jung-hyun.
+
+            3) If you're looking for a classically produced historical comedy with whimsy and heart, look no further than 
+            Mr. Queen. Start it for the twists and turns, power schemes, and old-fashioned costumes, and stay for all the 
+            daring originality they could manage. Neither historical romances nor the body/soul-swap is new creative ground.
+            But I had never thought these two genres could be combined, yet they achieved it. Mr. Queen's concept is
+            ineffable. It's presented through the lens of Studio Dragon's high production value and executed with an expertly
+            comedic touch that maximizes its potential. The scripts balance the tone effortlessly shifting between outrageous
+            comedy and just the right amount of severity: the suspense, the mystery, the action.
+
+            4) I not only had lots of good laughs at the humorous content and witty comedy. The amount of plot twists and
+            suspense will blow your mind. Once you start this show, don't be surprised if you get addicted to it because
+            almost every episode seems to end on a cliffhanger. Mr. Queen was also the first historical kdrama I ever
+            watched. And it felt like I learnt so much, like: royal weddings from the Joseon era, their dressing etiquette,
+            the political power structure. One fun fact is that while most royal families in other parts of the world
+            obsessed with their royal "bloodline", in the korean monarchy it was quite common to not have heirs of their
+            own and thus adopt.`
         },
         {
             category:"kdramas",
@@ -915,84 +976,119 @@ function ContextAPI(props){
             url:"https://i.scdn.co/image/ab67616d0000b273025e89b52a4bcb14cf87f1b5",
             title:"Start Up",
             description:`Seo Dal Mi has dreams of becoming Korea's own Steve Jobs, and with her genius first love, an investor, and a business insider by her side, her dream may be closer than she thinks.`,
-            theme:"Romantic Comedy / Slice of Life",
+            theme:"Romantic Comedy",
             date:"7th Mar 2023",
             featureID:5,
             article:
             `
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet`
+            Directed by:
+            Starring:
+            Genre:  Romantic Comedy
+            Developed by:
+            No. of episodes:
+            Original release:
+            
+            1)
+            2)
+            3)
+            4)
+            5)`
         },
         {
             category:"kdramas",
             id:32,
             url:"https://i.scdn.co/image/ab67616d0000b273606ac026c59ac4f6d5822a5c",
-            title:"It's Okay to Not Be Okay  |  20th June 2020",
+            title:"It's Okay to Not Be Okay",
             description:`lorem ipsum dolor sit amet`,
-            theme:"Mental Health / Romantic Comedy",
+            theme:"Mental Health",
             date:"4th Mar 2023",
             featureID:7,
             article:
             `
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet`
+            Directed by:
+            Starring:
+            Genre:  Mental Health
+            Developed by:
+            No. of episodes:
+            Original release:   20th June 2020
+            
+            1)
+            2)
+            3)
+            4)
+            5)`
         },
         {
             category:"kdramas",
             id:33,
             url:"https://m.media-amazon.com/images/M/MV5BZWQyZTkwMTMtYTJiZS00MGNlLThhN2EtYzEzOGQzYjFiZGQxXkEyXkFqcGdeQXVyMTEzMjQ4NzEw._V1_.jpg",
-            title:"Crash Landing On You  |  14th Dec 2019",
+            title:"Crash Landing On You",
             description:`lorem ipsum dolor sit amet`,
             theme:"Romantic Comedy",
             date:"2nd Mar 2023",
             featureID:4,
             article:
             `
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet`
+            Directed by:
+            Starring:
+            Genre:  Romantic Comedy
+            Developed by:
+            No. of episodes:
+            Original release:   14th Dec 2019
+            
+            1)
+            2)
+            3)
+            4)
+            5)`
         },
         {
             category:"kdramas",
             id:34,
             url:"https://i.scdn.co/image/ab67616d0000b27330e7ffa60613da62eba9dd7d",
-            title:"Strong Woman Do Bong-Soon  |  24th Feb 2017",
+            title:"Strong Woman Do Bong-Soon",
             description:`lorem ipsum dolor sit amet`,
-            theme:"Thriller / Action / Fantasy / Romantic Comedy",
+            theme:"Thriller / Action / Fantasy / Comedy",
             date:"1st Mar 2023",
             featureID:6,
             article:
             `
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet`
+            Directed by:
+            Starring:
+            Genre:  Thriller, Action, Fantasy, Comedy
+            Developed by:
+            No. of episodes:
+            Original release:   24th Feb 2017
+            
+            1)
+            2)
+            3)
+            4)
+            5)`
         },
         {
             category:"kdramas",
-            id:35,
+            id:29,
             url:"https://i.scdn.co/image/ab67616d0000b2738b36a8c16b48db1bdab65545",
-            title:"Reply 1988  |  6th Nov 2015",
+            title:"Reply 1988",
             description:`lorem ipsum dolor sit amet`,
-            theme:"Comedy / Coming-of-age / Family",
+            theme:"Comedy / Family",
             date:"27th Feb 2023",
             featureID:2,
             article:
             `
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet`
+            Directed by:
+            Starring:
+            Genre:  Slice of life, Family, Comedy
+            Developed by:
+            No. of episodes:
+            Original release:   6th Nov 2015
+            
+            1)
+            2)
+            3)
+            4)
+            5)`
         }
     ]);
 
