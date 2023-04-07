@@ -129,11 +129,11 @@ const TheLatest = () => {
 
                     <div className='box22'></div>
 
-            </div><br/><br/>
+            </div><br/>
 
             <div className='latestBox3'>
 
-                <div style={{marginTop:'85px'}}>
+                <div style={{marginTop:'75px'}}>
                     <div className='box31Ad'></div>
                     <h1>THEME OF THE MONTH</h1>
                     <div className='box31'></div>
@@ -146,7 +146,7 @@ const TheLatest = () => {
                             return(
                                 <>
                                 <div id='{data.id}' className='firstTP' onClick = {() => toNavigate(data.category, data.id, data)} style={{cursor:'pointer'}}>
-                                    <img src={data.url} alt='cover art' style={{height:'220px',width:'350px'}}></img>
+                                    <img src={data.url} alt='cover art' style={{height:'250px',width:'350px'}}></img>
                                     <div className='tp1'>
                                         <div>
                                             <h3>{data.title}</h3>
