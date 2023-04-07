@@ -1,18 +1,18 @@
 import './style_movie.css';
 import HeaderCompo from '../../Header/HeaderComponent';
-import React, {useContext,useEffect} from 'react';
-import {blogData} from '../../Utility/ContextAPI';
+import React, {useState,useEffect} from 'react';
 import {useNavigate} from 'react-router-dom';
 
 const Movies = () => {
 
+    const [movie, setMovie] = useState([]);
     useEffect(() => {
-        fetch("https://luna-blog-data.onrender.com/movies")
+        fetch("https://luna-blog.onrender.com/movies")
         .then( res => res.json())
-        .then( data => console.log(data))
+        .then( (data) => {
+            setMovie(data);
+        })
     })
-
-    const [moviesList] = useContext(blogData);
 
     const nav = useNavigate();
     const toNavigate = (category, id, selectedMovie) => {
@@ -28,7 +28,7 @@ const Movies = () => {
                 <div className='col1'>
                     <h1>Movies</h1>
                     {
-                        moviesList.filter((item) => item.category === 'movies').map((pic) => {
+                        movie?.map((pic) => {
                             return(
                                 <>
                                 <div className='dataFlex' id='{pic.id}' onClick = {() => toNavigate(pic.category, pic.id, pic)} style={{cursor:'pointer'}}>
@@ -51,7 +51,7 @@ const Movies = () => {
                 <div className='col2'>
                     <h1>Top Posts</h1>
                     {
-                        moviesList.filter((item) => item.category === 'movies' && item.featureID === 1).map((pic) => {
+                        movie?.filter((item) => item.featureID === 1).map((pic) => {
                             return(
                                 <>
                                 <div id='{pic.id}' className='firstTP' onClick = {() => toNavigate(pic.category, pic.id, pic)} style={{cursor:'pointer'}}>
@@ -73,7 +73,7 @@ const Movies = () => {
                     }
 
                     {
-                        moviesList.filter((item) => item.category === 'movies' && item.featureID === 2).map((pic) => {
+                        movie?.filter((item) => item.featureID === 2).map((pic) => {
                             return(
                                 <>
                             
@@ -97,7 +97,7 @@ const Movies = () => {
                     }
 
                     {
-                        moviesList.filter((item) => item.category === 'movies' && item.featureID === 3).map((pic) => {
+                        movie?.filter((item) => item.featureID === 3).map((pic) => {
                             return(
                                 <>
                             
@@ -121,7 +121,7 @@ const Movies = () => {
                     }
 
                     {
-                        moviesList.filter((item) => item.category === 'movies' && item.featureID === 4).map((pic) => {
+                        movie?.filter((item) => item.featureID === 4).map((pic) => {
                             return(
                                 <>
                             

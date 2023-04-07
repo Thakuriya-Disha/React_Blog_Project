@@ -1,18 +1,18 @@
 import './style_anime.css';
 import HeaderCompo from '../../Header/HeaderComponent';
-import React, {useContext,useEffect} from 'react';
-import {blogData} from '../../Utility/ContextAPI';
+import React, {useEffect,useState} from 'react';
 import {useNavigate} from 'react-router-dom';
 
 const Animes = () => {
 
+    const [anime, setAnime] = useState([]);
     useEffect(() => {
-        fetch("https://luna-blog-data.onrender.com/animes")
+        fetch("https://luna-blog.onrender.com/animes")
         .then( res => res.json())
-        .then( data => console.log(data))
+        .then( (data) => {
+            setAnime(data);
+        })
     })
-    
-    const [animeList] = useContext(blogData);
 
     const nav = useNavigate();
     const toNavigate = (category, id, selectedAnime) => {
@@ -28,7 +28,7 @@ const Animes = () => {
                 <div className='col1'>
                     <h1>Animes</h1>
                     {
-                        animeList.filter((item) => item.category === 'animes').map((art) => {
+                        anime?.map((art) => {
                             return(
                                 <>
                                 <div className='dataFlex' id='{art.id}' onClick = {() => toNavigate(art.category, art.id, art)} style={{cursor:'pointer'}}>
@@ -51,7 +51,7 @@ const Animes = () => {
                 <div className='col2'>
                     <h1>Top Posts</h1>
                     {
-                        animeList.filter((item) => item.category === 'animes' && item.featureID === 1).map((art) => {
+                        anime?.filter((item) => item.featureID === 1).map((art) => {
                             return(
                                 <>
                                 <div id='{art.id}' className='firstTP' onClick = {() => toNavigate(art.category, art.id, art)} style={{cursor:'pointer'}}>
@@ -73,11 +73,11 @@ const Animes = () => {
                     }
 
                     {
-                        animeList.filter((item) => item.category === 'animes' && item.featureID === 2).map((art) => {
+                        anime?.filter((item) => item.featureID === 2).map((art) => {
                             return(
                                 <>
                             
-                                    <div id='{art.id}' className='tp' onClick = {() => toNavigate(art.category, art.id, art)} style={{cursor:'pointer'}}>
+                                    <div id='{art.id}' className='tpAnime' onClick = {() => toNavigate(art.category, art.id, art)} style={{cursor:'pointer'}}>
                                         <div>
                                             <img src={art.url} alt='cover art'></img>
                                         </div>
@@ -97,11 +97,11 @@ const Animes = () => {
                     }
 
                     {
-                        animeList.filter((item) => item.category === 'animes' && item.featureID === 3).map((art) => {
+                        anime?.filter((item) => item.featureID === 3).map((art) => {
                             return(
                                 <>
                             
-                                    <div id='{art.id}' className='tp' onClick = {() => toNavigate(art.category, art.id, art)} style={{cursor:'pointer'}}>
+                                    <div id='{art.id}' className='tpAnime' onClick = {() => toNavigate(art.category, art.id, art)} style={{cursor:'pointer'}}>
                                         <div>
                                             <img src={art.url} alt='cover art'></img>
                                         </div>
@@ -121,11 +121,11 @@ const Animes = () => {
                     }
 
                     {
-                        animeList.filter((item) => item.category === 'animes' && item.featureID === 4).map((art) => {
+                        anime?.filter((item) => item.featureID === 4).map((art) => {
                             return(
                                 <>
                             
-                                    <div id='{art.id}' className='tp' onClick = {() => toNavigate(art.category, art.id, art)} style={{cursor:'pointer'}}>
+                                    <div id='{art.id}' className='tpAnime' onClick = {() => toNavigate(art.category, art.id, art)} style={{cursor:'pointer'}}>
                                         <div>
                                             <img src={art.url} alt='cover art'></img>
                                         </div>

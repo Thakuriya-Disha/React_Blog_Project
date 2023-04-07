@@ -1,18 +1,18 @@
 import './style_kdrama.css';
 import HeaderCompo from '../../Header/HeaderComponent';
-import React, {useContext,useEffect} from 'react';
-import {blogData} from '../../Utility/ContextAPI';
+import React, {useState,useEffect} from 'react';
 import {useNavigate} from 'react-router-dom';
 
 const Kdramas = () => {
 
+    const [kdrama, setKdrama] = useState([]);
     useEffect(() => {
-        fetch("https://luna-blog-data.onrender.com/kdramas")
+        fetch("https://luna-blog.onrender.com/kdramas")
         .then( res => res.json())
-        .then( data => console.log(data))
+        .then( (data) => {
+            setKdrama(data);
+        })
     })
-    
-    const [moviesList] = useContext(blogData);
 
     const nav = useNavigate();
     const toNavigate = (category, id, selectedDrama) => {
@@ -28,7 +28,7 @@ const Kdramas = () => {
                 <div className='col1'>
                     <h1>K-DRAMAS</h1>
                     {
-                        moviesList.filter((item) => item.category === 'kdramas').map((film) => {
+                        kdrama?.map((film) => {
                             return(
                                 <>
                                 <div className='dataFlex' id='{film.id}' onClick = {() => toNavigate(film.category, film.id, film)} style={{cursor:'pointer'}}>
@@ -51,7 +51,7 @@ const Kdramas = () => {
                 <div className='col2'>
                     <h1>Top Posts</h1>
                     {
-                        moviesList.filter((item) => item.category === 'kdramas' && item.featureID === 1).map((film) => {
+                        kdrama?.filter((item) => item.featureID === 1).map((film) => {
                             return(
                                 <>
                                 <div id='{film.id}' className='firstTP' onClick = {() => toNavigate(film.category, film.id, film)} style={{cursor:'pointer'}}>
@@ -73,7 +73,7 @@ const Kdramas = () => {
                     }
 
                     {
-                        moviesList.filter((item) => item.category === 'kdramas' && item.featureID === 2).map((film) => {
+                        kdrama?.filter((item) => item.featureID === 2).map((film) => {
                             return(
                                 <>
                             
@@ -97,7 +97,7 @@ const Kdramas = () => {
                     }
 
                     {
-                        moviesList.filter((item) => item.category === 'kdramas' && item.featureID === 3).map((film) => {
+                        kdrama?.filter((item) => item.featureID === 3).map((film) => {
                             return(
                                 <>
                             
@@ -121,7 +121,7 @@ const Kdramas = () => {
                     }
 
                     {
-                        moviesList.filter((item) => item.category === 'kdramas' && item.featureID === 4).map((film) => {
+                        kdrama?.filter((item) => item.featureID === 4).map((film) => {
                             return(
                                 <>
                             

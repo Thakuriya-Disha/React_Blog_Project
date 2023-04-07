@@ -1,18 +1,18 @@
 import './style_music.css';
 import HeaderCompo from '../../Header/HeaderComponent';
-import React, {useContext,useEffect} from 'react';
-import {blogData} from '../../Utility/ContextAPI';
+import React, {useState,useEffect} from 'react';
 import {useNavigate} from 'react-router-dom';
 
 const Music = () => {
 
+    const [music,setMusic] = useState([]);
     useEffect( ()=>{
-        fetch("https://luna-blog-data.onrender.com/music")
+        fetch("https://luna-blog.onrender.com/music")
         .then( res => res.json())
-        .then( data => console.log(data))
+        .then( (data) => {
+            setMusic(data);
+        })
     })
-
-    const [musicList] = useContext(blogData);
 
     const nav = useNavigate();
     const toNavigate = (category, id, selectedAlbum) => {
@@ -28,7 +28,7 @@ const Music = () => {
                 <div className='col1'>
                     <h1>Music</h1>
                     {
-                        musicList.filter((item) => item.category === 'music').map((song) => {
+                        music?.map((song) => {
                             return(
                                 <>
                                 <div className='dataFlex' id='{song.id}' onClick = {() => toNavigate(song.category, song.id, song)} style={{cursor:'pointer'}}>
@@ -51,7 +51,7 @@ const Music = () => {
                 <div className='col2'>
                     <h1>Top Posts</h1>
                     {
-                        musicList.filter((item) => item.category === 'music' && item.featureID === 1).map((song) => {
+                        music?.filter((item) => item.featureID === 1).map((song) => {
                             return(
                                 <>
                                 <div id='{song.id}' className='firstTP' onClick = {() => toNavigate(song.category, song.id, song)} style={{cursor:'pointer'}}>
@@ -73,7 +73,7 @@ const Music = () => {
                     }
 
                     {
-                        musicList.filter((item) => item.category === 'music' && item.featureID === 2).map((song) => {
+                        music?.filter((item) => item.featureID === 2).map((song) => {
                             return(
                                 <>
                             
@@ -97,7 +97,7 @@ const Music = () => {
                     }
 
                     {
-                        musicList.filter((item) => item.category === 'music' && item.featureID === 3).map((song) => {
+                        music?.filter((item) => item.featureID === 3).map((song) => {
                             return(
                                 <>
                             
@@ -121,7 +121,7 @@ const Music = () => {
                     }
 
                     {
-                        musicList.filter((item) => item.category === 'music' && item.featureID === 4).map((song) => {
+                        music?.filter((item) => item.featureID === 4).map((song) => {
                             return(
                                 <>
                             

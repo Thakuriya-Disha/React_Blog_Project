@@ -34,15 +34,16 @@
 .firstTP img{
     width:300px;
 }
-.tp{
+.tpAnime{
     display:flex;
     justify-content:space-between;
+    width:300px;
 }
-.tp img{
+.tpAnime img{
     width:80px;
     height:80px;
 }
-.tp h2{
+.tpAnime h2{
     font-size:42px;
     color:gray;
     margin-top:17px;

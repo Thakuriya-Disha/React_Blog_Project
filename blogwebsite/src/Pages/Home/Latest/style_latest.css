@@ -89,6 +89,7 @@
 .tp{
     display:flex;
     justify-content:space-between;
+    width:350px;
 }
 .latestBox4{
     display:flex;

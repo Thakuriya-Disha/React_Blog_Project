@@ -1,18 +1,18 @@
 import './style_poem.css';
 import HeaderCompo from '../../Header/HeaderComponent';
-import React, {useContext, useEffect} from 'react';
-import {blogData} from '../../Utility/ContextAPI';
+import React, {useState, useEffect} from 'react';
 import {useNavigate} from 'react-router-dom';
 
 const Poetry = () => {
 
+    const [poem, setPoem] = useState([]);
     useEffect(() => {
-        fetch("https://luna-blog-data.onrender.com/poetry")
+        fetch("https://luna-blog.onrender.com/poetry")
         .then(res => res.json())
-        .then(data => console.log(data))
+        .then((data) => {
+            setPoem(data);
+        })
     })
-
-    const [poemsList] = useContext(blogData);
 
     const nav = useNavigate();
     const toNavigate = (category, id, selectedPoem) => {
@@ -28,7 +28,7 @@ const Poetry = () => {
                 <div className='col1'>
                     <h1>Poetry</h1>
                     {
-                        poemsList?.filter((item) => item.category === 'poetry').map((poem) => {
+                        poem?.map((poem) => {
                             return(
                                 <>
                                 <div className='dataFlex' id='{poem.id}' onClick = {() => toNavigate(poem.category, poem.id, poem)} style={{cursor:'pointer'}}>
@@ -51,7 +51,7 @@ const Poetry = () => {
                 <div className='col2'>
                     <h1>Top Posts</h1>
                     {
-                        poemsList.filter((item) => item.category === 'poetry' && item.featureID === 1).map((poem) => {
+                        poem?.filter((item) => item.featureID === 1).map((poem) => {
                             return(
                                 <>
                                 <div id='{poem.id}' className='firstTP' onClick = {() => toNavigate(poem.category, poem.id, poem)} style={{cursor:'pointer'}}>
@@ -73,7 +73,7 @@ const Poetry = () => {
                     }
 
                     {
-                        poemsList.filter((item) => item.category === 'poetry' && item.featureID === 2).map((poem) => {
+                        poem?.filter((item) => item.featureID === 2).map((poem) => {
                             return(
                                 <>
                             
@@ -97,7 +97,7 @@ const Poetry = () => {
                     }
 
                     {
-                        poemsList.filter((item) => item.category === 'poetry' && item.featureID === 3).map((poem) => {
+                        poem?.filter((item) => item.featureID === 3).map((poem) => {
                             return(
                                 <>
                             
@@ -121,7 +121,7 @@ const Poetry = () => {
                     }
 
                     {
-                        poemsList.filter((item) => item.category === 'poetry' && item.featureID === 4).map((poem) => {
+                        poem?.filter((item) => item.featureID === 4).map((poem) => {
                             return(
                                 <>
                             

@@ -25,7 +25,7 @@ const TheLatest = () => {
                                 <div id='{data.id}' onClick = {() => toNavigate(data.category, data.id, data)} style={{cursor:'pointer'}}>
                                     <img src={data.url} alt='pic' style={{width:'275px',height:'225px',border:'1px solid lightgrey',borderRadius:'15px 15px 0px 0px'}}></img><br/>
                                     <p style={{fontSize:'18px',fontWeight:'bold'}}> {data.title} </p>
-                                    <p>
+                                    <p style={{textTransform:"capitalize"}}>
                                         {data.category} / <span style={{color:'grey'}}>{data.date}</span>
                                     </p>
                                 </div>
@@ -44,7 +44,7 @@ const TheLatest = () => {
                                 <div id='{data.id}' onClick = {() => toNavigate(data.category, data.id, data)} style={{cursor:'pointer'}}>
                                     <img src={data.url} alt='pic' style={{width:'275px',height:'220px',border:'1px solid lightgrey',borderRadius:'15px 15px 0px 0px'}}></img><br/>
                                     <p style={{fontSize:'18px',fontWeight:'bold'}}> {data.title} </p>
-                                    <p>
+                                    <p style={{textTransform:"capitalize"}}>
                                         {data.category} / <span style={{color:'grey'}}>{data.date}</span>
                                     </p>
                                 </div>
@@ -64,7 +64,7 @@ const TheLatest = () => {
                                 <div id='{data.id}' onClick = {() => toNavigate(data.category, data.id, data)} style={{cursor:'pointer'}}>
                                     <img src={data.url} alt='pic' style={{width:'275px',height:'220px',border:'1px solid lightgrey',borderRadius:'15px 15px 0px 0px'}}></img><br/>
                                     <p style={{fontSize:'18px',fontWeight:'bold'}}> {data.title} </p>
-                                    <p>
+                                    <p style={{textTransform:"capitalize"}}>
                                         {data.category} / <span style={{color:'grey'}}>{data.date}</span>
                                     </p>
                                 </div>
@@ -84,7 +84,7 @@ const TheLatest = () => {
                                 <div id='{data.id}' onClick = {() => toNavigate(data.category, data.id, data)} style={{cursor:'pointer'}}>
                                     <img src={data.url} alt='pic' style={{width:'275px',height:'220px',border:'1px solid lightgrey',borderRadius:'15px 15px 0px 0px'}}></img><br/>
                                     <p style={{fontSize:'18px',fontWeight:'bold'}}> {data.title} </p>
-                                    <p>
+                                    <p style={{textTransform:"capitalize"}}>
                                         {data.category} / <span style={{color:'grey'}}>{data.date}</span>
                                     </p>
                                 </div>
@@ -106,7 +106,7 @@ const TheLatest = () => {
 
                         <div>
                         {
-                            latestList.filter((item) => (item.id === 29) || (item.id === 30) || (item.id === 31) ).map((data) => {
+                            latestList.filter((item) => item.id === 29 || item.id === 30 || item.id === 31 ).map((data) => {
                                 return(
                                     <>
                                     <hr/>                                    
@@ -164,7 +164,7 @@ const TheLatest = () => {
                     }
 
                     {
-                        latestList.filter((item) => (item.id === 8) || (item.id === 27) || (item.id === 29)).map((data) => {
+                        latestList.filter((item) => item.id === 5 || item.id === 15 || item.id === 27).map((data) => {
                             return(
                                 <>
                             
