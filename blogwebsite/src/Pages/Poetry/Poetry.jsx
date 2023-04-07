@@ -7,7 +7,7 @@ import {useNavigate} from 'react-router-dom';
 const Poetry = () => {
 
     useEffect(() => {
-        fetch("https://luna-blog-data.onrender.com")
+        fetch("https://luna-blog-data.onrender.com/poetry")
         .then(res => res.json())
         .then(data => console.log(data))
     })

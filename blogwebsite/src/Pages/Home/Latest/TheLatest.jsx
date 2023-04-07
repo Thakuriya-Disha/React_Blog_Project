@@ -106,7 +106,7 @@ const TheLatest = () => {
 
                         <div>
                         {
-                            latestList.filter((item) => item.id === 29 || item.id === 30 || item.id === 31 ).map((data) => {
+                            latestList.filter((item) => (item.id === 29) || (item.id === 30) || (item.id === 31) ).map((data) => {
                                 return(
                                     <>
                                     <hr/>                                    
@@ -164,7 +164,7 @@ const TheLatest = () => {
                     }
 
                     {
-                        latestList.filter((item) => item.id === 5 || item.id === 29 || item.id === 27).map((data) => {
+                        latestList.filter((item) => (item.id === 8) || (item.id === 27) || (item.id === 29)).map((data) => {
                             return(
                                 <>
                             

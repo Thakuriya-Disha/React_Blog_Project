@@ -7,7 +7,7 @@ import {useNavigate} from 'react-router-dom';
 const Movies = () => {
 
     useEffect(() => {
-        fetch("https://luna-blog-data.onrender.com")
+        fetch("https://luna-blog-data.onrender.com/movies")
         .then( res => res.json())
         .then( data => console.log(data))
     })

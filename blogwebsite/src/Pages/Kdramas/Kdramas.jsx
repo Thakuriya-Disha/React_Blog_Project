@@ -7,7 +7,7 @@ import {useNavigate} from 'react-router-dom';
 const Kdramas = () => {
 
     useEffect(() => {
-        fetch("https://luna-blog-data.onrender.com")
+        fetch("https://luna-blog-data.onrender.com/kdramas")
         .then( res => res.json())
         .then( data => console.log(data))
     })

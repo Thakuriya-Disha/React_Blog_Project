@@ -7,7 +7,7 @@ import {useNavigate} from 'react-router-dom';
 const Music = () => {
 
     useEffect( ()=>{
-        fetch("https://luna-blog-data.onrender.com")
+        fetch("https://luna-blog-data.onrender.com/music")
         .then( res => res.json())
         .then( data => console.log(data))
     })
