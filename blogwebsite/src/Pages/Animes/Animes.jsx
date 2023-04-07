@@ -7,7 +7,7 @@ import {useNavigate} from 'react-router-dom';
 const Animes = () => {
 
     useEffect(() => {
-        fetch("http://localhost:5000/animes")
+        fetch("https://luna-blog-data.onrender.com")
         .then( res => res.json())
         .then( data => console.log(data))
     })
