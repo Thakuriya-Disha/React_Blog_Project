@@ -59,7 +59,7 @@ const Movies = () => {
                                     <div className='tp1'>
                                         <div>
                                             <h3>{pic.title}</h3>
-                                            <span>{pic.theme} / {pic.date}</span>
+                                            <span>{pic.date}</span>
                                         </div>
                                         <div>
                                             <h2> {pic.featureID} </h2>
@@ -83,7 +83,7 @@ const Movies = () => {
                                         </div>
                                         <div>
                                             <h3>{pic.title}</h3>
-                                            <span>{pic.theme} / {pic.date}</span>
+                                            <span>{pic.date}</span>
                                         </div>
                                         <div>
                                             <h2> {pic.featureID} </h2>
@@ -107,7 +107,7 @@ const Movies = () => {
                                         </div>
                                         <div>
                                             <h3>{pic.title}</h3>
-                                            <span>{pic.theme} / {pic.date}</span>
+                                            <span>{pic.date}</span>
                                         </div>
                                         <div>
                                             <h2> {pic.featureID} </h2>
@@ -131,7 +131,7 @@ const Movies = () => {
                                         </div>
                                         <div>
                                             <h3>{pic.title}</h3>
-                                            <span>{pic.theme} / {pic.date}</span>
+                                            <span>{pic.date}</span>
                                         </div>
                                         <div>
                                             <h2> {pic.featureID} </h2>

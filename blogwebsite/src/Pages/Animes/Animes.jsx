@@ -59,7 +59,7 @@ const Animes = () => {
                                     <div className='tp1'>
                                         <div>
                                             <h3>{art.title}</h3>
-                                            <span>{art.theme} / {art.date}</span>
+                                            <span>{art.date}</span>
                                         </div>
                                         <div>
                                             <h2> {art.featureID} </h2>
@@ -83,7 +83,7 @@ const Animes = () => {
                                         </div>
                                         <div>
                                             <h3>{art.title}</h3>
-                                            <span>{art.theme} / {art.date}</span>
+                                            <span>{art.date}</span>
                                         </div>
                                         <div>
                                             <h2> {art.featureID} </h2>
@@ -107,7 +107,7 @@ const Animes = () => {
                                         </div>
                                         <div>
                                             <h3>{art.title}</h3>
-                                            <span>{art.theme} / {art.date}</span>
+                                            <span>{art.date}</span>
                                         </div>
                                         <div>
                                             <h2> {art.featureID} </h2>
@@ -131,7 +131,7 @@ const Animes = () => {
                                         </div>
                                         <div>
                                             <h3>{art.title}</h3>
-                                            <span>{art.theme} / {art.date}</span>
+                                            <span>{art.date}</span>
                                         </div>
                                         <div>
                                             <h2> {art.featureID} </h2>

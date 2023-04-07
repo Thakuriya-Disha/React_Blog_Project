@@ -432,146 +432,149 @@ function ContextAPI(props){
             and that our worlds had aligned. 
             Even though it was once upon a time ago.`
         },
+
         {
             category:"movies",
             id:8,
-            url:"https://images.unsplash.com/photo-1505051508008-923feaf90180?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHN1bnNldCUyMHNreXxlbnwwfHwwfHw%3D&w=1000&q=80",
-            title:"Little Women",
-            description:"lorem ipsum dolor sit amet",
-            theme:"nature",
-            date:"23rd Nov 2022",
-            featureID:3
+            url:"https://pbs.twimg.com/media/EFibK7uXUAAJ3Xm.jpg",
+            title:"Little Women (2019)",
+            description:`While the March sisters enter the threshold of womanhood, they go through many ups and downs in life and endeavour to make important decisions that can affect their future.`,
+            theme:"Romance / Drama",
+            date:"11th Mar 2023",
+            featureID:4
         },
         {
             category:"movies",
             id:9,
-            url:"https://www.greenthumbdiaries.com/wp-content/uploads/2022/05/Blank-600-x-900-copy-17-15.jpg",
-            title:"Photo 2",
-            description:"lorem ipsum dolor sit amet",
-            theme:"nature",
-            date:"26th Sep 2021",
-            featureID:1
+            url:"https://i.ytimg.com/an/xi-1NchUqMA/5962b9c2-6478-4cf2-8a20-413bcca79d94_mq.jpg?v=5e4d7e8d",
+            title:"Knives Out (2019)",
+            description:`Harlan Thrombey, a reputable crime novelist, is found dead after his 85th birthday celebrations. However, as detective Benoit Blanc investigates the case, it unravels a ploy of sinister intentions.`,
+            theme:"Mystery / Comedy",
+            date:"10th Mar 2023",
+            featureID:7
         },
         {
             category:"movies",
             id:10,
-            url:"https://images.unsplash.com/photo-1505051508008-923feaf90180?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHN1bnNldCUyMHNreXxlbnwwfHwwfHw%3D&w=1000&q=80",
-            title:"Photo 3",
-            description:"lorem ipsum dolor sit amet",
-            theme:"nature",
-            date:"23rd Nov 2022",
-            featureID:4
+            url:"https://images-na.ssl-images-amazon.com/images/S/pv-target-images/49fa48f084e1cafbb862b14ac3594c1c74f1ef0093e076df908675fa69b04d5b._RI_V_TTW_.jpg",
+            title:"Lady Bird (2017)",
+            description:`As senior year comes to an end, Lady Bird must strive to navigate through the ups and downs in her relationships while trying to get into a prestigious college and become popular.`,
+            theme:"Drama / Comedy",
+            date:"8th Mar 2023",
+            featureID:1
         },
         {
             category:"movies",
             id:11,
-            url:"https://www.greenthumbdiaries.com/wp-content/uploads/2022/05/Blank-600-x-900-copy-17-15.jpg",
-            title:"Photo 4",
-            description:"lorem ipsum dolor sit amet",
-            theme:"nature",
-            date:"26th Sep 2021",
-            featureID:2
+            url:"https://i.ndtvimg.com/i/2015-10/the-martian_640x480_41444636911.jpg",
+            title:"The Martian (2015)",
+            description:`Mark Watney is stranded on the planet of Mars after his crew leaves him behind, presuming him to be dead due to a storm. With minimum supplies, Mark struggles to keep himself alive.`,
+            theme:"Sci-fi / Adventure",
+            date:"6th Mar 2023",
+            featureID:6
         },
         {
             category:"movies",
             id:12,
-            url:"https://www.greenthumbdiaries.com/wp-content/uploads/2022/05/Blank-600-x-900-copy-17-15.jpg",
-            title:"Photo 4",
-            description:"lorem ipsum dolor sit amet",
-            theme:"nature",
-            date:"26th Sep 2021",
-            featureID:5
+            url:"https://pbs.twimg.com/media/EmUeXUZVcAA5v6j.jpg",
+            title:"Interstellar (2014)",
+            description:`When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.`,
+            theme:"Sci-fi / Adventure",
+            date:"3rd Mar 2023",
+            featureID:3
         },
         {
             category:"movies",
             id:13,
-            url:"https://www.greenthumbdiaries.com/wp-content/uploads/2022/05/Blank-600-x-900-copy-17-15.jpg",
-            title:"Photo 4",
-            description:"lorem ipsum dolor sit amet",
-            theme:"nature",
-            date:"26th Sep 2021",
-            featureID:6
+            url:"https://s3.amazonaws.com/criterion-production/films/0222c09df56224b064124b3d8010b7fa/jPuODGO8YemfcdKeV5VBvFXHFHMYXB_original.jpg",
+            title:"Before Sunrise (1995)",
+            description:`While travelling on a train in Europe, Jesse, an American man, meets Celine, a French woman. On his last day in Europe before returning to the US, he decides to spend his remaining hours with her.`,
+            theme:"Romance / Drama",
+            date:"1st Mar 2023",
+            featureID:2
         },
         {
             category:"movies",
             id:14,
-            url:"https://www.greenthumbdiaries.com/wp-content/uploads/2022/05/Blank-600-x-900-copy-17-15.jpg",
-            title:"Photo 4",
-            description:"lorem ipsum dolor sit amet",
-            theme:"nature",
-            date:"26th Sep 2021",
-            featureID:7
+            url:"https://i.guim.co.uk/img/media/8d9e6ba5e54fa16afc7ee6ebed8c6ba546a42131/0_6_1724_1035/master/1724.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=9e4ef7a7fbb0f4d40cae74834285d731",
+            title:"Dead Poets Society (1989)",
+            description:`John Keating, a progressive English teacher, tries to encourage his students to break free from the norm, go against the status quo and live life unapologetically.`,
+            theme:"Drama / Teen",
+            date:"28th Feb 2023",
+            featureID:5
         },
+
         {
             category:"animes",
             id:15,
-            url:"https://www.topalski.com/wp-content/uploads/2019/12/Through-the-Country-Fields-Fine-Art-Original-Landscape-Oil-Painting-on-Canvas-by-artist-Darko-Topalski.jpg",
-            title:"Painting 1",
-            description:"lorem ipsum dolor sit amet",
-            theme:"nature",
-            date:"23rd Nov 2022",
-            featureID:4
-        },
-        {
-            category:"animes",
-            id:16,
-            url:"https://cdn3.volusion.com/oljgs.pljhv/v/vspfiles/photos/CAB333-2.jpg?v-cache=1615978659",
-            title:"Painting 2",
-            description:"lorem ipsum dolor sit amet",
-            theme:"nature",
-            date:"26th Sep 2021",
-            featureID:1
-        },
-        {
-            category:"animes",
-            id:17,
-            url:"https://www.topalski.com/wp-content/uploads/2019/12/Through-the-Country-Fields-Fine-Art-Original-Landscape-Oil-Painting-on-Canvas-by-artist-Darko-Topalski.jpg",
-            title:"Painting 3",
-            description:"lorem ipsum dolor sit amet",
-            theme:"nature",
-            date:"23rd Nov 2022",
-            featureID:2
-        },
-        {
-            category:"animes",
-            id:18,
-            url:"https://cdn3.volusion.com/oljgs.pljhv/v/vspfiles/photos/CAB333-2.jpg?v-cache=1615978659",
-            title:"Painting 4",
-            description:"lorem ipsum dolor sit amet",
-            theme:"nature",
-            date:"26th Sep 2021",
+            url:"https://cdn.theatlantic.com/thumbor/tvoccZR-OQ02Oca7QQjNA0s2-0Q=/420x0:1500x1080/1080x1080/media/img/mt/2017/04/your_name-1/original.jpg",
+            title:"Your Name (2016)",
+            description:`Two teenagers share a profound, magical connection upon discovering they are swapping bodies. Things manage to become even more complicated when the boy and girl decide to meet in person.`,
+            theme:"Romance / Fantasy",
+            date:"12th Mar 2023",
             featureID:3
         },
         {
             category:"animes",
-            id:19,
-            url:"https://cdn3.volusion.com/oljgs.pljhv/v/vspfiles/photos/CAB333-2.jpg?v-cache=1615978659",
-            title:"Painting 4",
-            description:"lorem ipsum dolor sit amet",
-            theme:"nature",
-            date:"26th Sep 2021",
-            featureID:5
+            id:16,
+            url:"https://kidscreen.com/wp/wp-content/uploads/2020/01/Neighbor-Totoro.jpg",
+            title:"My Neigbour Totoro (1988)",
+            description:`When two girls move to the country to be near their ailing mother, they have adventures with the wondrous forest spirits who live nearby.`,
+            theme:"Comedy / Family / Fantasy",
+            date:"10th Mar 2023",
+            featureID:7
         },
         {
             category:"animes",
-            id:20,
-            url:"https://cdn3.volusion.com/oljgs.pljhv/v/vspfiles/photos/CAB333-2.jpg?v-cache=1615978659",
-            title:"Painting 4",
-            description:"lorem ipsum dolor sit amet",
-            theme:"nature",
-            date:"26th Sep 2021",
+            id:17,
+            url:"https://i.scdn.co/image/ab67616d0000b27310caecaf6f356c3842b422ca",
+            title:"Spirited Away (2001)",
+            description:`Spirited Away tells the story of Chihiro Ogino, a ten-year-old girl who, while moving to a new neighborhood, enters the world of Kami (spirits of Japanese Shinto folklore)`,
+            theme:"Fantasy / Family",
+            date:"9th Mar 2023",
+            featureID:1
+        },
+        {
+            category:"animes",
+            id:18,
+            url:"https://assets-prd.ignimgs.com/2021/10/14/demonslayer-art-1634244394273.png",
+            title:"Demon Slayer (2019)",
+            description:`After a demon attack leaves his family slain and his sister cursed, Tanjiro embarks upon a perilous journey to find a cure and avenge those he's lost. His journey as a demon slayer began.`,
+            theme:"Adventure / Dark fantasy / Martial arts",
+            date:"7th Mar 2023",
             featureID:6
         },
         {
             category:"animes",
-            id:21,
-            url:"https://cdn3.volusion.com/oljgs.pljhv/v/vspfiles/photos/CAB333-2.jpg?v-cache=1615978659",
-            title:"Painting 4",
-            description:"lorem ipsum dolor sit amet",
-            theme:"nature",
-            date:"26th Sep 2021",
-            featureID:7
+            id:19,
+            url:"https://elcomercio.pe/resizer/4fTAPIBuluCE5T5dU6jV4qT9oMg=/1200x1200/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/YJ4UI274RFCKXHN3VW3K64ZHE4.jpg",
+            title:"Spy x Family (2022)",
+            description:`Agent Twilight, the greatest spy of the nation of Westalis, assembles a fake family in order to infiltrate an elite private school, not realizing he recruited a psychic child and a legendary assassin also in need of a cover family.`,
+            theme:"Comedy / Action",
+            date:"5th Mar 2023",
+            featureID:4
         },
+        {
+            category:"animes",
+            id:20,
+            url:"https://i.scdn.co/image/ab67706c0000da84dc2e654c065ccc3034ac2919",
+            title:"Fruits Basket (2019)",
+            description:`When an orphan moves in with members of the reclusive Soma family, she learns they carry a curse that turns them into animals from the Chinese zodiac at awkward times, and she resolves to help them lift the curse and restore peace to their family.`,
+            theme:"Slice of life",
+            date:"4th Mar 2023",
+            featureID:2
+        },
+        {
+            category:"animes",
+            id:21,
+            url:"https://anitrendz.net/news/wp-content/uploads/2021/07/Jujutsu-Kaisen-Pop-up-Shop-at-Osaka-square-magnets.png",
+            title:"Jujutsu Kaisen (2020)",
+            description:`The story follows high school student Yuji Itadori as he joins a secret organization of Jujutsu Sorcerers to eliminate a powerful Curse named Ryomen Sukuna`,
+            theme:"Action / Adventure",
+            date:"1st Mar 2023",
+            featureID:5
+        },
+
         {
             category:"music",
             id:22,
@@ -877,12 +880,14 @@ function ContextAPI(props){
             featureID:3,
             article:
             `
+            Written by:     Kwon Do-eun
             Directed by:    Jung Ji-hyun
             Starring:   Kim Tae-ri, Nam Joo-hyuk
             Genre:  Romance, Coming-of-age
-            Developed by:   tvN, Studio Dragon
             No. of episodes:    16
             Original release:   February 12 - April 3, 2022
+            Original network	tvN
+            IMDb Rating:    8.6/10
 
             1) It is more than just a romantic story between our two leads. This series shows the journey of 5 friends
             from 1998 to 2002. My favourite part is how beautifully they portrayed different types of bonds: from friendsips
@@ -930,13 +935,15 @@ function ContextAPI(props){
             featureID:1,
             article:
             `
+            Written by:     	Park Gye-ok, Choi Ah-il
             Directed by:    Yoon Sung-sik
             Starring:   Shin Hye-sun, Kim Jung-hyun, Seol In-ah, Na In-woo
             Genre:  Historical, Romantic Comedy, Fantasy
-            Developed by:   Studio Dragon, tvN
             Based on:	Go Princess Go (novel) by Xian Chen
             No. of episodes:    20
             Original release:   December 12, 2020 - February 14, 2021
+            Original network	tvN
+            IMDb Rating:    8.6/10
             
             1) Netflix's "Mr. Queen" is the gender-bending time travel K-Drama that you would get addicted to. Meet Jang
             Bong-hwan: a 21st-century cooking prodigy with an ego as boundless as the ocean and a womanizing reputation 
@@ -975,120 +982,140 @@ function ContextAPI(props){
             id:31,
             url:"https://i.scdn.co/image/ab67616d0000b273025e89b52a4bcb14cf87f1b5",
             title:"Start Up",
-            description:`Seo Dal Mi has dreams of becoming Korea's own Steve Jobs, and with her genius first love, an investor, and a business insider by her side, her dream may be closer than she thinks.`,
+            description:`Seo Dal-mi has dreams of becoming Korea's own Steve Jobs, and with her genius first love, an investor, and a business insider by her side, her dream may be closer than she thinks.`,
             theme:"Romantic Comedy",
             date:"7th Mar 2023",
             featureID:5,
             article:
             `
-            Directed by:
-            Starring:
+            Written by:     Park Hye-ryun
+            Directed by:    Oh Choong-hwan
+            Starring:   Bae Suzy, Nam Joo-hyuk, Kim Seon-ho, Kang Han-na
             Genre:  Romantic Comedy
-            Developed by:
-            No. of episodes:
-            Original release:
+            No. of episodes:    16
+            Original release:   October 17 - December 6, 2020
+            Original network:	tvN
+            IMDb Rating:    8/10
             
-            1)
-            2)
-            3)
-            4)
-            5)`
+            1) Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+
+            2) dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+
+            3) ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+
+            4) fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt`
         },
         {
             category:"kdramas",
             id:32,
             url:"https://i.scdn.co/image/ab67616d0000b273606ac026c59ac4f6d5822a5c",
             title:"It's Okay to Not Be Okay",
-            description:`lorem ipsum dolor sit amet`,
+            description:`A road to emotional healing opens up for an antisocial children's book author and an employee in a psychiatric hospital.`,
             theme:"Mental Health",
             date:"4th Mar 2023",
             featureID:7,
             article:
             `
-            Directed by:
-            Starring:
-            Genre:  Mental Health
-            Developed by:
-            No. of episodes:
-            Original release:   20th June 2020
+            Written by:     Jo Yong
+            Directed by:    Park Shin-woo
+            Starring:   Kim Soo-hyun, Seo Yea-ji, Oh Jung-se, Park Gyu-young
+            Genre:  Romantic Comedy
+            No. of episodes:    16
+            Original release:   June 20 - August 9, 2020
+            Original network:   tvN
+            IMDb Rating:    8.6/10
             
-            1)
-            2)
-            3)
-            4)
-            5)`
+            1) Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+
+            2) dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+
+            3) ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+
+            4) fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt`
         },
         {
             category:"kdramas",
             id:33,
             url:"https://m.media-amazon.com/images/M/MV5BZWQyZTkwMTMtYTJiZS00MGNlLThhN2EtYzEzOGQzYjFiZGQxXkEyXkFqcGdeQXVyMTEzMjQ4NzEw._V1_.jpg",
             title:"Crash Landing On You",
-            description:`lorem ipsum dolor sit amet`,
+            description:`A paragliding mishap drops a South Korean heiress in North Korea - and into the life of an army officer, who decides he will help her hide.`,
             theme:"Romantic Comedy",
             date:"2nd Mar 2023",
             featureID:4,
             article:
             `
-            Directed by:
-            Starring:
+            Written by:     Park Ji-eun
+            Directed by:    Lee Jung-hyo
+            Starring:   Hyun Bin, Son Ye-jin, Seo Ji-hye, Kim Jung-hyun
             Genre:  Romantic Comedy
-            Developed by:
-            No. of episodes:
-            Original release:   14th Dec 2019
+            No. of episodes:    16
+            Original release:   December 14, 2019 - February 16, 2020
+            Original network:	tvN
+            IMDb Rating:    8.7/10
             
-            1)
-            2)
-            3)
-            4)
-            5)`
+            1) Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+
+            2) dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+
+            3) ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+
+            4) fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt`
         },
         {
             category:"kdramas",
             id:34,
             url:"https://i.scdn.co/image/ab67616d0000b27330e7ffa60613da62eba9dd7d",
             title:"Strong Woman Do Bong-Soon",
-            description:`lorem ipsum dolor sit amet`,
+            description:`A woman born with superhuman strength is hired by the CEO of a gaming company, to be his bodyguard.`,
             theme:"Thriller / Action / Fantasy / Comedy",
             date:"1st Mar 2023",
             featureID:6,
             article:
             `
-            Directed by:
-            Starring:
-            Genre:  Thriller, Action, Fantasy, Comedy
-            Developed by:
-            No. of episodes:
-            Original release:   24th Feb 2017
+            Written by:     Baek Mi-kyung
+            Directed by:    Lee Hyung-min
+            Starring:   Park Bo-young, Park Hyung-sik, Ji Soo
+            Genre:  	Crime, Fantasy, Thriller, Action, Romantic comedy
+            No. of episodes:    16 + 1 special
+            Original release:   February 24 - April 15, 2017
+            Original network:	JTBC
+            IMDb Rating:    8.2/10
             
-            1)
-            2)
-            3)
-            4)
-            5)`
+            1) Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+
+            2) dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+
+            3) ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+
+            4) fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt`
         },
         {
             category:"kdramas",
             id:29,
             url:"https://i.scdn.co/image/ab67616d0000b2738b36a8c16b48db1bdab65545",
             title:"Reply 1988",
-            description:`lorem ipsum dolor sit amet`,
+            description:`Follows the lives of 5 families living on the same street in a neighbourhood called Ssangmundong in Seoul. A nostalgic look back at the year 1988.`,
             theme:"Comedy / Family",
             date:"27th Feb 2023",
             featureID:2,
             article:
             `
-            Directed by:
-            Starring:
-            Genre:  Slice of life, Family, Comedy
-            Developed by:
-            No. of episodes:
-            Original release:   6th Nov 2015
+            Written by:     Lee Woo-jung
+            Directed by:    Shin Won-ho
+            Starring:   	Lee Hye-ri, Ryu Jun-yeol, Go Kyung-pyo, Park Bo-gum, Lee Dong-hwi
+            Genre:  	Family, Comedy, Romance, Coming-of-age
+            No. of episodes:    20 + special
+            Original release:   November 6, 2015 - January 16, 2016
+            Original network:	tvN
+            IMDb Rating:    9.2/10
             
-            1)
-            2)
-            3)
-            4)
-            5)`
+            1) Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+
+            2) dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+
+            3) ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+
+            4) fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt`
         }
     ]);
 
