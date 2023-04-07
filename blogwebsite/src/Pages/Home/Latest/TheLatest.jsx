@@ -168,7 +168,7 @@ const TheLatest = () => {
                             return(
                                 <>
                             
-                                    <div id='{data.id}' className='tp' onClick = {() => toNavigate(data.category, data.id, data)} style={{cursor:'pointer'}}>
+                                    <div id='{data.id}' className='tp' onClick = {() => toNavigate(data.category, data.id, data)} style={{cursor:'pointer',width:'350px'}}>
                                         <div>
                                             <img src={data.url} alt='cover art' style={{marginRight:'5px'}}></img>
                                         </div>
@@ -202,8 +202,8 @@ const TheLatest = () => {
                             <h2 style={{color:'purple'}}> {data.title} </h2>
                             <p style={{fontSize:'18px'}}> {data.description} </p>
                             <br/>
-                            <span style={{textTransform:'capitalize'}}> {data.theme} </span> <br/>
-                            <span style={{color:'grey',textTransform:'uppercase'}}> {data.date} </span>
+                            <span style={{textTransform:'capitalize',fontWeight:'bold',color:'grey'}}> {data.theme} </span> <br/>
+                            <span> {data.date} </span>
                         </div>
                         <hr/>
                         </>
